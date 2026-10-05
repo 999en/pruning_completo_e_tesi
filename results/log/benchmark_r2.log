@@ -1,0 +1,54 @@
+[benchmark] baseline riusato: 125 configurazioni da results_benchmark.json
+[      9s] thr=3 bridges_14_1.csv  A: acc=0.571 cov=0.571 rfd=1830  S4: acc=0.571 cov=0.571 rfd=1615 (12%)
+[     18s] thr=3 bridges_14_2.csv  A: acc=0.500 cov=0.500 rfd=1830  S4: acc=0.500 cov=0.500 rfd=1615 (12%)
+[     27s] thr=3 bridges_28_1.csv  A: acc=0.393 cov=0.393 rfd=1830  S4: acc=0.393 cov=0.393 rfd=1615 (12%)
+[     37s] thr=3 bridges_28_2.csv  A: acc=0.429 cov=0.429 rfd=1830  S4: acc=0.429 cov=0.429 rfd=1615 (12%)
+[     46s] thr=3 bridges_42_1.csv  A: acc=0.500 cov=0.500 rfd=1830  S4: acc=0.500 cov=0.500 rfd=1615 (12%)
+[     57s] thr=3 bridges_42_2.csv  A: acc=0.429 cov=0.429 rfd=1830  S4: acc=0.429 cov=0.429 rfd=1615 (12%)
+[     68s] thr=3 bridges_56_1.csv  A: acc=0.464 cov=0.482 rfd=1830  S4: acc=0.464 cov=0.482 rfd=1615 (12%)
+[     78s] thr=3 bridges_56_2.csv  A: acc=0.339 cov=0.357 rfd=1830  S4: acc=0.339 cov=0.357 rfd=1615 (12%)
+[     92s] thr=3 bridges_70_1.csv  A: acc=0.343 cov=0.357 rfd=1830  S4: acc=0.343 cov=0.357 rfd=1615 (12%)
+[    104s] thr=3 bridges_70_2.csv  A: acc=0.371 cov=0.371 rfd=1830  S4: acc=0.371 cov=0.371 rfd=1615 (12%)
+[    142s] thr=9 bridges_14_1.csv  A: acc=0.643 cov=0.714 rfd=8961  S4: acc=0.643 cov=0.714 rfd=7430 (17%)
+[    180s] thr=9 bridges_14_2.csv  A: acc=0.500 cov=0.500 rfd=8961  S4: acc=0.500 cov=0.500 rfd=7430 (17%)
+[    239s] thr=9 bridges_28_1.csv  A: acc=0.643 cov=0.714 rfd=8961  S4: acc=0.643 cov=0.714 rfd=7430 (17%)
+[    295s] thr=9 bridges_28_2.csv  A: acc=0.679 cov=0.714 rfd=8961  S4: acc=0.679 cov=0.714 rfd=7430 (17%)
+[    353s] thr=9 bridges_42_1.csv  A: acc=0.524 cov=0.595 rfd=8961  S4: acc=0.524 cov=0.595 rfd=7430 (17%)
+[    416s] thr=9 bridges_42_2.csv  A: acc=0.405 cov=0.571 rfd=8961  S4: acc=0.405 cov=0.571 rfd=7430 (17%)
+[    492s] thr=9 bridges_56_1.csv  A: acc=0.589 cov=0.679 rfd=8961  S4: acc=0.589 cov=0.679 rfd=7430 (17%)
+[    569s] thr=9 bridges_56_2.csv  A: acc=0.589 cov=0.643 rfd=8961  S4: acc=0.589 cov=0.643 rfd=7430 (17%)
+[    650s] thr=9 bridges_70_1.csv  A: acc=0.457 cov=0.529 rfd=8961  S4: acc=0.457 cov=0.529 rfd=7430 (17%)
+[    731s] thr=9 bridges_70_2.csv  A: acc=0.386 cov=0.514 rfd=8961  S4: acc=0.386 cov=0.514 rfd=7430 (17%)
+
+[benchmark] 40 record salvati in results_benchmark_r2.json
+
+======================================================================================================================
+TABELLA COMPARATIVA AGGREGATA (media sui run, per soglia)
+======================================================================================================================
+ soglia  variante      RFD  rid.%   cover  precis    acc     F1  RFD usate    pre_ms   exec_ms     RMSE      MAE
+----------------------------------------------------------------------------------------------------------------------
+      3         A     1830    0.0   0.439   0.987  0.434  0.605       15.9      8513      3291    0.000    0.000
+      3        S4     1615   11.7   0.439   0.987  0.434  0.605       15.9      7309      2794    0.000    0.000
+----------------------------------------------------------------------------------------------------------------------
+      9         A     8961    0.0   0.617   0.874  0.541  0.720       19.2     34026     39252    0.250    0.250
+      9        S4     7430   17.1   0.617   0.874  0.541  0.720       19.2     29006     32627    0.250    0.250
+----------------------------------------------------------------------------------------------------------------------
+
+======================================================================================================================
+TEST DI WILCOXON SIGNED-RANK (appaiato per dataset+soglia+run, A vs B)
+======================================================================================================================
+  variante     metrica    n   mediana Δ       W+       W-     p-value  metodo
+----------------------------------------------------------------------------------------------------------------------
+        S4    accuracy    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+        S4    coverage    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+        S4   precision    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+        S4          f1    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+        S4     correct    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+        S4       wrong    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+        S4  n_rfd_used    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+        S4    total_ms   20  -4110.0000      0.0    210.0    1.91e-06  esatta
+        S4      pre_ms   20  -1821.5000      0.0    210.0    1.91e-06  esatta
+        S4     exec_ms   20  -1199.0000      0.0    210.0    1.91e-06  esatta
+        S4        rmse    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+        S4         mae    0           -      0.0      0.0      1.0000  nessuna differenza non nulla
+----------------------------------------------------------------------------------------------------------------------

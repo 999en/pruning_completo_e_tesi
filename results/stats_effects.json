@@ -1,0 +1,842 @@
+{
+ "meta": {
+  "script": "pruning/stats_effects.py",
+  "comando": "python3 pruning/stats_effects.py",
+  "esecuzione_renuver": false,
+  "metrica_differenza": "Δ = B − A (variante meno baseline)",
+  "appaiamento": "chiave (threshold, dataset, run); baseline A vs variante; entrambe rc == 0; metrica non None — identico a benchmark.aggregate()",
+  "effect_size": "r rank-biserial appaiato = (W+ − W−) / (W+ + W−); 0.0 se W+ + W− == 0",
+  "bootstrap": {
+   "n_resamples": 10000,
+   "seed": 20260923,
+   "percentili": [
+    2.5,
+    97.5
+   ],
+   "riferimento": "mediana su tutte le n_coppie",
+   "ic_null_se": "n_coppie < 3"
+  },
+  "holm": {
+   "famiglia_primaria": [
+    "a5b_bridges_correct",
+    "a5b_bridges_wrong",
+    "a99_glass_correct",
+    "order_first_vs_A",
+    "order_first_vs_randommean"
+   ],
+   "procedura": "p ordinati crescenti; k-esimo (1-based) × (m − k + 1); monotonia p_corr_k = max(p_corr_{k−1}, valore); troncamento a 1.0"
+  },
+  "nomi_campi": {
+   "n_coppie": "n_pairs",
+   "n_test": "differenze non nulle (n del Wilcoxon)",
+   "mediana_delta": "median_delta (tutte le coppie)",
+   "mediana_delta_nonzero": "median_delta_nonzero (convenzione benchmark.wilcoxon_signed_rank)"
+  }
+ },
+ "famiglia_primaria": {
+  "ordine": [
+   "a5b_bridges_correct",
+   "a5b_bridges_wrong",
+   "a99_glass_correct",
+   "order_first_vs_A",
+   "order_first_vs_randommean"
+  ],
+  "m": 5,
+  "p_grezzi": {
+   "a5b_bridges_correct": 0.005296573579975705,
+   "a5b_bridges_wrong": 2.503205537296438e-06,
+   "a99_glass_correct": 1.0,
+   "order_first_vs_A": 0.0015917798181375176,
+   "order_first_vs_randommean": 0.8878153358231551
+  },
+  "p_holm": {
+   "a5b_bridges_correct": 0.015889720739927116,
+   "a5b_bridges_wrong": 1.251602768648219e-05,
+   "a99_glass_correct": 1.0,
+   "order_first_vs_A": 0.00636711927255007,
+   "order_first_vs_randommean": 1.0
+  },
+  "test_non_calcolabili": []
+ },
+ "comparisons": [
+  {
+   "id": "a5b_bridges_correct",
+   "label": "A5b vs A su Bridges (griglia completa 50 config), metrica `correct`",
+   "metric": "correct",
+   "base_variant": "A",
+   "variant": "A5b",
+   "sources": [
+    {
+     "file": "results/results_benchmark.json",
+     "variant": "A",
+     "role": "baseline (griglia completa, run 1-5)"
+    },
+    {
+     "file": "results/results_benchmark_A5b.json",
+     "variant": "A5b",
+     "role": "variante (run 1-2)"
+    },
+    {
+     "file": "results/results_A5b_bridges_r345.json",
+     "variant": "A5b",
+     "role": "variante (run 3-5)"
+    }
+   ],
+   "in_primary_family": true,
+   "n_pairs": 50,
+   "n_test": 39,
+   "n_nonzero": 39,
+   "median_delta": 0.5,
+   "mean_delta": 1.38,
+   "median_delta_nonzero": 1,
+   "W_plus": 589.0,
+   "W_minus": 191.0,
+   "p": 0.005296573579975705,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 0.5102564102564102,
+   "ci95_median_delta": {
+    "low": 0.0,
+    "high": 2.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": 0.015889720739927116,
+   "note": "",
+   "n_keys": 50
+  },
+  {
+   "id": "a5b_bridges_wrong",
+   "label": "A5b vs A su Bridges (griglia completa 50 config), metrica `wrong`",
+   "metric": "wrong",
+   "base_variant": "A",
+   "variant": "A5b",
+   "sources": [
+    {
+     "file": "results/results_benchmark.json",
+     "variant": "A",
+     "role": "baseline (griglia completa, run 1-5)"
+    },
+    {
+     "file": "results/results_benchmark_A5b.json",
+     "variant": "A5b",
+     "role": "variante (run 1-2)"
+    },
+    {
+     "file": "results/results_A5b_bridges_r345.json",
+     "variant": "A5b",
+     "role": "variante (run 3-5)"
+    }
+   ],
+   "in_primary_family": true,
+   "n_pairs": 50,
+   "n_test": 35,
+   "n_nonzero": 35,
+   "median_delta": -1.0,
+   "mean_delta": -1.44,
+   "median_delta_nonzero": -2,
+   "W_plus": 30.0,
+   "W_minus": 600.0,
+   "p": 2.503205537296438e-06,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": -0.9047619047619048,
+   "ci95_median_delta": {
+    "low": -2.0,
+    "high": 0.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": 1.251602768648219e-05,
+   "note": "",
+   "n_keys": 50
+  },
+  {
+   "id": "a5b_bridges_full_only_correct",
+   "label": "A5b vs A, solo `results_A5b_bridges_full.json` (run 1-2, 20 config), `correct`",
+   "metric": "correct",
+   "base_variant": "A",
+   "variant": "A5b",
+   "sources": [
+    {
+     "file": "results/results_A5b_bridges_full.json",
+     "variant": "A vs A5b",
+     "role": "confronto ristretto al solo file merged"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 20,
+   "n_test": 14,
+   "n_nonzero": 14,
+   "median_delta": 2.0,
+   "mean_delta": 2.25,
+   "median_delta_nonzero": 2.5,
+   "W_plus": 91.0,
+   "W_minus": 14.0,
+   "p": 0.016622030364176643,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 0.7333333333333333,
+   "ci95_median_delta": {
+    "low": 0.0,
+    "high": 4.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "20 sole coppie: il merge di ablation_a5b.py ha conservato dal file r345 i soli record A5b, quindi le baseline A esistono solo per i run 1-2.",
+   "n_keys": 20
+  },
+  {
+   "id": "a5b_bridges_full_only_wrong",
+   "label": "A5b vs A, solo `results_A5b_bridges_full.json` (run 1-2, 20 config), `wrong`",
+   "metric": "wrong",
+   "base_variant": "A",
+   "variant": "A5b",
+   "sources": [
+    {
+     "file": "results/results_A5b_bridges_full.json",
+     "variant": "A vs A5b",
+     "role": "confronto ristretto al solo file merged"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 20,
+   "n_test": 16,
+   "n_nonzero": 16,
+   "median_delta": -1.0,
+   "mean_delta": -1.6,
+   "median_delta_nonzero": -1.5,
+   "W_plus": 13.5,
+   "W_minus": 122.5,
+   "p": 0.004579106342626815,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": -0.8014705882352942,
+   "ci95_median_delta": {
+    "low": -2.5,
+    "high": 0.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "20 sole coppie: il merge di ablation_a5b.py ha conservato dal file r345 i soli record A5b, quindi le baseline A esistono solo per i run 1-2.",
+   "n_keys": 20
+  },
+  {
+   "id": "a99_glass_correct",
+   "label": "A99 (α = 0,99) vs A su Glass, metrica `correct`",
+   "metric": "correct",
+   "base_variant": "A",
+   "variant": "A99",
+   "sources": [
+    {
+     "file": "results/results_a99_glass_full.json",
+     "variant": "A vs A99",
+     "role": "taratura conservativa α = 0,99"
+    }
+   ],
+   "in_primary_family": true,
+   "n_pairs": 10,
+   "n_test": 0,
+   "n_nonzero": 0,
+   "median_delta": 0.0,
+   "mean_delta": 0,
+   "median_delta_nonzero": null,
+   "W_plus": 0.0,
+   "W_minus": 0.0,
+   "p": 1.0,
+   "method": "nessuna differenza non nulla",
+   "method_short": "nessuna differenza non nulla",
+   "r_rank_biserial": 0.0,
+   "ci95_median_delta": {
+    "low": 0.0,
+    "high": 0.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": 1.0,
+   "note": "Glass e Restaurant stanno in due file distinti, con dataset e soglie diversi: restano due confronti separati.",
+   "n_keys": 10
+  },
+  {
+   "id": "a99_restaurant_correct",
+   "label": "A99 (α = 0,99) vs A su Restaurant, metrica `correct`",
+   "metric": "correct",
+   "base_variant": "A",
+   "variant": "A99",
+   "sources": [
+    {
+     "file": "results/results_a99_restaurant_full.json",
+     "variant": "A vs A99",
+     "role": "taratura conservativa α = 0,99"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 6,
+   "n_test": 0,
+   "n_nonzero": 0,
+   "median_delta": 0.0,
+   "mean_delta": 0,
+   "median_delta_nonzero": null,
+   "W_plus": 0.0,
+   "W_minus": 0.0,
+   "p": 1.0,
+   "method": "nessuna differenza non nulla",
+   "method_short": "nessuna differenza non nulla",
+   "r_rank_biserial": 0.0,
+   "ci95_median_delta": {
+    "low": 0.0,
+    "high": 0.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "Glass e Restaurant stanno in due file distinti, con dataset e soglie diversi: restano due confronti separati.",
+   "n_keys": 6
+  },
+  {
+   "id": "a99_grid_pooled_correct",
+   "label": "A99 vs A, griglia α = 0,99 su Glass + Restaurant (97 config), `correct`",
+   "metric": "correct",
+   "base_variant": "A",
+   "variant": "A99",
+   "sources": [
+    {
+     "file": "results/results_a99_glass_grid.json",
+     "variant": "A vs A99",
+     "role": "griglia α = 0,99"
+    },
+    {
+     "file": "results/results_a99_restaurant_grid.json",
+     "variant": "A vs A99",
+     "role": "griglia α = 0,99"
+    },
+    {
+     "file": "results/results_a99_restaurant259_grid.json",
+     "variant": "A vs A99",
+     "role": "griglia α = 0,99"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 97,
+   "n_test": 1,
+   "n_nonzero": 1,
+   "median_delta": 0,
+   "mean_delta": -0.010309278350515464,
+   "median_delta_nonzero": -1,
+   "W_plus": 0.0,
+   "W_minus": 1.0,
+   "p": 1.0,
+   "method": "esatta",
+   "method_short": "esatta",
+   "r_rank_biserial": -1.0,
+   "ci95_median_delta": {
+    "low": 0.0,
+    "high": 0.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "confronto esplorativo su dataset diversi (base del §13.6 del report), NON in famiglia primaria.",
+   "n_keys": 97
+  },
+  {
+   "id": "order_first_vs_A",
+   "label": "ordinamento `first-best` vs `A` (= `ord:orig`), `correct`",
+   "metric": "correct",
+   "base_variant": "ord:orig",
+   "variant": "ord:first-best",
+   "sources": [
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "A = ord:orig vs varianti di ordine",
+     "role": "esperimento di ordinamento (5 dataset × run 1-3, soglia 9)"
+    }
+   ],
+   "in_primary_family": true,
+   "n_pairs": 15,
+   "n_test": 13,
+   "n_nonzero": 13,
+   "median_delta": 2,
+   "mean_delta": 3.533333333333333,
+   "median_delta_nonzero": 4,
+   "W_plus": 91.0,
+   "W_minus": 0.0,
+   "p": 0.0015917798181375176,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 1.0,
+   "ci95_median_delta": {
+    "low": 1.0,
+    "high": 5.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": 0.00636711927255007,
+   "note": "",
+   "n_keys": 15
+  },
+  {
+   "id": "order_last_vs_A",
+   "label": "ordinamento `last-best` vs `A` (= `ord:orig`), `correct`",
+   "metric": "correct",
+   "base_variant": "ord:orig",
+   "variant": "ord:last-best",
+   "sources": [
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "A = ord:orig vs varianti di ordine",
+     "role": "esperimento di ordinamento (5 dataset × run 1-3, soglia 9)"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 15,
+   "n_test": 7,
+   "n_nonzero": 7,
+   "median_delta": 0,
+   "mean_delta": -1.3333333333333333,
+   "median_delta_nonzero": 3,
+   "W_plus": 21.0,
+   "W_minus": 7.0,
+   "p": 0.2701810957102335,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 0.5,
+   "ci95_median_delta": {
+    "low": 0.0,
+    "high": 3.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "",
+   "n_keys": 15
+  },
+  {
+   "id": "order_first_vs_randommean",
+   "label": "ordinamento `first-best` vs media dei 3 semi casuali, `correct`",
+   "metric": "correct",
+   "base_variant": "media-3-semi",
+   "variant": "ord:first-best",
+   "sources": [
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "A = ord:orig vs varianti di ordine",
+     "role": "esperimento di ordinamento (5 dataset × run 1-3, soglia 9)"
+    },
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "media di ord:random:12345, ord:random:20260921, ord:random:999",
+     "role": "15 chiavi con tutti e 3 i semi validi"
+    }
+   ],
+   "in_primary_family": true,
+   "n_pairs": 15,
+   "n_test": 8,
+   "n_nonzero": 8,
+   "median_delta": 0,
+   "mean_delta": 0.02222222222222155,
+   "median_delta_nonzero": 0.4999999999999991,
+   "W_plus": 19.5,
+   "W_minus": 16.5,
+   "p": 0.8878153358231551,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 0.08333333333333333,
+   "ci95_median_delta": {
+    "low": 0.0,
+    "high": 0.6666666666666643,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": 1.0,
+   "note": "per ogni chiave la media dei 3 semi e' un unico campione appaiato; la differenza e' first-best − media.",
+   "n_keys": 15
+  },
+  {
+   "id": "order_randommean_vs_A",
+   "label": "ordinamento media dei 3 semi casuali vs `A` (= `ord:orig`), `correct`",
+   "metric": "correct",
+   "base_variant": "ord:orig",
+   "variant": "media-3-semi",
+   "sources": [
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "A = ord:orig vs varianti di ordine",
+     "role": "esperimento di ordinamento (5 dataset × run 1-3, soglia 9)"
+    },
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "media di ord:random:12345, ord:random:20260921, ord:random:999",
+     "role": "15 chiavi con tutti e 3 i semi validi"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 15,
+   "n_test": 13,
+   "n_nonzero": 13,
+   "median_delta": 2,
+   "mean_delta": 3.511111111111112,
+   "median_delta_nonzero": 3.3333333333333357,
+   "W_plus": 91.0,
+   "W_minus": 0.0,
+   "p": 0.00164538886969412,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 1.0,
+   "ci95_median_delta": {
+    "low": 1.0,
+    "high": 6.333333333333336,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "controllo D2 del report.",
+   "n_keys": 15
+  },
+  {
+   "id": "order_random12345_vs_A",
+   "label": "ordinamento `ord:random:12345` vs `A` (= `ord:orig`), `correct`",
+   "metric": "correct",
+   "base_variant": "ord:orig",
+   "variant": "ord:random:12345",
+   "sources": [
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "A = ord:orig vs varianti di ordine",
+     "role": "esperimento di ordinamento (5 dataset × run 1-3, soglia 9)"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 15,
+   "n_test": 13,
+   "n_nonzero": 13,
+   "median_delta": 2,
+   "mean_delta": 3.6666666666666665,
+   "median_delta_nonzero": 3,
+   "W_plus": 91.0,
+   "W_minus": 0.0,
+   "p": 0.0015917798181375176,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 1.0,
+   "ci95_median_delta": {
+    "low": 1.0,
+    "high": 7.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "controllo: singolo seme casuale (replica la tabella §12.6).",
+   "n_keys": 15
+  },
+  {
+   "id": "order_random20260921_vs_A",
+   "label": "ordinamento `ord:random:20260921` vs `A` (= `ord:orig`), `correct`",
+   "metric": "correct",
+   "base_variant": "ord:orig",
+   "variant": "ord:random:20260921",
+   "sources": [
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "A = ord:orig vs varianti di ordine",
+     "role": "esperimento di ordinamento (5 dataset × run 1-3, soglia 9)"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 15,
+   "n_test": 13,
+   "n_nonzero": 13,
+   "median_delta": 2,
+   "mean_delta": 3.466666666666667,
+   "median_delta_nonzero": 2,
+   "W_plus": 91.0,
+   "W_minus": 0.0,
+   "p": 0.0015759192205662131,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 1.0,
+   "ci95_median_delta": {
+    "low": 1.0,
+    "high": 5.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "controllo: singolo seme casuale (replica la tabella §12.6).",
+   "n_keys": 15
+  },
+  {
+   "id": "order_random999_vs_A",
+   "label": "ordinamento `ord:random:999` vs `A` (= `ord:orig`), `correct`",
+   "metric": "correct",
+   "base_variant": "ord:orig",
+   "variant": "ord:random:999",
+   "sources": [
+    {
+     "file": "results/analisi/results_order_control.json",
+     "variant": "A = ord:orig vs varianti di ordine",
+     "role": "esperimento di ordinamento (5 dataset × run 1-3, soglia 9)"
+    }
+   ],
+   "in_primary_family": false,
+   "n_pairs": 15,
+   "n_test": 12,
+   "n_nonzero": 12,
+   "median_delta": 2,
+   "mean_delta": 3.4,
+   "median_delta_nonzero": 4.5,
+   "W_plus": 78.0,
+   "W_minus": 0.0,
+   "p": 0.0024304220965478684,
+   "method": "approssimazione normale con correzione per i ranghi medi",
+   "method_short": "approssimata",
+   "r_rank_biserial": 1.0,
+   "ci95_median_delta": {
+    "low": 1.0,
+    "high": 5.0,
+    "level": 0.95,
+    "percentiles": [
+     2.5,
+     97.5
+    ],
+    "n_resamples": 10000,
+    "seed": 20260923,
+    "method": "percentile con interpolazione lineare sui ricampionamenti delle coppie"
+   },
+   "p_holm": null,
+   "note": "controllo: singolo seme casuale (replica la tabella §12.6).",
+   "n_keys": 15
+  }
+ ],
+ "regression_checks": [
+  {
+   "descrizione": "A5b su Bridges, metrica `correct`",
+   "id": "a5b_bridges_correct",
+   "p_pubblicato": 0.0053,
+   "p_calcolato": 0.005296573579975705,
+   "p_calcolato_4decimali": 0.0053,
+   "tolleranza": 0.0005,
+   "esito": "PASS",
+   "dettaglio": "|0.0053 − 0.0053| = 0.00e+00 ≤ 5e-04"
+  },
+  {
+   "descrizione": "ordinamento `first-best` vs `A`, metrica `correct`",
+   "id": "order_first_vs_A",
+   "p_pubblicato": 0.0016,
+   "p_calcolato": 0.0015917798181375176,
+   "p_calcolato_4decimali": 0.0016,
+   "tolleranza": 0.0005,
+   "esito": "PASS",
+   "dettaglio": "|0.0016 − 0.0016| = 0.00e+00 ≤ 5e-04"
+  },
+  {
+   "descrizione": "ordinamento `last-best` vs `A`, metrica `correct`",
+   "id": "order_last_vs_A",
+   "p_pubblicato": 0.2702,
+   "p_calcolato": 0.2701810957102335,
+   "p_calcolato_4decimali": 0.2702,
+   "tolleranza": 0.0005,
+   "esito": "PASS",
+   "dettaglio": "|0.2702 − 0.2702| = 0.00e+00 ≤ 5e-04"
+  },
+  {
+   "descrizione": "ordinamento `first-best` vs media dei 3 casuali, metrica `correct`",
+   "id": "order_first_vs_randommean",
+   "p_pubblicato": 0.8878,
+   "p_calcolato": 0.8878153358231551,
+   "p_calcolato_4decimali": 0.8878,
+   "tolleranza": 0.0005,
+   "esito": "PASS",
+   "dettaglio": "|0.8878 − 0.8878| = 0.00e+00 ≤ 5e-04"
+  }
+ ],
+ "autotest": [
+  {
+   "regola": "Δ = B − A (mediana)",
+   "esito": "PASS",
+   "ottenuto": 3,
+   "atteso": 3
+  },
+  {
+   "regola": "Δ = B − A (media)",
+   "esito": "PASS",
+   "ottenuto": 3,
+   "atteso": 3
+  },
+  {
+   "regola": "r = +1 con tutte le differenze positive",
+   "esito": "PASS",
+   "ottenuto": 1.0,
+   "atteso": 1.0
+  },
+  {
+   "regola": "W+ = 6, W− = 0",
+   "esito": "PASS",
+   "ottenuto": [
+    6.0,
+    0.0
+   ],
+   "atteso": [
+    6.0,
+    0.0
+   ]
+  },
+  {
+   "regola": "Δ = B − A (mediana negativa)",
+   "esito": "PASS",
+   "ottenuto": -3,
+   "atteso": -3
+  },
+  {
+   "regola": "r = −1 con tutte le differenze negative",
+   "esito": "PASS",
+   "ottenuto": -1.0,
+   "atteso": -1.0
+  },
+  {
+   "regola": "r = 0.0 se W+ + W− == 0",
+   "esito": "PASS",
+   "ottenuto": 0.0,
+   "atteso": 0.0
+  },
+  {
+   "regola": "p = 1.0 se nessuna differenza non nulla",
+   "esito": "PASS",
+   "ottenuto": 1.0,
+   "atteso": 1.0
+  },
+  {
+   "regola": "holm([0.01, 0.02, 0.03])",
+   "esito": "PASS",
+   "ottenuto": [
+    0.03,
+    0.04,
+    0.04
+   ],
+   "atteso": [
+    0.03,
+    0.04,
+    0.04
+   ]
+  },
+  {
+   "regola": "holm tronca a 1.0",
+   "esito": "PASS",
+   "ottenuto": [
+    1.0,
+    1.0
+   ],
+   "atteso": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "regola": "IC = null con n = 2",
+   "esito": "PASS",
+   "ottenuto": null,
+   "atteso": null
+  },
+  {
+   "regola": "IC non null con n = 3",
+   "esito": "PASS",
+   "ottenuto": true,
+   "atteso": true
+  }
+ ],
+ "unavailable": [
+  {
+   "id": "a5b_vs_exact_priority",
+   "reason": "results/results_benchmark_A5b.json: variante `exact-priority` assente (presenti: A, A5b); nessun file di results/ contiene insieme A5b e `exact-priority`, quindi non esistono configurazioni comuni da appaiare."
+  },
+  {
+   "id": "a5b_vs_dom_sub_adaptive",
+   "reason": "results/results_benchmark_A5b.json: variante `dom-sub-adaptive` assente (presenti: A, A5b); nessun file di results/ contiene insieme A5b e `dom-sub-adaptive`, quindi non esistono configurazioni comuni da appaiare."
+  }
+ ],
+ "note": [
+  "nel file di ordinamento la baseline `A` e' la variante `ord:orig` (ordine originale del file, nessun riordino).",
+  "il p pubblicato 0,0053 di A5b su Bridges (n = 39, W+ = 589) si riproduce solo sulla griglia completa di 50 configurazioni (baseline A da results_benchmark.json + A5b da results_benchmark_A5b.json e results_A5b_bridges_r345.json, come fa ablation_a5b.merge_e_wilcoxon()): p = 0.005297. Il solo file results_A5b_bridges_full.json contiene le baseline A unicamente per i run 1-2 (20 coppie) e da' p = 0.016622: NON e' il numero pubblicato. Il file merged non ha le baseline dei run 3-5 perche' il merge conserva dal file r345 i soli record A5b.",
+  "A99 su Glass (`correct`): 10 coppie, ma TUTTE le differenze sono nulle, quindi il Wilcoxon non ha differenze non nulle (n_test = 0, p = 1,0, r = 0,0). Non e' un errore di calcolo: su `correct` la taratura α = 0,99 e' identica al baseline in questo file. La griglia allargata §13.6 (97 configurazioni) ha una sola differenza non nulla."
+ ]
+}

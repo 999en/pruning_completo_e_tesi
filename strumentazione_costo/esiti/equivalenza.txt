@@ -1,0 +1,18 @@
+Prova di equivalenza della ricostruzione (registrazione della fase)
+===================================================================
+Configurazione: bridges_70_1.csv, soglia 15, tipi "D,C,D,D,D,D,D,B,B,D,D,D,D"
+Hardware e cartelle isolati; unica variabile: l'eseguibile.
+
+  ORIGINALE   RENUVER_EDBT.jar        md5 c7b9238d6631c64fadd47ebfae00db8e
+  RICOSTRUITO RENUVER_clean.jar       md5 3758ddb9bcc7...
+
+  file confrontato                                     ORIGINALE      RICOSTRUITO   esito
+  Populated/output_bridges_70_1.csv_15H0.csv           682428f09943   682428f09943  identico
+  Results/output_bridges_70_1.csv_15H0.txt             8eca4ca48f2a   8eca4ca48f2a  identico
+
+  Logs/log_bridges_70_1.csv_15H0.txt                   diverso (contiene i tempi di esecuzione)
+
+Conclusione: sugli output che contano -- le celle imputate e l'esito per cella -- la build
+ricostruita dai sorgenti decompilati e' indistinguibile dall'originale. La misura del costo
+condotta sulla build strumentata (RENUVER_instr.jar, derivata dalla stessa ricostruzione)
+descrive quindi il comportamento del sistema distribuito.

@@ -1,0 +1,290 @@
+{
+ "Vocab.csv": {
+  "n": 1,
+  "rhs0": 1,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 0,
+  "lhs_median": 1
+ },
+ "breast-cancer-wisconsin.csv": {
+  "n": 14352,
+  "rhs0": 3281,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 9,
+  "dominated": 13618,
+  "lhs_median": 5.0
+ },
+ "bridges.csv": {
+  "n": 2632,
+  "rhs0": 1935,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 2283,
+  "lhs_median": 4.0
+ },
+ "car_data.csv": {
+  "n": 8,
+  "rhs0": 1,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 1,
+  "lhs_median": 1.0
+ },
+ "expIDEAS.csv": {
+  "n": 12,
+  "rhs0": 4,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 8,
+  "lhs_median": 1.5
+ },
+ "foodstamp.csv": {
+  "n": 9,
+  "rhs0": 9,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 5,
+  "lhs_median": 3
+ },
+ "output_false_12_bridges.csv": {
+  "n": 14711,
+  "rhs0": 7507,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 20,
+  "dominated": 14110,
+  "lhs_median": 5
+ },
+ "output_false_12_glass.csv": {
+  "n": 18747,
+  "rhs0": 1528,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 22,
+  "dominated": 18112,
+  "lhs_median": 5
+ },
+ "output_false_12_nursery.csv": {
+  "n": 65,
+  "rhs0": 1,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 0,
+  "lhs_median": 1
+ },
+ "output_false_12_restaurant.csv": {
+  "n": 1262,
+  "rhs0": 63,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 1,
+  "dominated": 1194,
+  "lhs_median": 4.0
+ },
+ "output_false_15_bridges.csv": {
+  "n": 18844,
+  "rhs0": 9301,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 28,
+  "dominated": 18215,
+  "lhs_median": 5.0
+ },
+ "output_false_15_glass.csv": {
+  "n": 27445,
+  "rhs0": 1702,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 49,
+  "dominated": 26740,
+  "lhs_median": 5
+ },
+ "output_false_15_nursery.csv": {
+  "n": 65,
+  "rhs0": 1,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 0,
+  "lhs_median": 1
+ },
+ "output_false_15_restaurant.csv": {
+  "n": 1961,
+  "rhs0": 82,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 2,
+  "dominated": 1880,
+  "lhs_median": 4
+ },
+ "output_false_3_Physician_Compare_National.csv": {
+  "n": 3734,
+  "rhs0": 3557,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 3492,
+  "lhs_median": 5.0
+ },
+ "output_false_3_Physician_Compare_National_remodulated_0.005.csv": {
+  "n": 1429,
+  "rhs0": 1376,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 1059,
+  "lhs_median": 3
+ },
+ "output_false_3_Physician_Compare_National_remodulated_0.01.csv": {
+  "n": 2552,
+  "rhs0": 2422,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 1,
+  "dominated": 2083,
+  "lhs_median": 4.0
+ },
+ "output_false_3_Physician_Compare_National_remodulated_0.05.csv": {
+  "n": 3894,
+  "rhs0": 3742,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 3393,
+  "lhs_median": 4.0
+ },
+ "output_false_3_Physician_Compare_National_remodulated_0.1.csv": {
+  "n": 5707,
+  "rhs0": 5485,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 1,
+  "dominated": 5038,
+  "lhs_median": 4
+ },
+ "output_false_3_bridges.csv": {
+  "n": 1830,
+  "rhs0": 1353,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 1529,
+  "lhs_median": 4.0
+ },
+ "output_false_3_glass.csv": {
+  "n": 1511,
+  "rhs0": 428,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 1250,
+  "lhs_median": 4
+ },
+ "output_false_3_nursery.csv": {
+  "n": 1,
+  "rhs0": 1,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 0,
+  "lhs_median": 8
+ },
+ "output_false_3_restaurant.csv": {
+  "n": 25,
+  "rhs0": 10,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 8,
+  "lhs_median": 3
+ },
+ "output_false_6_bridges.csv": {
+  "n": 5381,
+  "rhs0": 3345,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 1,
+  "dominated": 4929,
+  "lhs_median": 5
+ },
+ "output_false_6_glass.csv": {
+  "n": 5763,
+  "rhs0": 971,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 2,
+  "dominated": 5312,
+  "lhs_median": 4
+ },
+ "output_false_6_nursery.csv": {
+  "n": 9,
+  "rhs0": 1,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 0,
+  "lhs_median": 1
+ },
+ "output_false_6_restaurant.csv": {
+  "n": 124,
+  "rhs0": 30,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 90,
+  "lhs_median": 3.0
+ },
+ "output_false_9_bridges.csv": {
+  "n": 8961,
+  "rhs0": 5232,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 6,
+  "dominated": 8408,
+  "lhs_median": 5
+ },
+ "output_false_9_glass.csv": {
+  "n": 11648,
+  "rhs0": 1301,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 9,
+  "dominated": 11087,
+  "lhs_median": 5.0
+ },
+ "output_false_9_nursery.csv": {
+  "n": 33,
+  "rhs0": 1,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 0,
+  "lhs_median": 1
+ },
+ "output_false_9_restaurant.csv": {
+  "n": 445,
+  "rhs0": 44,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 0,
+  "dominated": 396,
+  "lhs_median": 3
+ },
+ "restaurant.csv": {
+  "n": 1961,
+  "rhs0": 82,
+  "lhs0": 0,
+  "dup": 0,
+  "duplhs": 2,
+  "dominated": 1880,
+  "lhs_median": 4
+ }
+}

@@ -1,0 +1,15 @@
+8;class:3 ;[name:cafe bizou , addr:14016 ventura blvd. , city:sherman oaks , phone:818/788-3536 , type:french , class:3 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+12;phone:310/392-9025 ;SimilarityTuple [fields= [name:chinois on main , addr:2709 main st. , city:santa monica , phone:310/392-9025 , type:french , class:5 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+44;class:21 ;SimilarityTuple [fields= [name:valentino , addr:3115 pico blvd. , city:santa monica , phone:310/829-4313 , type:italian , class:21 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+57;class:28 ;SimilarityTuple [fields= [name:carmine's , addr:2450 broadway , city:new york city , phone:212-362-2200 , type:italian , class:28 ]weightedSimilarity=0.3333333333333333, fieldIndex=5];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0;0.3333333333333333
+77;class:38 ;[name:jo jo , addr:160 e. 64th st. , city:new york city , phone:212-223-5656 , type:french bistro , class:38 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+82;class:40 ;[name:la cote basque , addr:60 w. 55th st.  between 5th and 6th ave. , city:new york , phone:212/688-6525 , type:french , class:40 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+106;class:52 ;[name:petrossian , addr:182 w. 58th st. , city:new york , phone:212/245-2214 , type:french , class:52 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+111;class:55 ;[name:rainbow room , addr:30 rockefeller plaza , city:new york city , phone:212-632-5000 , type:american (new) , class:55 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+118;class:58 ;[name:second avenue deli , addr:156 2nd ave. at 10th st. , city:new york , phone:212/677-0606 , type:delicatessen , class:58 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+144;class:71 ;[name:second street grille , addr:200 e. fremont st. , city:? , phone:702/385-3232 , type:seafood , class:71 ];[(name)_3.0, (addr)_3.0] -> (class)_0.0; exact
+172;class:85 ;[name:la grotta , addr:2637 peachtree rd.  peachtree house condominium , city:atlanta , phone:404/231-1368 , type:? , class:85 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+173;class:86 ;[name:mary mac's tea room , addr:224 ponce de leon ave. , city:? , phone:404-876-1800 , type:southern/soul , class:86 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+193;phone:415-543-6084 ;SimilarityTuple [fields= [name:boulevard , addr:1 mission st. , city:san francisco , phone:415-543-6084 , type:american (new) , class:96 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+212;phone:415/495-5775 ;SimilarityTuple [fields= [name:lulu , addr:816 folsom st. , city:san francisco , phone:415/495-5775 , type:mediterranean , class:105 ]weightedSimilarity=0.0, fieldIndex=3];[(addr)_1.0, (city)_3.0, (type)_3.0, (class)_3.0] -> (phone)_1.0;0.0
+214;phone:415/989-7154 ;SimilarityTuple [fields= [name:masa's , addr:648 bush st. , city:? , phone:415/989-7154 , type:french , class:106 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0

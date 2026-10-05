@@ -1,0 +1,203 @@
+[     18s] thr=3 bridges_14_1.csv  A: acc=0.571 cov=0.571 rfd=1830  S1: acc=0.571 cov=0.571 rfd=600 (67%)  S2: acc=0.500 cov=0.500 rfd=151 (92%)  S3: acc=0.357 cov=0.357 rfd=51 (97%)
+[     35s] thr=3 bridges_14_2.csv  A: acc=0.500 cov=0.500 rfd=1830  S1: acc=0.500 cov=0.500 rfd=600 (67%)  S2: acc=0.429 cov=0.500 rfd=151 (92%)  S3: acc=0.286 cov=0.357 rfd=51 (97%)
+[     51s] thr=3 bridges_14_3.csv  A: acc=0.286 cov=0.286 rfd=1830  S1: acc=0.214 cov=0.214 rfd=600 (67%)  S2: acc=0.286 cov=0.286 rfd=151 (92%)  S3: acc=0.143 cov=0.143 rfd=51 (97%)
+[     67s] thr=3 bridges_14_4.csv  A: acc=0.357 cov=0.357 rfd=1830  S1: acc=0.357 cov=0.357 rfd=600 (67%)  S2: acc=0.357 cov=0.357 rfd=151 (92%)  S3: acc=0.214 cov=0.214 rfd=51 (97%)
+[     83s] thr=3 bridges_14_5.csv  A: acc=0.357 cov=0.357 rfd=1830  S1: acc=0.357 cov=0.357 rfd=600 (67%)  S2: acc=0.286 cov=0.286 rfd=151 (92%)  S3: acc=0.214 cov=0.214 rfd=51 (97%)
+[    101s] thr=3 bridges_28_1.csv  A: acc=0.393 cov=0.393 rfd=1830  S1: acc=0.357 cov=0.357 rfd=600 (67%)  S2: acc=0.393 cov=0.393 rfd=146 (92%)  S3: acc=0.321 cov=0.321 rfd=49 (97%)
+[    119s] thr=3 bridges_28_2.csv  A: acc=0.429 cov=0.429 rfd=1830  S1: acc=0.429 cov=0.429 rfd=600 (67%)  S2: acc=0.357 cov=0.393 rfd=146 (92%)  S3: acc=0.250 cov=0.286 rfd=49 (97%)
+[    136s] thr=3 bridges_28_3.csv  A: acc=0.464 cov=0.464 rfd=1830  S1: acc=0.429 cov=0.464 rfd=600 (67%)  S2: acc=0.393 cov=0.429 rfd=146 (92%)  S3: acc=0.250 cov=0.286 rfd=49 (97%)
+[    152s] thr=3 bridges_28_4.csv  A: acc=0.393 cov=0.393 rfd=1830  S1: acc=0.357 cov=0.357 rfd=600 (67%)  S2: acc=0.393 cov=0.393 rfd=146 (92%)  S3: acc=0.357 cov=0.357 rfd=49 (97%)
+[    168s] thr=3 bridges_28_5.csv  A: acc=0.393 cov=0.393 rfd=1830  S1: acc=0.393 cov=0.393 rfd=600 (67%)  S2: acc=0.321 cov=0.357 rfd=146 (92%)  S3: acc=0.250 cov=0.250 rfd=49 (97%)
+[    186s] thr=3 bridges_42_1.csv  A: acc=0.500 cov=0.500 rfd=1830  S1: acc=0.476 cov=0.476 rfd=600 (67%)  S2: acc=0.476 cov=0.500 rfd=137 (93%)  S3: acc=0.381 cov=0.405 rfd=47 (97%)
+[    206s] thr=3 bridges_42_2.csv  A: acc=0.429 cov=0.429 rfd=1830  S1: acc=0.429 cov=0.429 rfd=600 (67%)  S2: acc=0.476 cov=0.476 rfd=137 (93%)  S3: acc=0.381 cov=0.381 rfd=47 (97%)
+[    227s] thr=3 bridges_42_3.csv  A: acc=0.524 cov=0.524 rfd=1830  S1: acc=0.476 cov=0.524 rfd=600 (67%)  S2: acc=0.452 cov=0.500 rfd=137 (93%)  S3: acc=0.357 cov=0.405 rfd=47 (97%)
+[    246s] thr=3 bridges_42_4.csv  A: acc=0.405 cov=0.405 rfd=1830  S1: acc=0.357 cov=0.381 rfd=600 (67%)  S2: acc=0.310 cov=0.333 rfd=137 (93%)  S3: acc=0.262 cov=0.310 rfd=47 (97%)
+[    266s] thr=3 bridges_42_5.csv  A: acc=0.429 cov=0.429 rfd=1830  S1: acc=0.357 cov=0.357 rfd=600 (67%)  S2: acc=0.405 cov=0.405 rfd=137 (93%)  S3: acc=0.262 cov=0.262 rfd=47 (97%)
+[    287s] thr=3 bridges_56_1.csv  A: acc=0.464 cov=0.482 rfd=1830  S1: acc=0.429 cov=0.429 rfd=600 (67%)  S2: acc=0.411 cov=0.411 rfd=129 (93%)  S3: acc=0.339 cov=0.339 rfd=46 (97%)
+[    306s] thr=3 bridges_56_2.csv  A: acc=0.339 cov=0.357 rfd=1830  S1: acc=0.321 cov=0.321 rfd=600 (67%)  S2: acc=0.304 cov=0.304 rfd=129 (93%)  S3: acc=0.196 cov=0.196 rfd=46 (97%)
+[    329s] thr=3 bridges_56_3.csv  A: acc=0.482 cov=0.482 rfd=1830  S1: acc=0.429 cov=0.429 rfd=600 (67%)  S2: acc=0.464 cov=0.464 rfd=129 (93%)  S3: acc=0.286 cov=0.286 rfd=46 (97%)
+[    352s] thr=3 bridges_56_4.csv  A: acc=0.446 cov=0.464 rfd=1830  S1: acc=0.429 cov=0.446 rfd=600 (67%)  S2: acc=0.411 cov=0.446 rfd=129 (93%)  S3: acc=0.357 cov=0.375 rfd=46 (97%)
+[    381s] thr=3 bridges_56_5.csv  A: acc=0.571 cov=0.607 rfd=1830  S1: acc=0.554 cov=0.589 rfd=600 (67%)  S2: acc=0.500 cov=0.589 rfd=129 (93%)  S3: acc=0.429 cov=0.464 rfd=46 (97%)
+[    407s] thr=3 bridges_70_1.csv  A: acc=0.343 cov=0.357 rfd=1830  S1: acc=0.329 cov=0.343 rfd=600 (67%)  S2: acc=0.329 cov=0.357 rfd=131 (93%)  S3: acc=0.243 cov=0.243 rfd=48 (97%)
+[    428s] thr=3 bridges_70_2.csv  A: acc=0.371 cov=0.371 rfd=1830  S1: acc=0.343 cov=0.343 rfd=600 (67%)  S2: acc=0.329 cov=0.329 rfd=131 (93%)  S3: acc=0.214 cov=0.229 rfd=48 (97%)
+[    456s] thr=3 bridges_70_3.csv  A: acc=0.471 cov=0.486 rfd=1830  S1: acc=0.371 cov=0.386 rfd=600 (67%)  S2: acc=0.414 cov=0.429 rfd=131 (93%)  S3: acc=0.271 cov=0.271 rfd=48 (97%)
+[    478s] thr=3 bridges_70_4.csv  A: acc=0.443 cov=0.443 rfd=1830  S1: acc=0.386 cov=0.386 rfd=600 (67%)  S2: acc=0.357 cov=0.357 rfd=131 (93%)  S3: acc=0.243 cov=0.243 rfd=48 (97%)
+[    500s] thr=3 bridges_70_5.csv  A: acc=0.400 cov=0.400 rfd=1830  S1: acc=0.343 cov=0.343 rfd=600 (67%)  S2: acc=0.386 cov=0.386 rfd=131 (93%)  S3: acc=0.229 cov=0.229 rfd=48 (97%)
+[    535s] thr=6 bridges_14_1.csv  A: acc=0.643 cov=0.714 rfd=5381  S1: acc=0.643 cov=0.714 rfd=1032 (81%)  S2: acc=0.643 cov=0.714 rfd=218 (96%)  S3: acc=0.357 cov=0.429 rfd=43 (99%)
+[    570s] thr=6 bridges_14_2.csv  A: acc=0.500 cov=0.500 rfd=5381  S1: acc=0.500 cov=0.500 rfd=1032 (81%)  S2: acc=0.429 cov=0.571 rfd=218 (96%)  S3: acc=0.357 cov=0.500 rfd=43 (99%)
+[    600s] thr=6 bridges_14_3.csv  A: acc=0.286 cov=0.286 rfd=5381  S1: acc=0.214 cov=0.214 rfd=1032 (81%)  S2: acc=0.286 cov=0.286 rfd=218 (96%)  S3: acc=0.143 cov=0.214 rfd=43 (99%)
+[    638s] thr=6 bridges_14_4.csv  A: acc=0.500 cov=0.571 rfd=5381  S1: acc=0.429 cov=0.500 rfd=1032 (81%)  S2: acc=0.429 cov=0.500 rfd=218 (96%)  S3: acc=0.214 cov=0.286 rfd=43 (99%)
+[    675s] thr=6 bridges_14_5.csv  A: acc=0.500 cov=0.500 rfd=5381  S1: acc=0.429 cov=0.429 rfd=1032 (81%)  S2: acc=0.500 cov=0.500 rfd=218 (96%)  S3: acc=0.286 cov=0.286 rfd=43 (99%)
+[    718s] thr=6 bridges_28_1.csv  A: acc=0.536 cov=0.571 rfd=5381  S1: acc=0.536 cov=0.571 rfd=1032 (81%)  S2: acc=0.500 cov=0.607 rfd=204 (96%)  S3: acc=0.321 cov=0.464 rfd=41 (99%)
+[    761s] thr=6 bridges_28_2.csv  A: acc=0.643 cov=0.679 rfd=5381  S1: acc=0.500 cov=0.536 rfd=1032 (81%)  S2: acc=0.500 cov=0.571 rfd=204 (96%)  S3: acc=0.286 cov=0.393 rfd=41 (99%)
+[    801s] thr=6 bridges_28_3.csv  A: acc=0.536 cov=0.571 rfd=5381  S1: acc=0.500 cov=0.536 rfd=1032 (81%)  S2: acc=0.464 cov=0.500 rfd=204 (96%)  S3: acc=0.214 cov=0.286 rfd=41 (99%)
+[    845s] thr=6 bridges_28_4.csv  A: acc=0.429 cov=0.464 rfd=5381  S1: acc=0.429 cov=0.464 rfd=1032 (81%)  S2: acc=0.393 cov=0.500 rfd=204 (96%)  S3: acc=0.250 cov=0.429 rfd=41 (99%)
+[    891s] thr=6 bridges_28_5.csv  A: acc=0.571 cov=0.571 rfd=5381  S1: acc=0.536 cov=0.536 rfd=1032 (81%)  S2: acc=0.536 cov=0.607 rfd=204 (96%)  S3: acc=0.250 cov=0.321 rfd=41 (99%)
+[    935s] thr=6 bridges_42_1.csv  A: acc=0.524 cov=0.571 rfd=5381  S1: acc=0.452 cov=0.500 rfd=1032 (81%)  S2: acc=0.524 cov=0.595 rfd=202 (96%)  S3: acc=0.286 cov=0.333 rfd=41 (99%)
+[    991s] thr=6 bridges_42_2.csv  A: acc=0.452 cov=0.595 rfd=5381  S1: acc=0.429 cov=0.571 rfd=1032 (81%)  S2: acc=0.452 cov=0.619 rfd=202 (96%)  S3: acc=0.286 cov=0.524 rfd=41 (99%)
+[   1043s] thr=6 bridges_42_3.csv  A: acc=0.571 cov=0.619 rfd=5381  S1: acc=0.524 cov=0.571 rfd=1032 (81%)  S2: acc=0.571 cov=0.667 rfd=202 (96%)  S3: acc=0.381 cov=0.524 rfd=41 (99%)
+[   1090s] thr=6 bridges_42_4.csv  A: acc=0.524 cov=0.595 rfd=5381  S1: acc=0.524 cov=0.595 rfd=1032 (81%)  S2: acc=0.476 cov=0.571 rfd=202 (96%)  S3: acc=0.238 cov=0.333 rfd=41 (99%)
+[   1139s] thr=6 bridges_42_5.csv  A: acc=0.500 cov=0.524 rfd=5381  S1: acc=0.405 cov=0.429 rfd=1032 (81%)  S2: acc=0.500 cov=0.524 rfd=202 (96%)  S3: acc=0.310 cov=0.333 rfd=41 (99%)
+[   1197s] thr=6 bridges_56_1.csv  A: acc=0.536 cov=0.607 rfd=5381  S1: acc=0.464 cov=0.554 rfd=1032 (81%)  S2: acc=0.429 cov=0.571 rfd=181 (97%)  S3: acc=0.250 cov=0.339 rfd=37 (99%)
+[   1253s] thr=6 bridges_56_2.csv  A: acc=0.518 cov=0.536 rfd=5381  S1: acc=0.429 cov=0.446 rfd=1032 (81%)  S2: acc=0.339 cov=0.500 rfd=181 (97%)  S3: acc=0.179 cov=0.214 rfd=37 (99%)
+[   1310s] thr=6 bridges_56_3.csv  A: acc=0.536 cov=0.554 rfd=5381  S1: acc=0.482 cov=0.500 rfd=1032 (81%)  S2: acc=0.482 cov=0.500 rfd=181 (97%)  S3: acc=0.268 cov=0.304 rfd=37 (99%)
+[   1359s] thr=6 bridges_56_4.csv  A: acc=0.500 cov=0.518 rfd=5381  S1: acc=0.446 cov=0.464 rfd=1032 (81%)  S2: acc=0.411 cov=0.500 rfd=181 (97%)  S3: acc=0.250 cov=0.357 rfd=37 (99%)
+[   1424s] thr=6 bridges_56_5.csv  A: acc=0.589 cov=0.696 rfd=5381  S1: acc=0.554 cov=0.661 rfd=1032 (81%)  S2: acc=0.500 cov=0.750 rfd=181 (97%)  S3: acc=0.321 cov=0.500 rfd=37 (99%)
+[   1488s] thr=6 bridges_70_1.csv  A: acc=0.400 cov=0.443 rfd=5381  S1: acc=0.386 cov=0.429 rfd=1032 (81%)  S2: acc=0.357 cov=0.471 rfd=170 (97%)  S3: acc=0.186 cov=0.286 rfd=35 (99%)
+[   1551s] thr=6 bridges_70_2.csv  A: acc=0.414 cov=0.500 rfd=5381  S1: acc=0.414 cov=0.486 rfd=1032 (81%)  S2: acc=0.357 cov=0.486 rfd=170 (97%)  S3: acc=0.143 cov=0.243 rfd=35 (99%)
+[   1628s] thr=6 bridges_70_3.csv  A: acc=0.543 cov=0.629 rfd=5381  S1: acc=0.514 cov=0.600 rfd=1032 (81%)  S2: acc=0.486 cov=0.614 rfd=170 (97%)  S3: acc=0.257 cov=0.343 rfd=35 (99%)
+[   1690s] thr=6 bridges_70_4.csv  A: acc=0.471 cov=0.514 rfd=5381  S1: acc=0.471 cov=0.514 rfd=1032 (81%)  S2: acc=0.443 cov=0.514 rfd=170 (97%)  S3: acc=0.200 cov=0.271 rfd=35 (99%)
+[   1755s] thr=6 bridges_70_5.csv  A: acc=0.543 cov=0.571 rfd=5381  S1: acc=0.457 cov=0.529 rfd=1032 (81%)  S2: acc=0.471 cov=0.529 rfd=170 (97%)  S3: acc=0.186 cov=0.257 rfd=35 (99%)
+[   1808s] thr=9 bridges_14_1.csv  A: acc=0.643 cov=0.714 rfd=8961  S1: acc=0.643 cov=0.714 rfd=1358 (85%)  S2: acc=0.643 cov=0.714 rfd=221 (98%)  S3: acc=0.429 cov=0.500 rfd=45 (99%)
+[   1862s] thr=9 bridges_14_2.csv  A: acc=0.500 cov=0.500 rfd=8961  S1: acc=0.500 cov=0.500 rfd=1358 (85%)  S2: acc=0.500 cov=0.571 rfd=221 (98%)  S3: acc=0.286 cov=0.429 rfd=46 (99%)
+[   1910s] thr=9 bridges_14_3.csv  A: acc=0.357 cov=0.357 rfd=8961  S1: acc=0.357 cov=0.357 rfd=1358 (85%)  S2: acc=0.357 cov=0.357 rfd=221 (98%)  S3: acc=0.214 cov=0.286 rfd=46 (99%)
+[   1975s] thr=9 bridges_14_4.csv  A: acc=0.643 cov=0.786 rfd=8961  S1: acc=0.643 cov=0.786 rfd=1358 (85%)  S2: acc=0.429 cov=0.786 rfd=221 (98%)  S3: acc=0.357 cov=0.500 rfd=46 (99%)
+[   2031s] thr=9 bridges_14_5.csv  A: acc=0.500 cov=0.500 rfd=8961  S1: acc=0.500 cov=0.500 rfd=1358 (85%)  S2: acc=0.429 cov=0.500 rfd=221 (98%)  S3: acc=0.286 cov=0.357 rfd=45 (99%)
+[   2112s] thr=9 bridges_28_1.csv  A: acc=0.643 cov=0.714 rfd=8961  S1: acc=0.607 cov=0.679 rfd=1358 (85%)  S2: acc=0.607 cov=0.750 rfd=217 (98%)  S3: acc=0.429 cov=0.643 rfd=45 (99%)
+[   2188s] thr=9 bridges_28_2.csv  A: acc=0.679 cov=0.714 rfd=8961  S1: acc=0.643 cov=0.714 rfd=1358 (85%)  S2: acc=0.429 cov=0.679 rfd=217 (98%)  S3: acc=0.357 cov=0.643 rfd=45 (99%)
+[   2255s] thr=9 bridges_28_3.csv  A: acc=0.643 cov=0.714 rfd=8961  S1: acc=0.536 cov=0.607 rfd=1358 (85%)  S2: acc=0.571 cov=0.643 rfd=217 (98%)  S3: acc=0.286 cov=0.429 rfd=45 (99%)
+[   2325s] thr=9 bridges_28_4.csv  A: acc=0.607 cov=0.643 rfd=8961  S1: acc=0.571 cov=0.607 rfd=1358 (85%)  S2: acc=0.500 cov=0.643 rfd=217 (98%)  S3: acc=0.286 cov=0.607 rfd=45 (99%)
+[   2392s] thr=9 bridges_28_5.csv  A: acc=0.571 cov=0.607 rfd=8961  S1: acc=0.536 cov=0.571 rfd=1358 (85%)  S2: acc=0.571 cov=0.607 rfd=217 (98%)  S3: acc=0.357 cov=0.500 rfd=45 (99%)
+[   2477s] thr=9 bridges_42_1.csv  A: acc=0.524 cov=0.595 rfd=8961  S1: acc=0.429 cov=0.571 rfd=1358 (85%)  S2: acc=0.524 cov=0.667 rfd=204 (98%)  S3: acc=0.452 cov=0.595 rfd=43 (100%)
+[   2570s] thr=9 bridges_42_2.csv  A: acc=0.405 cov=0.571 rfd=8961  S1: acc=0.405 cov=0.595 rfd=1358 (85%)  S2: acc=0.405 cov=0.690 rfd=204 (98%)  S3: acc=0.286 cov=0.619 rfd=43 (100%)
+[   2662s] thr=9 bridges_42_3.csv  A: acc=0.619 cov=0.690 rfd=8961  S1: acc=0.571 cov=0.643 rfd=1358 (85%)  S2: acc=0.524 cov=0.714 rfd=204 (98%)  S3: acc=0.381 cov=0.619 rfd=43 (100%)
+[   2740s] thr=9 bridges_42_4.csv  A: acc=0.524 cov=0.690 rfd=8961  S1: acc=0.524 cov=0.690 rfd=1358 (85%)  S2: acc=0.476 cov=0.667 rfd=204 (98%)  S3: acc=0.286 cov=0.476 rfd=43 (100%)
+[   2824s] thr=9 bridges_42_5.csv  A: acc=0.524 cov=0.595 rfd=8961  S1: acc=0.452 cov=0.524 rfd=1358 (85%)  S2: acc=0.500 cov=0.595 rfd=204 (98%)  S3: acc=0.357 cov=0.476 rfd=43 (100%)
+[   2933s] thr=9 bridges_56_1.csv  A: acc=0.589 cov=0.679 rfd=8961  S1: acc=0.500 cov=0.607 rfd=1358 (85%)  S2: acc=0.393 cov=0.643 rfd=188 (98%)  S3: acc=0.286 cov=0.500 rfd=43 (100%)
+[   3043s] thr=9 bridges_56_2.csv  A: acc=0.589 cov=0.643 rfd=8961  S1: acc=0.482 cov=0.554 rfd=1358 (85%)  S2: acc=0.411 cov=0.661 rfd=188 (98%)  S3: acc=0.286 cov=0.464 rfd=43 (100%)
+[   3143s] thr=9 bridges_56_3.csv  A: acc=0.500 cov=0.589 rfd=8961  S1: acc=0.446 cov=0.554 rfd=1358 (85%)  S2: acc=0.536 cov=0.696 rfd=188 (98%)  S3: acc=0.321 cov=0.500 rfd=43 (100%)
+[   3239s] thr=9 bridges_56_4.csv  A: acc=0.536 cov=0.607 rfd=8961  S1: acc=0.429 cov=0.518 rfd=1358 (85%)  S2: acc=0.411 cov=0.625 rfd=188 (98%)  S3: acc=0.304 cov=0.518 rfd=43 (100%)
+[   3356s] thr=9 bridges_56_5.csv  A: acc=0.607 cov=0.732 rfd=8961  S1: acc=0.589 cov=0.714 rfd=1358 (85%)  S2: acc=0.482 cov=0.786 rfd=188 (98%)  S3: acc=0.375 cov=0.643 rfd=43 (100%)
+[   3474s] thr=9 bridges_70_1.csv  A: acc=0.457 cov=0.529 rfd=8961  S1: acc=0.414 cov=0.486 rfd=1358 (85%)  S2: acc=0.414 cov=0.600 rfd=192 (98%)  S3: acc=0.257 cov=0.429 rfd=39 (100%)
+[   3589s] thr=9 bridges_70_2.csv  A: acc=0.386 cov=0.514 rfd=8961  S1: acc=0.371 cov=0.500 rfd=1358 (85%)  S2: acc=0.371 cov=0.571 rfd=192 (98%)  S3: acc=0.171 cov=0.371 rfd=39 (100%)
+[   3715s] thr=9 bridges_70_3.csv  A: acc=0.557 cov=0.671 rfd=8961  S1: acc=0.500 cov=0.629 rfd=1358 (85%)  S2: acc=0.486 cov=0.700 rfd=192 (98%)  S3: acc=0.300 cov=0.429 rfd=39 (100%)
+[   3840s] thr=9 bridges_70_4.csv  A: acc=0.486 cov=0.600 rfd=8961  S1: acc=0.514 cov=0.629 rfd=1358 (85%)  S2: acc=0.443 cov=0.614 rfd=192 (98%)  S3: acc=0.286 cov=0.457 rfd=39 (100%)
+[   3958s] thr=9 bridges_70_5.csv  A: acc=0.514 cov=0.586 rfd=8961  S1: acc=0.457 cov=0.557 rfd=1358 (85%)  S2: acc=0.443 cov=0.614 rfd=192 (98%)  S3: acc=0.243 cov=0.429 rfd=39 (100%)
+[   4038s] thr=12 bridges_14_1.csv  A: acc=0.643 cov=0.714 rfd=14711  S1: acc=0.643 cov=0.714 rfd=1641 (89%)  S2: acc=0.643 cov=0.714 rfd=251 (98%)  S3: acc=0.357 cov=0.429 rfd=49 (100%)
+[   4139s] thr=12 bridges_14_2.csv  A: acc=0.571 cov=0.571 rfd=14711  S1: acc=0.571 cov=0.643 rfd=1641 (89%)  S2: acc=0.571 cov=0.643 rfd=251 (98%)  S3: acc=0.357 cov=0.429 rfd=50 (100%)
+[   4214s] thr=12 bridges_14_3.csv  A: acc=0.357 cov=0.357 rfd=14711  S1: acc=0.357 cov=0.357 rfd=1641 (89%)  S2: acc=0.286 cov=0.357 rfd=251 (98%)  S3: acc=0.143 cov=0.214 rfd=50 (100%)
+[   4329s] thr=12 bridges_14_4.csv  A: acc=0.571 cov=0.714 rfd=14711  S1: acc=0.643 cov=0.786 rfd=1641 (89%)  S2: acc=0.571 cov=0.786 rfd=251 (98%)  S3: acc=0.357 cov=0.500 rfd=50 (100%)
+[   4417s] thr=12 bridges_14_5.csv  A: acc=0.571 cov=0.571 rfd=14711  S1: acc=0.500 cov=0.500 rfd=1641 (89%)  S2: acc=0.429 cov=0.500 rfd=251 (98%)  S3: acc=0.286 cov=0.429 rfd=49 (100%)
+[   4550s] thr=12 bridges_28_1.csv  A: acc=0.643 cov=0.714 rfd=14711  S1: acc=0.607 cov=0.679 rfd=1641 (89%)  S2: acc=0.607 cov=0.750 rfd=241 (98%)  S3: acc=0.464 cov=0.714 rfd=48 (100%)
+[   4661s] thr=12 bridges_28_2.csv  A: acc=0.643 cov=0.679 rfd=14711  S1: acc=0.643 cov=0.714 rfd=1641 (89%)  S2: acc=0.464 cov=0.679 rfd=241 (98%)  S3: acc=0.357 cov=0.607 rfd=48 (100%)
+[   4761s] thr=12 bridges_28_3.csv  A: acc=0.679 cov=0.750 rfd=14711  S1: acc=0.571 cov=0.643 rfd=1641 (89%)  S2: acc=0.607 cov=0.679 rfd=241 (98%)  S3: acc=0.286 cov=0.464 rfd=48 (100%)
+[   4875s] thr=12 bridges_28_4.csv  A: acc=0.643 cov=0.679 rfd=14711  S1: acc=0.571 cov=0.607 rfd=1641 (89%)  S2: acc=0.536 cov=0.679 rfd=241 (98%)  S3: acc=0.357 cov=0.607 rfd=48 (100%)
+[   4980s] thr=12 bridges_28_5.csv  A: acc=0.571 cov=0.607 rfd=14711  S1: acc=0.536 cov=0.571 rfd=1641 (89%)  S2: acc=0.571 cov=0.607 rfd=241 (98%)  S3: acc=0.393 cov=0.500 rfd=48 (100%)
+[   5112s] thr=12 bridges_42_1.csv  A: acc=0.500 cov=0.571 rfd=14711  S1: acc=0.429 cov=0.571 rfd=1641 (89%)  S2: acc=0.524 cov=0.667 rfd=229 (98%)  S3: acc=0.452 cov=0.595 rfd=45 (100%)
+[   5257s] thr=12 bridges_42_2.csv  A: acc=0.476 cov=0.571 rfd=14711  S1: acc=0.476 cov=0.595 rfd=1641 (89%)  S2: acc=0.405 cov=0.690 rfd=229 (98%)  S3: acc=0.286 cov=0.643 rfd=45 (100%)
+[   5416s] thr=12 bridges_42_3.csv  A: acc=0.619 cov=0.690 rfd=14711  S1: acc=0.619 cov=0.667 rfd=1641 (89%)  S2: acc=0.524 cov=0.714 rfd=229 (98%)  S3: acc=0.381 cov=0.643 rfd=45 (100%)
+[   5547s] thr=12 bridges_42_4.csv  A: acc=0.571 cov=0.714 rfd=14711  S1: acc=0.548 cov=0.690 rfd=1641 (89%)  S2: acc=0.476 cov=0.667 rfd=229 (98%)  S3: acc=0.286 cov=0.500 rfd=45 (100%)
+[   5679s] thr=12 bridges_42_5.csv  A: acc=0.524 cov=0.595 rfd=14711  S1: acc=0.429 cov=0.500 rfd=1641 (89%)  S2: acc=0.476 cov=0.571 rfd=229 (98%)  S3: acc=0.357 cov=0.476 rfd=45 (100%)
+[   5869s] thr=12 bridges_56_1.csv  A: acc=0.518 cov=0.625 rfd=14711  S1: acc=0.500 cov=0.607 rfd=1641 (89%)  S2: acc=0.393 cov=0.625 rfd=209 (99%)  S3: acc=0.286 cov=0.554 rfd=43 (100%)
+[   6044s] thr=12 bridges_56_2.csv  A: acc=0.643 cov=0.661 rfd=14711  S1: acc=0.518 cov=0.571 rfd=1641 (89%)  S2: acc=0.411 cov=0.679 rfd=209 (99%)  S3: acc=0.304 cov=0.536 rfd=43 (100%)
+[   6290s] thr=12 bridges_56_3.csv  A: acc=0.554 cov=0.625 rfd=14711  S1: acc=0.482 cov=0.571 rfd=1641 (89%)  S2: acc=0.554 cov=0.696 rfd=209 (99%)  S3: acc=0.339 cov=0.500 rfd=43 (100%)
+[   6433s] thr=12 bridges_56_4.csv  A: acc=0.536 cov=0.607 rfd=14711  S1: acc=0.464 cov=0.536 rfd=1641 (89%)  S2: acc=0.482 cov=0.696 rfd=209 (99%)  S3: acc=0.304 cov=0.482 rfd=43 (100%)
+[   6620s] thr=12 bridges_56_5.csv  A: acc=0.625 cov=0.732 rfd=14711  S1: acc=0.625 cov=0.750 rfd=1641 (89%)  S2: acc=0.536 cov=0.804 rfd=209 (99%)  S3: acc=0.375 cov=0.607 rfd=43 (100%)
+[   6812s] thr=12 bridges_70_1.csv  A: acc=0.443 cov=0.514 rfd=14711  S1: acc=0.414 cov=0.486 rfd=1641 (89%)  S2: acc=0.486 cov=0.629 rfd=215 (99%)  S3: acc=0.271 cov=0.443 rfd=43 (100%)
+[   7018s] thr=12 bridges_70_2.csv  A: acc=0.471 cov=0.529 rfd=14711  S1: acc=0.443 cov=0.514 rfd=1641 (89%)  S2: acc=0.386 cov=0.571 rfd=215 (99%)  S3: acc=0.229 cov=0.429 rfd=43 (100%)
+[   7202s] thr=12 bridges_70_3.csv  A: acc=0.571 cov=0.671 rfd=14711  S1: acc=0.500 cov=0.614 rfd=1641 (89%)  S2: acc=0.529 cov=0.686 rfd=215 (99%)  S3: acc=0.271 cov=0.414 rfd=43 (100%)
+[   7477s] thr=12 bridges_70_4.csv  A: acc=0.471 cov=0.586 rfd=14711  S1: acc=0.429 cov=0.586 rfd=1641 (89%)  S2: acc=0.471 cov=0.629 rfd=215 (99%)  S3: acc=0.286 cov=0.471 rfd=43 (100%)
+[   7724s] thr=12 bridges_70_5.csv  A: acc=0.543 cov=0.600 rfd=14711  S1: acc=0.443 cov=0.557 rfd=1641 (89%)  S2: acc=0.457 cov=0.657 rfd=215 (99%)  S3: acc=0.229 cov=0.429 rfd=43 (100%)
+[   7835s] thr=15 bridges_14_1.csv  A: acc=0.000 cov=0.000 rfd=18844  S1: acc=0.643 cov=0.714 rfd=1831 (90%)  S2: acc=0.643 cov=0.714 rfd=268 (99%)  S3: acc=0.357 cov=0.429 rfd=46 (100%)
+[   7975s] thr=15 bridges_14_2.csv  A: acc=0.500 cov=0.571 rfd=18844  S1: acc=0.500 cov=0.643 rfd=1831 (90%)  S2: acc=0.643 cov=0.786 rfd=268 (99%)  S3: acc=0.286 cov=0.357 rfd=47 (100%)
+[   8064s] thr=15 bridges_14_3.csv  A: acc=0.357 cov=0.357 rfd=18844  S1: acc=0.357 cov=0.357 rfd=1831 (90%)  S2: acc=0.286 cov=0.357 rfd=268 (99%)  S3: acc=0.143 cov=0.214 rfd=47 (100%)
+[   8227s] thr=15 bridges_14_4.csv  A: acc=0.571 cov=0.643 rfd=18844  S1: acc=0.643 cov=0.786 rfd=1831 (90%)  S2: acc=0.500 cov=0.786 rfd=268 (99%)  S3: acc=0.357 cov=0.500 rfd=47 (100%)
+[   8337s] thr=15 bridges_14_5.csv  A: acc=0.571 cov=0.571 rfd=18844  S1: acc=0.500 cov=0.500 rfd=1831 (90%)  S2: acc=0.500 cov=0.571 rfd=268 (99%)  S3: acc=0.286 cov=0.357 rfd=46 (100%)
+[   8546s] thr=15 bridges_28_1.csv  A: acc=0.571 cov=0.679 rfd=18844  S1: acc=0.571 cov=0.643 rfd=1831 (90%)  S2: acc=0.643 cov=0.750 rfd=257 (99%)  S3: acc=0.464 cov=0.679 rfd=44 (100%)
+[   8700s] thr=15 bridges_28_2.csv  A: acc=0.607 cov=0.679 rfd=18844  S1: acc=0.607 cov=0.714 rfd=1831 (90%)  S2: acc=0.571 cov=0.714 rfd=257 (99%)  S3: acc=0.321 cov=0.571 rfd=44 (100%)
+[   8855s] thr=15 bridges_28_3.csv  A: acc=0.679 cov=0.750 rfd=18844  S1: acc=0.571 cov=0.643 rfd=1831 (90%)  S2: acc=0.607 cov=0.679 rfd=257 (99%)  S3: acc=0.286 cov=0.429 rfd=44 (100%)
+[   9001s] thr=15 bridges_28_4.csv  A: acc=0.643 cov=0.679 rfd=18844  S1: acc=0.607 cov=0.643 rfd=1831 (90%)  S2: acc=0.536 cov=0.679 rfd=257 (99%)  S3: acc=0.321 cov=0.571 rfd=44 (100%)
+[   9146s] thr=15 bridges_28_5.csv  A: acc=0.607 cov=0.643 rfd=18844  S1: acc=0.536 cov=0.571 rfd=1831 (90%)  S2: acc=0.536 cov=0.607 rfd=257 (99%)  S3: acc=0.393 cov=0.500 rfd=44 (100%)
+[   9328s] thr=15 bridges_42_1.csv  A: acc=0.500 cov=0.571 rfd=18844  S1: acc=0.405 cov=0.595 rfd=1831 (90%)  S2: acc=0.548 cov=0.690 rfd=244 (99%)  S3: acc=0.452 cov=0.595 rfd=42 (100%)
+[   9538s] thr=15 bridges_42_2.csv  A: acc=0.476 cov=0.571 rfd=18844  S1: acc=0.500 cov=0.619 rfd=1831 (90%)  S2: acc=0.429 cov=0.738 rfd=244 (99%)  S3: acc=0.286 cov=0.619 rfd=42 (100%)
+[   9800s] thr=15 bridges_42_3.csv  A: acc=0.667 cov=0.714 rfd=18844  S1: acc=0.643 cov=0.714 rfd=1831 (90%)  S2: acc=0.524 cov=0.738 rfd=244 (99%)  S3: acc=0.357 cov=0.595 rfd=42 (100%)
+[   9997s] thr=15 bridges_42_4.csv  A: acc=0.595 cov=0.738 rfd=18844  S1: acc=0.548 cov=0.690 rfd=1831 (90%)  S2: acc=0.500 cov=0.714 rfd=244 (99%)  S3: acc=0.286 cov=0.476 rfd=42 (100%)
+[  10216s] thr=15 bridges_42_5.csv  A: acc=0.595 cov=0.643 rfd=18844  S1: acc=0.452 cov=0.500 rfd=1831 (90%)  S2: acc=0.476 cov=0.690 rfd=244 (99%)  S3: acc=0.357 cov=0.476 rfd=42 (100%)
+[  10513s] thr=15 bridges_56_1.csv  A: acc=0.518 cov=0.625 rfd=18844  S1: acc=0.518 cov=0.643 rfd=1831 (90%)  S2: acc=0.482 cov=0.750 rfd=229 (99%)  S3: acc=0.286 cov=0.500 rfd=42 (100%)
+[  10760s] thr=15 bridges_56_2.csv  A: acc=0.643 cov=0.661 rfd=18844  S1: acc=0.500 cov=0.554 rfd=1831 (90%)  S2: acc=0.429 cov=0.679 rfd=229 (99%)  S3: acc=0.286 cov=0.482 rfd=42 (100%)
+[  11015s] thr=15 bridges_56_3.csv  A: acc=0.589 cov=0.643 rfd=18844  S1: acc=0.500 cov=0.571 rfd=1831 (90%)  S2: acc=0.536 cov=0.714 rfd=229 (99%)  S3: acc=0.339 cov=0.482 rfd=42 (100%)
+[  11237s] thr=15 bridges_56_4.csv  A: acc=0.518 cov=0.589 rfd=18844  S1: acc=0.429 cov=0.518 rfd=1831 (90%)  S2: acc=0.500 cov=0.750 rfd=229 (99%)  S3: acc=0.304 cov=0.482 rfd=42 (100%)
+[  11513s] thr=15 bridges_56_5.csv  A: acc=0.625 cov=0.732 rfd=18844  S1: acc=0.625 cov=0.750 rfd=1831 (90%)  S2: acc=0.500 cov=0.804 rfd=229 (99%)  S3: acc=0.357 cov=0.571 rfd=42 (100%)
+[  11772s] thr=15 bridges_70_1.csv  A: acc=0.471 cov=0.529 rfd=18844  S1: acc=0.414 cov=0.486 rfd=1831 (90%)  S2: acc=0.500 cov=0.657 rfd=242 (99%)  S3: acc=0.257 cov=0.429 rfd=40 (100%)
+[  12090s] thr=15 bridges_70_2.csv  A: acc=0.471 cov=0.529 rfd=18844  S1: acc=0.443 cov=0.514 rfd=1831 (90%)  S2: acc=0.400 cov=0.614 rfd=242 (99%)  S3: acc=0.229 cov=0.400 rfd=40 (100%)
+[  12366s] thr=15 bridges_70_3.csv  A: acc=0.529 cov=0.643 rfd=18844  S1: acc=0.457 cov=0.586 rfd=1831 (90%)  S2: acc=0.529 cov=0.714 rfd=242 (99%)  S3: acc=0.286 cov=0.414 rfd=40 (100%)
+[  12718s] thr=15 bridges_70_4.csv  A: acc=0.486 cov=0.600 rfd=18844  S1: acc=0.443 cov=0.600 rfd=1831 (90%)  S2: acc=0.457 cov=0.643 rfd=242 (99%)  S3: acc=0.300 cov=0.457 rfd=40 (100%)
+[  13011s] thr=15 bridges_70_5.csv  A: acc=0.557 cov=0.614 rfd=18844  S1: acc=0.443 cov=0.557 rfd=1831 (90%)  S2: acc=0.500 cov=0.686 rfd=242 (99%)  S3: acc=0.243 cov=0.443 rfd=40 (100%)
+
+[benchmark] 500 record salvati in results_benchmark.json
+
+======================================================================================================================
+TABELLA COMPARATIVA AGGREGATA (media sui run, per soglia)
+======================================================================================================================
+ soglia  variante      RFD  rid.%   cover  precis    acc     F1  RFD usate    pre_ms   exec_ms     RMSE      MAE
+----------------------------------------------------------------------------------------------------------------------
+      3         A     1830    0.0   0.435   0.990  0.430  0.601       16.7      8930      3235    0.000    0.000
+      3        S1      600   67.2   0.407   0.984  0.400  0.571       15.1      3180      1232    0.000    0.000
+      3        S2      139   92.4   0.407   0.961  0.389  0.566       15.1       870       578    0.193    0.136
+      3        S3       48   97.4   0.297   0.961  0.284  0.447       10.2       465       249    0.236    0.167
+----------------------------------------------------------------------------------------------------------------------
+      6         A     5381    0.0   0.556   0.922  0.511  0.688       20.6     21414     17290    0.253    0.236
+      6        S1     1032   80.8   0.514   0.913  0.467  0.650       18.0      4207      3107    0.282    0.264
+      6        S2      195   96.4   0.551   0.839  0.459  0.657       19.4       700      1106    1.029    0.824
+      6        S3       39   99.3   0.351   0.740  0.257  0.465       10.1       265       289    0.171    0.150
+----------------------------------------------------------------------------------------------------------------------
+      9         A     8961    0.0   0.622   0.878  0.544  0.721       20.3     34688     37558    0.184    0.160
+      9        S1     1358   84.8   0.592   0.856  0.505  0.693       18.0      5392      5127    0.307    0.253
+      9        S2      204   97.7   0.644   0.745  0.474  0.679       20.6       908      1363    1.543    1.248
+      9        S3       43   99.5   0.497   0.640  0.315  0.549       11.6       294       390    0.593    0.577
+----------------------------------------------------------------------------------------------------------------------
+     12         A    14711    0.0   0.626   0.895  0.558  0.731       20.8     55685     74877    0.099    0.097
+     12        S1     1641   88.8   0.601   0.865  0.518  0.703       18.6      6207      7187    0.559    0.467
+     12        S2      229   98.4   0.655   0.760  0.496  0.696       20.8       855      1445    1.514    1.042
+     12        S3       46   99.7   0.505   0.640  0.320  0.553       12.6       311       388    2.879    2.454
+----------------------------------------------------------------------------------------------------------------------
+     15         A    18844    0.0   0.599   0.894  0.534  0.730       21.3     66751    125138    0.454    0.320
+     15        S1     1831   90.3   0.604   0.855  0.514  0.701       19.2      6479      9294    1.263    0.970
+     15        S2      248   98.7   0.689   0.745  0.511  0.708       22.1       889      1535    2.361    1.823
+     15        S3       43   99.8   0.481   0.657  0.314  0.545       11.7       294       326    0.071    0.050
+----------------------------------------------------------------------------------------------------------------------
+
+======================================================================================================================
+TEST DI WILCOXON SIGNED-RANK (appaiato per dataset+soglia+run, A vs B)
+======================================================================================================================
+  variante     metrica    n   mediana Δ       W+       W-     p-value  metodo
+----------------------------------------------------------------------------------------------------------------------
+        S1    accuracy   91     -0.0536    238.5   3947.5    1.97e-13  approssimazione normale con correzione per i ranghi medi
+        S1    coverage   96     -0.0357    638.0   4018.0    6.24e-10  approssimazione normale con correzione per i ranghi medi
+        S1   precision   88     -0.0178    353.5   3562.5    2.49e-11  approssimazione normale con correzione per i ranghi medi
+        S1          f1  102     -0.0371    257.0   4996.0    2.66e-15  approssimazione normale con correzione per i ranghi medi
+        S1     correct   91     -2.0000    183.0   4003.0    2.66e-14  approssimazione normale con correzione per i ranghi medi
+        S1       wrong   47     +1.0000   1038.0     90.0    1.27e-07  approssimazione normale con correzione per i ranghi medi
+        S1  n_rfd_used  108     -2.0000    388.0   5498.0    3.55e-15  approssimazione normale con correzione per i ranghi medi
+        S1    total_ms  125 -55176.0000     22.0   7853.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S1      pre_ms  124 -27893.0000      0.0   7750.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S1     exec_ms  124 -26103.0000      0.0   7750.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S1        rmse   14     +0.7229     95.0     10.0      0.0083  approssimazione normale con correzione per i ranghi medi
+        S1         mae   14     +0.8000     93.0     12.0      0.0116  approssimazione normale con correzione per i ranghi medi
+----------------------------------------------------------------------------------------------------------------------
+        S2    accuracy  101     -0.0714    371.5   4779.5    7.31e-14  approssimazione normale con correzione per i ranghi medi
+        S2    coverage   97     +0.0238   3161.5   1591.5      0.0047  approssimazione normale con correzione per i ranghi medi
+        S2   precision  103     -0.1111     37.0   5319.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S2          f1  111     -0.0362    638.0   5578.0    3.70e-13  approssimazione normale con correzione per i ranghi medi
+        S2     correct  101     -2.0000    391.5   4759.5    1.10e-13  approssimazione normale con correzione per i ranghi medi
+        S2       wrong   96     +3.0000   4627.0     29.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S2  n_rfd_used  100     -1.0000   1981.0   3069.0      0.0569  approssimazione normale con correzione per i ranghi medi
+        S2    total_ms  125 -63075.0000      1.0   7874.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S2      pre_ms  124 -32375.5000      0.0   7750.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S2     exec_ms  124 -29558.5000      0.0   7750.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S2        rmse   49     +2.1213   1167.5     57.5    3.45e-08  approssimazione normale con correzione per i ranghi medi
+        S2         mae   48     +1.5000   1112.5     63.5    7.58e-08  approssimazione normale con correzione per i ranghi medi
+----------------------------------------------------------------------------------------------------------------------
+        S3    accuracy  125     -0.2143    121.0   7754.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3    coverage  121     -0.1429    155.0   7226.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3   precision  111     -0.2145     23.0   6193.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3          f1  124     -0.1842      0.0   7750.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3     correct  125     -9.0000     36.5   7838.5    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3       wrong  100     +3.0000   4994.0     56.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3  n_rfd_used  125     -9.0000     49.0   7826.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3    total_ms  125 -64594.0000      1.0   7874.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3      pre_ms  124 -32947.0000      0.0   7750.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3     exec_ms  124 -30350.0000      0.0   7750.0    0.00e+00  approssimazione normale con correzione per i ranghi medi
+        S3        rmse   22     +2.1213    243.0     10.0      0.0002  approssimazione normale con correzione per i ranghi medi
+        S3         mae   22     +1.5833    243.0     10.0      0.0002  approssimazione normale con correzione per i ranghi medi
+----------------------------------------------------------------------------------------------------------------------

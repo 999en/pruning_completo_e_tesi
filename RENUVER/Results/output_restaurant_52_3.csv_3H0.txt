@@ -1,0 +1,3 @@
+12;phone:310/392-9025 ;SimilarityTuple [fields= [name:chinois on main , addr:2709 main st. , city:santa monica , phone:310/392-9025 , type:french , class:5 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+114;class:56 ;[name:river cafe , addr:1 water st. at the east river , city:brooklyn , phone:718/522-5200 , type:american , class:56 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+206;phone:415/777-9779 ;SimilarityTuple [fields= [name:hawthorne lane , addr:22 hawthorne st. , city:san francisco , phone:415/777-9779 , type:american , class:102 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0

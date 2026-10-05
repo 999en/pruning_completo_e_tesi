@@ -1,0 +1,22 @@
+8;phone:818/788-3536 ;SimilarityTuple [fields= [name:cafe bizou , addr:14016 ventura blvd. , city:sherman oaks , phone:818/788-3536 , type:? , class:3 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+18;class:8 ;SimilarityTuple [fields= [name:granita , addr:23725 w. malibu rd. , city:malibu , phone:310/456-0488 , type:californian , class:8 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+48;class:23 ;[name:21 club , addr:21 w. 52nd st. , city:new york , phone:? , type:american , class:23 ];[(name)_3.0, (addr)_3.0] -> (class)_0.0; exact
+51;class:25 ;[name:aureole , addr:34 e. 61st st. , city:? , phone:212-319-1660 , type:american (new) , class:25 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+53;class:26 ;[name:cafe lalo , addr:201 w. 83rd st. , city:? , phone:212-496-6031 , type:coffeehouses , class:26 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+79;phone:212-586-4252 ;SimilarityTuple [fields= [name:la caravelle , addr:33 w. 55th st. , city:? , phone:212-586-4252 , type:french (classic) , class:39 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+86;class:42 ;[name:les celebrites , addr:160 central park s , city:new york , phone:212/484-5113 , type:french , class:42 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+94;phone:212/754-6272 ;SimilarityTuple [fields= [name:march , addr:405 e. 58th st. , city:? , phone:212/754-6272 , type:american , class:46 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+111;phone:212-632-5000 ;SimilarityTuple [fields= [name:rainbow room , addr:30 rockefeller plaza , city:? , phone:212-632-5000 , type:american (new) , class:55 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+131;class:65 ;SimilarityTuple [fields= [name:union square cafe , addr:21 e. 16th st. , city:new york city , phone:? , type:american (new) , class:65 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+135;class:67 ;[name:chin's , addr:3200 las vegas blvd. s. , city:las vegas , phone:702-733-8899 , type:chinese , class:67 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+158;class:78 ;[name:buckhead diner , addr:3073 piedmont road , city:atlanta , phone:404/262-3336 , type:? , class:78 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+170;class:84 ;SimilarityTuple [fields= [name:indigo coastal grill , addr:1397 n. highland ave. , city:atlanta , phone:404/876-0676 , type:caribbean , class:84 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+174;phone:404/876-1800 ;SimilarityTuple [fields= [name:mary mac's tea room , addr:224 ponce de leon ave. , city:atlanta , phone:404/876-1800 , type:? , class:86 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+187;class:93 ;[name:veni vidi vici , addr:41 14th st. , city:atlanta , phone:? , type:italian , class:93 ];[(name)_3.0, (addr)_3.0] -> (class)_0.0; exact
+188;phone:404/875-8424 ;SimilarityTuple [fields= [name:veni vidi vici , addr:41 14th st. , city:atlanta , phone:404/875-8424 , type:italian , class:93 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (city)_3.0, (type)_3.0] -> (phone)_1.0;0.0
+192;class:95 ;[name:aqua , addr:252 california st. , city:san francisco , phone:415/956-9662 , type:seafood , class:95 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+198;class:98 ;[name:campton place , addr:340 stockton st. , city:san francisco , phone:415/955-5555 , type:american , class:98 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+210;phone:415/776-5577 ;SimilarityTuple [fields= [name:la folie , addr:2316 polk st. , city:? , phone:415/776-5577 , type:french , class:104 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+213;phone:415-989-7154 ;SimilarityTuple [fields= [name:masa's , addr:648 bush st. , city:? , phone:415-989-7154 , type:? , class:106 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+218;class:108 ;[name:plumpjack cafe , addr:3201 fillmore st. , city:san francisco , phone:? , type:mediterranean , class:108 ];[(name)_3.0, (addr)_3.0] -> (class)_0.0; exact
+224;class:111 ;[name:rose pistola , addr:532 columbus ave. , city:san francisco , phone:415/399-0499 , type:italian , class:111 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact

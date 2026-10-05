@@ -1,0 +1,27 @@
+Tecnica di strumentazione: WRAPPER (estratto da FillingAlgorithm.java della build strumentata)
+=============================================================================================
+Il corpo originale non viene toccato: il metodo viene rinominato con il suffisso _impl e si
+aggiunge un guscio con la stessa firma che lo invoca cronometrandolo. Il flusso di controllo
+resta quello originale (nessun return modificato) e il finally conta il tempo anche sulle
+uscite anticipate.
+
+    private boolean isFaultless(Field populated, ObjectArrayList<SimilarityTuple> tupleWithSimilarity, Tuple nullTuple) {
+        long __t0 = System.nanoTime();
+        try {
+            return isFaultless_impl(populated, tupleWithSimilarity, nullTuple);
+        } finally {
+            T_ISFAULTLESS += System.nanoTime() - __t0;
+            N_ISFAULTLESS++;
+        }
+    }
+
+Al termine dell'esecuzione i contatori sono scritti nel file Logs/:
+
+    this.log.println("===== STRUMENTAZIONE (patch E) =====");
+    this.log.println("treatNullTuple chiamate: " + N_TREATNULL);
+    this.log.println("getCandidatesForField : n=" + N_CANDIDATES + "  tempo=" + ... );
+    this.log.println("isFaultless           : n=" + N_ISFAULTLESS + "  tempo=" + ... );
+    this.log.println("  di cui areThereTuplesViolatingRFD: n=" + N_ARETHERE + "  tempo=" + ... );
+
+I metodi strumentati sono tre: getCandidatesForField (generazione dei candidati), isFaultless
+(controllo dei veti) e areThereTuplesViolatingRFD (scansione del dataset dentro il controllo).

@@ -1,0 +1,12 @@
+8;phone:818/788-3536 ;SimilarityTuple [fields= [name:cafe bizou , addr:14016 ventura blvd. , city:sherman oaks , phone:818/788-3536 , type:french , class:3 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+36;class:17 ;SimilarityTuple [fields= [name:philippe's the original , addr:1001 n. alameda st. , city:los angeles , phone:213/628-3781 , type:american , class:17 ]weightedSimilarity=1.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;1.0
+56;class:27 ;[name:cafe des artistes , addr:1 w. 67th st. , city:new york , phone:212/877-3500 , type:continental , class:27 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+72;class:35 ;[name:gotham bar & grill , addr:12 e. 12th st. , city:new york , phone:212/620-4020 , type:american , class:35 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+80;class:39 ;[name:la caravelle , addr:33 w. 55th st. , city:new york , phone:212/586-4252 , type:french , class:39 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+118;class:58 ;[name:second avenue deli , addr:156 2nd ave. at 10th st. , city:new york , phone:212/677-0606 , type:delicatessen , class:58 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+132;class:65 ;SimilarityTuple [fields= [name:union square cafe , addr:21 e. 16th st. , city:new york , phone:212/243-4020 , type:american , class:65 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+135;class:67 ;[name:chin's , addr:3200 las vegas blvd. s. , city:las vegas , phone:702-733-8899 , type:chinese , class:67 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+177;class:88 ;[name:pano's & paul's , addr:1232 w. paces ferry rd. , city:atlanta , phone:404-261-3662 , type:american (new) , class:88 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+208;class:103 ;[name:khan toke thai house , addr:5937 geary blvd. , city:san francisco , phone:415/668-6654 , type:asian , class:103 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+209;class:104 ;SimilarityTuple [fields= [name:la folie , addr:2316 polk st. , city:san francisco , phone:415-776-5577 , type:french (new) , class:104 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+217;class:108 ;[name:plumpjack cafe , addr:3127 fillmore st. , city:san francisco , phone:415-563-4755 , type:american (new) , class:108 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact

@@ -1,0 +1,98 @@
+======================================================================================================================
+A. STATISTICHE E POTENZIALE DI PRUNING DEI SET DI RFD
+======================================================================================================================
+file                                                RFD   RHS0   LHS0   dup   dom%   rid% LHSmed
+Vocab.csv                                             1      1      0     0    0.0    0.0    1.0
+breast-cancer-wisconsin.csv                       14352   3281      0     9   94.9   94.9    5.0
+bridges.csv                                        2632   1935      0     0   86.7   86.7    4.0
+car_data.csv                                          8      1      0     0   12.5   12.5    1.0
+expIDEAS.csv                                         12      4      0     0   66.7   66.7    1.5
+foodstamp.csv                                         9      9      0     0   55.6   55.6    3.0
+output_false_12_bridges.csv                       14711   7507      0    20   95.9   96.1    5.0
+output_false_12_glass.csv                         18747   1528      0    22   96.6   96.7    5.0
+output_false_12_nursery.csv                          65      1      0     0    0.0    0.0    1.0
+output_false_12_restaurant.csv                     1262     63      0     1   94.6   94.7    4.0
+output_false_15_bridges.csv                       18844   9301      0    28   96.7   96.8    5.0
+output_false_15_glass.csv                         27445   1702      0    49   97.4   97.6    5.0
+output_false_15_nursery.csv                          65      1      0     0    0.0    0.0    1.0
+output_false_15_restaurant.csv                     1961     82      0     2   95.9   96.0    4.0
+output_false_3_Physician_Compare_National.csv      3734   3557      0     0   93.5   93.5    5.0
+output_false_3_Physician_Compare_National_remodulated_0.005.csv   1429   1376      0     0   74.1   74.1    3.0
+output_false_3_Physician_Compare_National_remodulated_0.01.csv   2552   2422      0     1   81.6   81.7    4.0
+output_false_3_Physician_Compare_National_remodulated_0.05.csv   3894   3742      0     0   87.1   87.1    4.0
+output_false_3_Physician_Compare_National_remodulated_0.1.csv   5707   5485      0     1   88.3   88.3    4.0
+output_false_3_bridges.csv                         1830   1353      0     0   83.6   83.6    4.0
+output_false_3_glass.csv                           1511    428      0     0   82.7   82.7    4.0
+output_false_3_nursery.csv                            1      1      0     0    0.0    0.0    8.0
+output_false_3_restaurant.csv                        25     10      0     0   32.0   32.0    3.0
+output_false_6_bridges.csv                         5381   3345      0     1   91.6   91.6    5.0
+output_false_6_glass.csv                           5763    971      0     2   92.2   92.2    4.0
+output_false_6_nursery.csv                            9      1      0     0    0.0    0.0    1.0
+output_false_6_restaurant.csv                       124     30      0     0   72.6   72.6    3.0
+output_false_9_bridges.csv                         8961   5232      0     6   93.8   93.9    5.0
+output_false_9_glass.csv                          11648   1301      0     9   95.2   95.3    5.0
+output_false_9_nursery.csv                           33      1      0     0    0.0    0.0    1.0
+output_false_9_restaurant.csv                       445     44      0     0   89.0   89.0    3.0
+restaurant.csv                                     1961     82      0     2   95.9   96.0    4.0
+
+======================================================================================================================
+B. PROFILO DI MISSINGNESS (Dataset/) — quale colonna e' nulla, e quanto spesso
+======================================================================================================================
+
+--- bridges  (file bridges_14_1.csv, 108 tuple) ---
+    attributo         null pre-esistenti  iniettati  tot null
+    ID                                 0          0         0
+    RIVER                              0          0         0
+    LOCATION                           1          0         1
+    ERECTED                            2          2         2
+    PURPOSE                            0          0         0
+    LENGTH                            28          1        28
+    LANES                             18          2        18
+    CLEAR-G                            4          2         4
+    T-OR-D                             7          1         7
+    MATERIAL                           4          2         4
+    SPAN                              17          1        17
+    REL-L                              8          3         8
+    TYPE                               2          0         2
+
+--- glass  (file glass_22_1.csv, 214 tuple) ---
+    attributo         null pre-esistenti  iniettati  tot null
+    A                                  0          0         0
+    B                                  0          0         0
+    C                                  2          2         2
+    D                                  5          5         5
+    E                                  0          0         0
+    F                                  6          6         6
+    G                                  1          1         1
+    H                                  0          0         0
+    I                                  4          4         4
+    J                                  1          1         1
+    K                                  3          3         3
+
+--- restaurant  (file restaurant_52_1.csv, 864 tuple) ---
+    attributo         null pre-esistenti  iniettati  tot null
+    name                               0          0         0
+    addr                               0          0         0
+    city                              10         10        10
+    phone                              9          9         9
+    type                              13         12        13
+    class                             21         21        21
+
+======================================================================================================================
+C. POTENZIALE DEL PRUNING PER COVERAGE (P2): RFD applicabili a >=1 cella mancante
+======================================================================================================================
+   Un RFD e' applicabile a una cella (r,a) se tutte le colonne del suo LHS sono NON nulle in r.
+
+   bridges     output_false_15_bridges.csv        RFD= 18844  applicabili= 10230 ( 54.3%)  prunabili=  8614 ( 45.7%)  celle_nulle=91
+      prunabili per RHS: {'RIVER': 2616, 'TYPE': 2566, 'LOCATION': 1347, 'PURPOSE': 1175, 'ID': 787, 'ERECTED': 117, 'SPAN': 6}
+
+   bridges     output_false_3_bridges.csv         RFD=  1830  applicabili=  1222 ( 66.8%)  prunabili=   608 ( 33.2%)  celle_nulle=91
+      prunabili per RHS: {'TYPE': 170, 'PURPOSE': 144, 'RIVER': 124, 'ID': 123, 'LOCATION': 47}
+Traceback (most recent call last):
+  File "/home/gen/Documenti/Tirocinio/.scratch/analyze_pruning.py", line 171, in <module>
+    if all(not is_null(rows[ri][c]) for c in r["lhs"]):
+       ^^^
+  File "/home/gen/Documenti/Tirocinio/.scratch/analyze_pruning.py", line 171, in <genexpr>
+    if all(not is_null(rows[ri][c]) for c in r["lhs"]):
+                       ~~~~~~~~^^^
+KeyError: 'ID'

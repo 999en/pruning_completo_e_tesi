@@ -1,0 +1,19 @@
+12;phone:310/392-9025 ;SimilarityTuple [fields= [name:chinois on main , addr:2709 main st. , city:santa monica , phone:310/392-9025 , type:french , class:5 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+13;class:6 ;[name:citrus , addr:6703 melrose ave. , city:los angeles , phone:213-857-0034 , type:californian , class:6 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+24;class:11 ;[name:l'orangerie , addr:903 n. la cienega blvd. , city:los angeles , phone:310/652-9770 , type:french , class:11 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+39;class:19 ;[name:rex il ristorante , addr:617 s. olive st. , city:los angeles , phone:213-627-2300 , type:nuova cucina italian , class:19 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+51;class:25 ;[name:aureole , addr:34 e. 61st st. , city:new york city , phone:? , type:american (new) , class:25 ];[(name)_3.0, (addr)_3.0] -> (class)_0.0; exact
+77;class:38 ;[name:jo jo , addr:160 e. 64th st. , city:new york city , phone:212-223-5656 , type:french bistro , class:38 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+84;class:41 ;[name:le bernardin , addr:155 w. 51st st. , city:new york , phone:212/489-1515 , type:french , class:41 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+85;class:42 ;[name:les celebrites , addr:155 w. 58th st. , city:new york city , phone:212-484-5113 , type:french (classic) , class:42 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+123;class:61 ;SimilarityTuple [fields= [name:sign of the dove , addr:1110 third ave. , city:new york city , phone:212-861-8080 , type:american (new) , class:61 ]weightedSimilarity=0.5, fieldIndex=5];[(name)_3.0, (phone)_2.0] -> (class)_0.0;0.5
+132;class:65 ;SimilarityTuple [fields= [name:union square cafe , addr:21 e. 16th st. , city:new york , phone:212/243-4020 , type:american , class:65 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+167;class:83 ;[name:heera of india , addr:595 piedmont ave. , city:atlanta , phone:404-876-4408 , type:indian , class:83 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+175;class:87 ;[name:nikolai's roof , addr:255 courtland st. , city:atlanta , phone:404-221-6362 , type:continental , class:87 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+182;phone:404-237-2700 ;SimilarityTuple [fields= [name:ritz-carlton cafe (buckhead) , addr:3434 peachtree rd. ne , city:atlanta , phone:404-237-2700 , type:american (new) , class:89 ]weightedSimilarity=0.25, fieldIndex=3];[(addr)_1.0, (city)_3.0, (type)_3.0, (class)_3.0] -> (phone)_1.0;0.25
+189;class:94 ;[name:alain rondelli , addr:126 clement st. , city:san francisco , phone:415-387-0408 , type:french (new) , class:94 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+193;phone:415-543-6084 ;SimilarityTuple [fields= [name:boulevard , addr:1 mission st. , city:san francisco , phone:415-543-6084 , type:american (new) , class:? ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+194;class:96 ;[name:boulevard , addr:1 mission st. , city:san francisco , phone:415-543-6084 , type:american , class:96 ];[(name)_3.0, (addr)_3.0] -> (class)_0.0; exact
+201;class:100 ;[name:fleur de lys , addr:777 sutter st. , city:san francisco , phone:415-673-7779 , type:french (new) , class:100 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+207;class:103 ;[name:khan toke thai house , addr:5937 geary blvd. , city:san francisco , phone:415-668-6654 , type:thai , class:103 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+550;city:las vegas ;[name:steak house , addr:2880 las vegas blvd. s , city:las vegas , phone:702/734-0410 , type:steak houses , class:72 ];[(phone)_0.0] -> (city)_0.0; exact

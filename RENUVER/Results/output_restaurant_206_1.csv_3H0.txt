@@ -1,0 +1,15 @@
+13;phone:213-857-0034 ;SimilarityTuple [fields= [name:citrus , addr:6703 melrose ave. , city:los angeles , phone:213-857-0034 , type:californian , class:6 ]weightedSimilarity=0.0, fieldIndex=3];[(type)_3.0, (class)_0.0] -> (phone)_2.0;0.0
+36;class:17 ;[name:philippe's the original , addr:1001 n. alameda st. , city:los angeles , phone:213/628-3781 , type:? , class:17 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+37;phone:818-990-0500 ;SimilarityTuple [fields= [name:pinot bistro , addr:12969 ventura blvd. , city:studio city , phone:818-990-0500 , type:french bistro , class:18 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+39;class:19 ;[name:rex il ristorante , addr:617 s. olive st. , city:? , phone:213-627-2300 , type:nuova cucina italian , class:19 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+50;class:24 ;[name:aquavit , addr:13 w. 54th st. , city:new york , phone:212/307-7311 , type:continental , class:24 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+52;class:25 ;[name:aureole , addr:34 e. 61st st. , city:new york , phone:212/ 319-1660 , type:american , class:25 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+72;class:35 ;[name:gotham bar & grill , addr:12 e. 12th st. , city:new york , phone:212/620-4020 , type:american , class:35 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+92;class:45 ;[name:manhattan ocean club , addr:57 w. 58th st. , city:new york , phone:212/ 371-7777 , type:seafood , class:45 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+113;class:56 ;[name:river cafe , addr:1 water st. , city:brooklyn , phone:718-522-5200 , type:american (new) , class:56 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+141;city:las vegas ;[name:cafe roma , addr:3570 las vegas blvd. s , city:las vegas , phone:702/731-7547 , type:coffee shops/diners , class:433 ];[(phone)_0.0] -> (city)_0.0; exact
+190;class:94 ;[name:alain rondelli , addr:126 clement st. , city:san francisco , phone:415/387-0408 , type:french , class:94 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+207;phone:415-668-6654 ;SimilarityTuple [fields= [name:khan toke thai house , addr:5937 geary blvd. , city:san francisco , phone:415-668-6654 , type:thai , class:103 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+211;class:105 ;SimilarityTuple [fields= [name:lulu restaurant-bis-cafe , addr:816 folsom st. , city:san francisco , phone:415-495-5775 , type:mediterranean , class:105 ]weightedSimilarity=0.3333333333333333, fieldIndex=5];[(addr)_2.0, (phone)_1.0, (type)_3.0] -> (class)_1.0;0.3333333333333333
+223;class:111 ;[name:rose pistola , addr:532 columbus ave. , city:? , phone:415-399-0499 , type:italian , class:111 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+542;city:las vegas ;[name:mikado , addr:3400 las vegas blvd. s , city:las vegas , phone:702/791-7111 , type:asian , class:446 ];[(phone)_0.0] -> (city)_0.0; exact

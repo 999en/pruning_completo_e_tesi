@@ -1,0 +1,19 @@
+24;class:11 ;SimilarityTuple [fields= [name:l'orangerie , addr:903 n. la cienega blvd. , city:los angeles , phone:310/652-9770 , type:french , class:11 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+27;class:13 ;[name:locanda veneta , addr:8638 w. third st. , city:los angeles , phone:310-274-1893 , type:italian , class:13 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+29;class:14 ;[name:matsuhisa , addr:129 n. la cienega blvd. , city:beverly hills , phone:310-659-9639 , type:seafood , class:14 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+35;class:17 ;[name:philippe the original , addr:1001 n. alameda st. , city:chinatown , phone:213-628-3781 , type:cafeterias , class:17 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+44;class:21 ;[name:valentino , addr:3115 pico blvd. , city:santa monica , phone:310/829-4313 , type:italian , class:21 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+51;class:25 ;[name:aureole , addr:34 e. 61st st. , city:new york city , phone:212-319-1660 , type:american (new) , class:25 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+60;class:29 ;[name:carnegie deli , addr:854 7th ave.  between 54th and 55th sts. , city:new york , phone:212/757-2245 , type:delicatessen , class:29 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+79;class:39 ;[name:la caravelle , addr:33 w. 55th st. , city:new york city , phone:212-586-4252 , type:french (classic) , class:39 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+84;class:41 ;SimilarityTuple [fields= [name:le bernardin , addr:155 w. 51st st. , city:new york , phone:212/489-1515 , type:french , class:41 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+97;class:48 ;[name:mi cocina , addr:57 jane st. , city:new york city , phone:212-627-8273 , type:mexican , class:48 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+112;class:55 ;[name:rainbow room , addr:30 rockefeller plaza , city:new york , phone:212/632-5000 , type:or 212/632-5100 american , class:55 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+114;class:56 ;[name:river cafe , addr:1 water st. at the east river , city:brooklyn , phone:718/522-5200 , type:american , class:56 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+124;class:61 ;[name:sign of the dove , addr:1110 3rd ave. at 65th st. , city:new york , phone:212/861-8080 , type:american , class:61 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+174;phone:404/876-1800 ;SimilarityTuple [fields= [name:mary mac's tea room , addr:224 ponce de leon ave. , city:? , phone:404/876-1800 , type:southern , class:86 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+182;city:atlanta ;[name:ritz-carlton cafe (buckhead) , addr:3434 peachtree rd. ne , city:atlanta , phone:404-237-2700 , type:american (new) , class:89 ];[(phone)_0.0] -> (city)_0.0; exact
+191;class:95 ;[name:aqua , addr:252 california st. , city:san francisco , phone:415-956-9662 , type:american (new) , class:95 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+193;class:96 ;[name:boulevard , addr:1 mission st. , city:san francisco , phone:415-543-6084 , type:american (new) , class:96 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+209;class:104 ;SimilarityTuple [fields= [name:la folie , addr:2316 polk st. , city:san francisco , phone:415-776-5577 , type:french (new) , class:104 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+212;phone:415/495-5775 ;SimilarityTuple [fields= [name:lulu , addr:816 folsom st. , city:san francisco , phone:415/495-5775 , type:mediterranean , class:105 ]weightedSimilarity=0.0, fieldIndex=3];[(addr)_1.0, (city)_3.0, (type)_3.0, (class)_3.0] -> (phone)_1.0;0.0

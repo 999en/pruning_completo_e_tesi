@@ -1,0 +1,126 @@
+### CLASS Tuple (file jarx/Tuple.class)
+=== METHOD <init>(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;II)V (access 0x1) ===
+    0: aload_0          
+    1: invokespecial    #21 // java/lang/Object.<init>.()V
+    4: aload_0          
+    5: aload_1          
+    6: putfield         #24 // Tuple.fields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+    9: aload_0          
+   10: iload_2          
+   11: putfield         #26 // Tuple.row.I
+   14: aload_0          
+   15: iload_3          
+   16: putfield         #28 // Tuple.index.I
+   19: return           
+=== METHOD getIndex()I (access 0x1) ===
+    0: aload_0          
+    1: getfield         #28 // Tuple.index.I
+    4: ireturn          
+=== METHOD getRow()I (access 0x1) ===
+    0: aload_0          
+    1: getfield         #26 // Tuple.row.I
+    4: ireturn          
+=== METHOD getFields()Lit/unimi/dsi/fastutil/objects/ObjectArrayList; (access 0x1) ===
+    0: aload_0          
+    1: getfield         #24 // Tuple.fields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+    4: areturn          
+=== METHOD setFields(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;)V (access 0x1) ===
+    0: aload_0          
+    1: aload_1          
+    2: putfield         #24 // Tuple.fields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+    5: return           
+=== METHOD toString()Ljava/lang/String; (access 0x1) ===
+    0: aload_0          
+    1: getfield         #24 // Tuple.fields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+    4: invokevirtual    #46 // it/unimi/dsi/fastutil/objects/ObjectArrayList.toString.()Ljava/lang/String;
+    7: areturn          
+=== METHOD equals(Ljava/lang/Object;)Z (access 0x1) ===
+    0: aload_1          
+    1: instanceof       #1 // Tuple
+    4: ifne             -> 5 (abs 9)
+    7: iconst_0         
+    8: ireturn          
+    9: aload_1          
+   10: checkcast        #1 // Tuple
+   13: astore_2         
+   14: iconst_0         
+   15: istore_3         
+   16: goto             -> 42 (abs 58)
+   19: aload_0          
+   20: getfield         #24 // Tuple.fields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+   23: iload_3          
+   24: invokevirtual    #52 // it/unimi/dsi/fastutil/objects/ObjectArrayList.get.(I)Ljava/lang/Object;
+   27: checkcast        #56 // Field
+   30: invokevirtual    #58 // Field.getValue.()Ljava/lang/String;
+   33: aload_2          
+   34: invokevirtual    #61 // Tuple.getFields.()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+   37: iload_3          
+   38: invokevirtual    #52 // it/unimi/dsi/fastutil/objects/ObjectArrayList.get.(I)Ljava/lang/Object;
+   41: checkcast        #56 // Field
+   44: invokevirtual    #58 // Field.getValue.()Ljava/lang/String;
+   47: invokevirtual    #63 // java/lang/String.equals.(Ljava/lang/Object;)Z
+   50: ifne             -> 5 (abs 55)
+   53: iconst_0         
+   54: ireturn          
+   55: iinc             slot 3 by 1
+   58: iload_3          
+   59: aload_0          
+   60: getfield         #24 // Tuple.fields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+   63: invokevirtual    #67 // it/unimi/dsi/fastutil/objects/ObjectArrayList.size.()I
+   66: if_icmplt        -> -47 (abs 19)
+   69: iconst_1         
+   70: ireturn          
+=== METHOD getNullFieldsCount()I (access 0x1) ===
+    0: aload_0          
+    1: getfield         #76 // Tuple.nullFieldsCount.I
+    4: ireturn          
+=== METHOD setNullFieldsCount(I)V (access 0x1) ===
+    0: aload_0          
+    1: iload_1          
+    2: putfield         #76 // Tuple.nullFieldsCount.I
+    5: return           
+=== METHOD getNullFields()Lit/unimi/dsi/fastutil/objects/ObjectArrayList; (access 0x1) ===
+    0: aload_0          
+    1: getfield         #81 // Tuple.nullFields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+    4: areturn          
+=== METHOD setNullFields(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;)V (access 0x1) ===
+    0: aload_0          
+    1: aload_1          
+    2: putfield         #81 // Tuple.nullFields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+    5: return           
+=== METHOD getInvolvedInLHSCount()I (access 0x1) ===
+    0: aload_0          
+    1: getfield         #85 // Tuple.involvedInLHSCount.I
+    4: ireturn          
+=== METHOD setInvolvedInLHSCount(I)V (access 0x1) ===
+    0: aload_0          
+    1: iload_1          
+    2: putfield         #85 // Tuple.involvedInLHSCount.I
+    5: return           
+=== METHOD clone()LTuple; (access 0x1) ===
+    0: new              #1 // Tuple
+    3: dup              
+    4: aload_0          
+    5: getfield         #24 // Tuple.fields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+    8: invokevirtual    #93 // it/unimi/dsi/fastutil/objects/ObjectArrayList.clone.()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+   11: aload_0          
+   12: getfield         #26 // Tuple.row.I
+   15: aload_0          
+   16: getfield         #28 // Tuple.index.I
+   19: invokespecial    #95 // Tuple.<init>.(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;II)V
+   22: astore_1         
+   23: aload_1          
+   24: aload_0          
+   25: getfield         #81 // Tuple.nullFields.Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+   28: invokevirtual    #93 // it/unimi/dsi/fastutil/objects/ObjectArrayList.clone.()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;
+   31: invokevirtual    #97 // Tuple.setNullFields.(Lit/unimi/dsi/fastutil/objects/ObjectArrayList;)V
+   34: aload_1          
+   35: aload_0          
+   36: getfield         #76 // Tuple.nullFieldsCount.I
+   39: invokevirtual    #99 // Tuple.setNullFieldsCount.(I)V
+   42: aload_1          
+   43: areturn          
+=== METHOD clone()Ljava/lang/Object; (access 0x1041) ===
+    0: aload_0          
+    1: invokevirtual    #102 // Tuple.clone.()LTuple;
+    4: areturn          

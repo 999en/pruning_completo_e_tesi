@@ -1,0 +1,9 @@
+38;class:18 ;[name:pinot bistro , addr:12969 ventura blvd. , city:los angeles , phone:818/990-0500 , type:french , class:18 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+49;class:24 ;[name:aquavit , addr:13 w. 54th st. , city:new york city , phone:212-307-7311 , type:scandinavian , class:24 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+55;class:27 ;SimilarityTuple [fields= [name:cafe des artistes , addr:1 w. 67th st. , city:new york city , phone:212-877-3500 , type:french (classic) , class:27 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+136;class:67 ;[name:chin's , addr:3200 las vegas blvd. s , city:las vegas , phone:702/733-8899 , type:asian , class:67 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+146;class:72 ;SimilarityTuple [fields= [name:steak house , addr:2880 las vegas blvd. s , city:las vegas , phone:702/734-0410 , type:steak houses , class:72 ]weightedSimilarity=1.0, fieldIndex=5];[(addr)_2.0, (phone)_1.0, (type)_3.0] -> (class)_1.0;1.0
+175;class:87 ;[name:nikolai's roof , addr:255 courtland st. , city:atlanta , phone:404-221-6362 , type:continental , class:87 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+211;class:105 ;SimilarityTuple [fields= [name:lulu restaurant-bis-cafe , addr:816 folsom st. , city:san francisco , phone:415-495-5775 , type:mediterranean , class:105 ]weightedSimilarity=0.3333333333333333, fieldIndex=5];[(addr)_2.0, (phone)_1.0, (type)_3.0] -> (class)_1.0;0.3333333333333333
+213;class:106 ;SimilarityTuple [fields= [name:masa's , addr:648 bush st. , city:san francisco , phone:415-989-7154 , type:french (new) , class:106 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+217;class:108 ;[name:plumpjack cafe , addr:3127 fillmore st. , city:san francisco , phone:415-563-4755 , type:american (new) , class:108 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact

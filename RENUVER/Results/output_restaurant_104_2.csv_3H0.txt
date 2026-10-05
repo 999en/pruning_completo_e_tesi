@@ -1,0 +1,7 @@
+43;class:21 ;[name:valentino , addr:3115 pico blvd. , city:santa monica , phone:310-829-4313 , type:italian , class:21 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+126;class:62 ;[name:smith & wollensky , addr:201 e. 49th st. , city:new york , phone:212/753-1530 , type:american , class:62 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+149;class:74 ;[name:abruzzi , addr:2355 peachtree rd. ne , city:atlanta , phone:404-261-8186 , type:italian , class:74 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+162;class:80 ;[name:delectables , addr:1 margaret mitchell sq. , city:atlanta , phone:404/681-2909 , type:american , class:80 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+163;class:81 ;[name:georgia grille , addr:2290 peachtree rd. , city:atlanta , phone:404-352-3517 , type:southwestern , class:81 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+191;class:95 ;[name:aqua , addr:252 california st. , city:san francisco , phone:415-956-9662 , type:american (new) , class:95 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+223;phone:415-399-0499 ;SimilarityTuple [fields= [name:rose pistola , addr:532 columbus ave. , city:san francisco , phone:415-399-0499 , type:italian , class:111 ]weightedSimilarity=0.0, fieldIndex=3];[(addr)_1.0, (city)_3.0, (type)_3.0, (class)_3.0] -> (phone)_1.0;0.0

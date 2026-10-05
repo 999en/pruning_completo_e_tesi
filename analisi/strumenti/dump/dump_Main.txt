@@ -1,0 +1,251 @@
+### CLASS Main (file jarx/Main.class)
+
+=== METHOD <init>()V (access 0x1) ===
+      0: aload_0          
+      1: invokespecial    #8 // java/lang/Object.<init>.()V
+      4: return           
+  --- attribute LineNumberTable ---
+    line 9 @ pc 0
+  --- attribute LocalVariableTable ---
+    slot   0 [0,5) this : LMain;
+
+=== METHOD main([Ljava/lang/String;)V (access 0x9) ===
+      0: invokestatic     #19 // java/lang/management/ManagementFactory.getMemoryPoolMXBeans.()Ljava/util/List;
+      3: astore_1         
+      4: aload_0          
+      5: arraylength      
+      6: bipush           6
+      8: if_icmpeq        -> 15
+     11: getstatic        #25 // java/lang/System.out.Ljava/io/PrintStream;
+     14: ldc              #31 // USAGE:
+Column type comma separated - Dataset filename - split char of dataset's file - rfd filename - boolean equality threshold - Heuristics value
+(All parameter should be separated by a space
+     16: invokevirtual    #33 // java/io/PrintStream.println.(Ljava/lang/String;)V
+     19: iconst_0         
+     20: invokestatic     #39 // java/lang/System.exit.(I)V
+     23: new              #43 // java/io/PrintWriter
+     26: dup              
+     27: new              #45 // java/lang/StringBuilder
+     30: dup              
+     31: ldc              #47 // user.dir
+     33: invokestatic     #49 // java/lang/System.getProperty.(Ljava/lang/String;)Ljava/lang/String;
+     36: invokestatic     #53 // java/lang/String.valueOf.(Ljava/lang/Object;)Ljava/lang/String;
+     39: invokespecial    #59 // java/lang/StringBuilder.<init>.(Ljava/lang/String;)V
+     42: getstatic        #61 // java/io/File.separator.Ljava/lang/String;
+     45: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     48: ldc              #71 // Results
+     50: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     53: getstatic        #61 // java/io/File.separator.Ljava/lang/String;
+     56: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     59: ldc              #73 // output_
+     61: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     64: aload_0          
+     65: iconst_1         
+     66: aaload           
+     67: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     70: ldc              #75 // _
+     72: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     75: aload_0          
+     76: iconst_4         
+     77: aaload           
+     78: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     81: ldc              #77 // H
+     83: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     86: aload_0          
+     87: iconst_5         
+     88: aaload           
+     89: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     92: ldc              #79 // .txt
+     94: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+     97: invokevirtual    #81 // java/lang/StringBuilder.toString.()Ljava/lang/String;
+    100: invokespecial    #85 // java/io/PrintWriter.<init>.(Ljava/lang/String;)V
+    103: astore_2         
+    104: new              #43 // java/io/PrintWriter
+    107: dup              
+    108: new              #45 // java/lang/StringBuilder
+    111: dup              
+    112: ldc              #47 // user.dir
+    114: invokestatic     #49 // java/lang/System.getProperty.(Ljava/lang/String;)Ljava/lang/String;
+    117: invokestatic     #53 // java/lang/String.valueOf.(Ljava/lang/Object;)Ljava/lang/String;
+    120: invokespecial    #59 // java/lang/StringBuilder.<init>.(Ljava/lang/String;)V
+    123: getstatic        #61 // java/io/File.separator.Ljava/lang/String;
+    126: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    129: ldc              #86 // Logs
+    131: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    134: getstatic        #61 // java/io/File.separator.Ljava/lang/String;
+    137: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    140: ldc              #88 // log_
+    142: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    145: aload_0          
+    146: iconst_1         
+    147: aaload           
+    148: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    151: ldc              #75 // _
+    153: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    156: aload_0          
+    157: iconst_4         
+    158: aaload           
+    159: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    162: ldc              #77 // H
+    164: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    167: aload_0          
+    168: iconst_5         
+    169: aaload           
+    170: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    173: ldc              #79 // .txt
+    175: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    178: invokevirtual    #81 // java/lang/StringBuilder.toString.()Ljava/lang/String;
+    181: invokespecial    #85 // java/io/PrintWriter.<init>.(Ljava/lang/String;)V
+    184: astore_3         
+    185: new              #43 // java/io/PrintWriter
+    188: dup              
+    189: new              #45 // java/lang/StringBuilder
+    192: dup              
+    193: ldc              #47 // user.dir
+    195: invokestatic     #49 // java/lang/System.getProperty.(Ljava/lang/String;)Ljava/lang/String;
+    198: invokestatic     #53 // java/lang/String.valueOf.(Ljava/lang/Object;)Ljava/lang/String;
+    201: invokespecial    #59 // java/lang/StringBuilder.<init>.(Ljava/lang/String;)V
+    204: getstatic        #61 // java/io/File.separator.Ljava/lang/String;
+    207: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    210: ldc              #90 // Populated
+    212: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    215: getstatic        #61 // java/io/File.separator.Ljava/lang/String;
+    218: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    221: ldc              #73 // output_
+    223: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    226: aload_0          
+    227: iconst_1         
+    228: aaload           
+    229: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    232: ldc              #75 // _
+    234: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    237: aload_0          
+    238: iconst_4         
+    239: aaload           
+    240: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    243: ldc              #77 // H
+    245: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    248: aload_0          
+    249: iconst_5         
+    250: aaload           
+    251: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    254: ldc              #92 // .csv
+    256: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    259: invokevirtual    #81 // java/lang/StringBuilder.toString.()Ljava/lang/String;
+    262: invokespecial    #85 // java/io/PrintWriter.<init>.(Ljava/lang/String;)V
+    265: astore           slot 4
+    267: aload_0          
+    268: iconst_0         
+    269: aaload           
+    270: ldc              #94 // ,
+    272: invokevirtual    #96 // java/lang/String.split.(Ljava/lang/String;)[Ljava/lang/String;
+    275: astore           slot 5
+    277: new              #100 // FillingAlgorithm
+    280: dup              
+    281: aload_0          
+    282: iconst_1         
+    283: aaload           
+    284: aload_0          
+    285: iconst_2         
+    286: aaload           
+    287: aload_0          
+    288: iconst_3         
+    289: aaload           
+    290: ldc              #102 // ;
+    292: ldc              #104 // ?
+    294: aload            slot 5
+    296: aload_0          
+    297: iconst_4         
+    298: aaload           
+    299: invokestatic     #106 // java/lang/Integer.parseInt.(Ljava/lang/String;)I
+    302: aload_2          
+    303: aload_3          
+    304: aload            slot 4
+    306: invokespecial    #112 // FillingAlgorithm.<init>.(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;ILjava/io/PrintWriter;Ljava/io/PrintWriter;Ljava/io/PrintWriter;)V
+    309: astore           slot 6
+    311: aload            slot 6
+    313: aload_0          
+    314: iconst_5         
+    315: aaload           
+    316: invokestatic     #106 // java/lang/Integer.parseInt.(Ljava/lang/String;)I
+    319: invokevirtual    #115 // FillingAlgorithm.start.(I)V
+    322: lconst_0         
+    323: lstore           slot 7
+    325: aload_1          
+    326: invokeinterface  #118 // java/util/List.iterator.()Ljava/util/Iterator;
+    331: astore           slot 10
+    333: goto             -> 34
+    336: aload            slot 10
+    338: invokeinterface  #124 // java/util/Iterator.next.()Ljava/lang/Object;
+    343: checkcast        #130 // java/lang/management/MemoryPoolMXBean
+    346: astore           slot 9
+    348: aload            slot 9
+    350: invokeinterface  #132 // java/lang/management/MemoryPoolMXBean.getPeakUsage.()Ljava/lang/management/MemoryUsage;
+    355: astore           slot 11
+    357: lload            slot 7
+    359: aload            slot 11
+    361: invokevirtual    #136 // java/lang/management/MemoryUsage.getUsed.()J
+    364: ladd             
+    365: lstore           slot 7
+    367: aload            slot 10
+    369: invokeinterface  #142 // java/util/Iterator.hasNext.()Z
+    374: ifne             -> -38
+    377: lload            slot 7
+    379: ldc2_w           #146 // 1048576
+    382: ldiv             
+    383: lstore           slot 7
+    385: aload_3          
+    386: new              #45 // java/lang/StringBuilder
+    389: dup              
+    390: ldc              #148 // Memory Consumption: 
+    392: invokespecial    #59 // java/lang/StringBuilder.<init>.(Ljava/lang/String;)V
+    395: lload            slot 7
+    397: invokevirtual    #150 // java/lang/StringBuilder.append.(J)Ljava/lang/StringBuilder;
+    400: ldc              #153 // MB
+
+
+    402: invokevirtual    #67 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    405: invokevirtual    #81 // java/lang/StringBuilder.toString.()Ljava/lang/String;
+    408: invokevirtual    #155 // java/io/PrintWriter.println.(Ljava/lang/String;)V
+    411: aload_2          
+    412: invokevirtual    #156 // java/io/PrintWriter.close.()V
+    415: aload_3          
+    416: invokevirtual    #156 // java/io/PrintWriter.close.()V
+    419: aload            slot 4
+    421: invokevirtual    #156 // java/io/PrintWriter.close.()V
+    424: return           
+  --- attribute LineNumberTable ---
+    line 13 @ pc 0
+    line 15 @ pc 4
+    line 17 @ pc 11
+    line 20 @ pc 19
+    line 22 @ pc 23
+    line 23 @ pc 104
+    line 24 @ pc 185
+    line 26 @ pc 267
+    line 29 @ pc 277
+    line 31 @ pc 311
+    line 33 @ pc 322
+    line 34 @ pc 325
+    line 35 @ pc 348
+    line 36 @ pc 357
+    line 34 @ pc 367
+    line 41 @ pc 377
+    line 43 @ pc 385
+    line 46 @ pc 411
+    line 47 @ pc 415
+    line 48 @ pc 419
+    line 49 @ pc 424
+  --- attribute LocalVariableTable ---
+    slot   0 [0,425) args : [Ljava/lang/String;
+    slot   1 [4,425) pools : Ljava/util/List;
+    slot   2 [104,425) results : Ljava/io/PrintWriter;
+    slot   3 [185,425) log : Ljava/io/PrintWriter;
+    slot   4 [267,425) populatedDataset : Ljava/io/PrintWriter;
+    slot   5 [277,425) columnTypes : [Ljava/lang/String;
+    slot   6 [311,425) fa : LFillingAlgorithm;
+    slot   7 [325,425) memoryConsumption : J
+    slot   9 [348,367) pool : Ljava/lang/management/MemoryPoolMXBean;
+    slot  11 [357,367) peak : Ljava/lang/management/MemoryUsage;
+  --- attribute LocalVariableTypeTable ---
+  --- attribute StackMapTable ---

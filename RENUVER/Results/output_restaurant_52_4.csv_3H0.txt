@@ -1,0 +1,2 @@
+174;phone:404/876-1800 ;SimilarityTuple [fields= [name:mary mac's tea room , addr:224 ponce de leon ave. , city:atlanta , phone:404/876-1800 , type:southern , class:86 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+176;class:87 ;[name:nikolai's roof , addr:255 courtland st.  at harris st. , city:atlanta , phone:404/221-6362 , type:continental , class:87 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact

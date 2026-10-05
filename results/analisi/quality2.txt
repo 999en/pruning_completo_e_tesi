@@ -1,0 +1,302 @@
+========================================================================================================
+QUALITA' AGGREGATA PER DATASET
+========================================================================================================
+
+########## Physician_Compare_National_13   imputazioni=3  accuratezza=100.0% ##########
+    RHS_thr = 0                  n=     3  corr=     3  acc=100.0%  ###################################
+    |LHS| = 2                    n=     1  corr=     1  acc=100.0%  ###################################
+    |LHS| = 3                    n=     1  corr=     1  acc=100.0%  ###################################
+    |LHS| = 4                    n=     1  corr=     1  acc=100.0%  ###################################
+    EXACT                        n=     2  corr=     2  acc=100.0%  ###################################
+    SIMILARITY                   n=     1  corr=     1  acc=100.0%  ###################################
+    0 < wsim <= 0.5              n=     1  corr=     1  acc=100.0%  ###################################
+
+########## Physician_Compare_National_27   imputazioni=9  accuratezza=44.4% ##########
+    RHS_thr = 0                  n=     4  corr=     3  acc= 75.0%  ##########################
+    0 < RHS_thr <= 3             n=     5  corr=     1  acc= 20.0%  #######
+    |LHS| = 1                    n=     5  corr=     1  acc= 20.0%  #######
+    |LHS| = 2                    n=     2  corr=     2  acc=100.0%  ###################################
+    |LHS| = 3                    n=     1  corr=     1  acc=100.0%  ###################################
+    |LHS| = 4                    n=     1  corr=     0  acc=  0.0%  
+    EXACT                        n=     3  corr=     2  acc= 66.7%  #######################
+    SIMILARITY                   n=     6  corr=     2  acc= 33.3%  ###########
+    wsim = 0                     n=     2  corr=     1  acc= 50.0%  #################
+    0 < wsim <= 0.5              n=     4  corr=     1  acc= 25.0%  ########
+
+########## bridges_14   imputazioni=175  accuratezza=94.3% ##########
+    RHS_thr = 0                  n=    59  corr=    59  acc=100.0%  ###################################
+    0 < RHS_thr <= 3             n=    44  corr=    44  acc=100.0%  ###################################
+    3 < RHS_thr <= 6             n=    41  corr=    36  acc= 87.8%  ##############################
+    6 < RHS_thr <= 10            n=    23  corr=    20  acc= 87.0%  ##############################
+    RHS_thr > 10                 n=     8  corr=     6  acc= 75.0%  ##########################
+    |LHS| = 1                    n=    37  corr=    31  acc= 83.8%  #############################
+    |LHS| = 2                    n=    19  corr=    19  acc=100.0%  ###################################
+    |LHS| = 3                    n=    29  corr=    29  acc=100.0%  ###################################
+    |LHS| = 4                    n=    44  corr=    43  acc= 97.7%  ##################################
+    |LHS| = 5                    n=    23  corr=    23  acc=100.0%  ###################################
+    |LHS| >= 6                   n=    23  corr=    20  acc= 87.0%  ##############################
+    EXACT                        n=    49  corr=    49  acc=100.0%  ###################################
+    SIMILARITY                   n=   126  corr=   116  acc= 92.1%  ################################
+    wsim = 0                     n=    69  corr=    63  acc= 91.3%  ###############################
+    0 < wsim <= 0.5              n=    30  corr=    26  acc= 86.7%  ##############################
+    0.5 < wsim <= 1              n=    15  corr=    15  acc=100.0%  ###################################
+    1 < wsim <= 2                n=     5  corr=     5  acc=100.0%  ###################################
+    2 < wsim <= 5                n=     6  corr=     6  acc=100.0%  ###################################
+    wsim > 5                     n=     1  corr=     1  acc=100.0%  ###################################
+
+########## bridges_28   imputazioni=409  accuratezza=93.6% ##########
+    RHS_thr = 0                  n=   168  corr=   168  acc=100.0%  ###################################
+    0 < RHS_thr <= 3             n=    43  corr=    42  acc= 97.7%  ##################################
+    3 < RHS_thr <= 6             n=   100  corr=    94  acc= 94.0%  ################################
+    6 < RHS_thr <= 10            n=    97  corr=    78  acc= 80.4%  ############################
+    RHS_thr > 10                 n=     1  corr=     1  acc=100.0%  ###################################
+    |LHS| = 1                    n=   146  corr=   121  acc= 82.9%  #############################
+    |LHS| = 2                    n=    13  corr=    13  acc=100.0%  ###################################
+    |LHS| = 3                    n=    58  corr=    58  acc=100.0%  ###################################
+    |LHS| = 4                    n=    72  corr=    72  acc=100.0%  ###################################
+    |LHS| = 5                    n=    63  corr=    62  acc= 98.4%  ##################################
+    |LHS| >= 6                   n=    57  corr=    57  acc=100.0%  ###################################
+    EXACT                        n=   101  corr=   101  acc=100.0%  ###################################
+    SIMILARITY                   n=   308  corr=   282  acc= 91.6%  ################################
+    wsim = 0                     n=   170  corr=   151  acc= 88.8%  ###############################
+    0 < wsim <= 0.5              n=    73  corr=    68  acc= 93.2%  ################################
+    0.5 < wsim <= 1              n=    35  corr=    35  acc=100.0%  ###################################
+    1 < wsim <= 2                n=    12  corr=    11  acc= 91.7%  ################################
+    2 < wsim <= 5                n=    13  corr=    12  acc= 92.3%  ################################
+    wsim > 5                     n=     5  corr=     5  acc=100.0%  ###################################
+
+########## bridges_42   imputazioni=594  accuratezza=88.0% ##########
+    RHS_thr = 0                  n=   277  corr=   277  acc=100.0%  ###################################
+    0 < RHS_thr <= 3             n=    82  corr=    80  acc= 97.6%  ##################################
+    3 < RHS_thr <= 6             n=   124  corr=    89  acc= 71.8%  #########################
+    6 < RHS_thr <= 10            n=   108  corr=    75  acc= 69.4%  ########################
+    RHS_thr > 10                 n=     3  corr=     2  acc= 66.7%  #######################
+    |LHS| = 1                    n=   171  corr=   108  acc= 63.2%  ######################
+    |LHS| = 2                    n=    27  corr=    24  acc= 88.9%  ###############################
+    |LHS| = 3                    n=    68  corr=    67  acc= 98.5%  ##################################
+    |LHS| = 4                    n=   114  corr=   112  acc= 98.2%  ##################################
+    |LHS| = 5                    n=   126  corr=   125  acc= 99.2%  ##################################
+    |LHS| >= 6                   n=    88  corr=    87  acc= 98.9%  ##################################
+    EXACT                        n=   173  corr=   173  acc=100.0%  ###################################
+    SIMILARITY                   n=   421  corr=   350  acc= 83.1%  #############################
+    wsim = 0                     n=   242  corr=   181  acc= 74.8%  ##########################
+    0 < wsim <= 0.5              n=   129  corr=   124  acc= 96.1%  #################################
+    0.5 < wsim <= 1              n=    35  corr=    32  acc= 91.4%  ################################
+    1 < wsim <= 2                n=    13  corr=    13  acc=100.0%  ###################################
+    2 < wsim <= 5                n=     1  corr=     0  acc=  0.0%  
+    wsim > 5                     n=     1  corr=     0  acc=  0.0%  
+
+########## bridges_56   imputazioni=843  accuratezza=90.2% ##########
+    RHS_thr = 0                  n=   357  corr=   357  acc=100.0%  ###################################
+    0 < RHS_thr <= 3             n=   126  corr=   117  acc= 92.9%  ################################
+    3 < RHS_thr <= 6             n=   204  corr=   162  acc= 79.4%  ###########################
+    6 < RHS_thr <= 10            n=   149  corr=   117  acc= 78.5%  ###########################
+    RHS_thr > 10                 n=     7  corr=     7  acc=100.0%  ###################################
+    |LHS| = 1                    n=   260  corr=   187  acc= 71.9%  #########################
+    |LHS| = 2                    n=    60  corr=    53  acc= 88.3%  ##############################
+    |LHS| = 3                    n=   107  corr=   107  acc=100.0%  ###################################
+    |LHS| = 4                    n=   162  corr=   160  acc= 98.8%  ##################################
+    |LHS| = 5                    n=   168  corr=   167  acc= 99.4%  ##################################
+    |LHS| >= 6                   n=    86  corr=    86  acc=100.0%  ###################################
+    EXACT                        n=   229  corr=   229  acc=100.0%  ###################################
+    SIMILARITY                   n=   614  corr=   531  acc= 86.5%  ##############################
+    wsim = 0                     n=   357  corr=   291  acc= 81.5%  ############################
+    0 < wsim <= 0.5              n=   141  corr=   132  acc= 93.6%  ################################
+    0.5 < wsim <= 1              n=    63  corr=    62  acc= 98.4%  ##################################
+    1 < wsim <= 2                n=    37  corr=    36  acc= 97.3%  ##################################
+    2 < wsim <= 5                n=    11  corr=     7  acc= 63.6%  ######################
+    wsim > 5                     n=     5  corr=     3  acc= 60.0%  #####################
+
+########## bridges_70   imputazioni=878  accuratezza=87.7% ##########
+    RHS_thr = 0                  n=   329  corr=   329  acc=100.0%  ###################################
+    0 < RHS_thr <= 3             n=   133  corr=   124  acc= 93.2%  ################################
+    3 < RHS_thr <= 6             n=   253  corr=   202  acc= 79.8%  ###########################
+    6 < RHS_thr <= 10            n=   155  corr=   108  acc= 69.7%  ########################
+    RHS_thr > 10                 n=     8  corr=     7  acc= 87.5%  ##############################
+    |LHS| = 1                    n=   282  corr=   188  acc= 66.7%  #######################
+    |LHS| = 2                    n=    85  corr=    85  acc=100.0%  ###################################
+    |LHS| = 3                    n=   112  corr=   112  acc=100.0%  ###################################
+    |LHS| = 4                    n=   148  corr=   142  acc= 95.9%  #################################
+    |LHS| = 5                    n=   151  corr=   147  acc= 97.4%  ##################################
+    |LHS| >= 6                   n=   100  corr=    96  acc= 96.0%  #################################
+    EXACT                        n=   153  corr=   153  acc=100.0%  ###################################
+    SIMILARITY                   n=   725  corr=   617  acc= 85.1%  #############################
+    wsim = 0                     n=   381  corr=   304  acc= 79.8%  ###########################
+    0 < wsim <= 0.5              n=   223  corr=   212  acc= 95.1%  #################################
+    0.5 < wsim <= 1              n=    59  corr=    53  acc= 89.8%  ###############################
+    1 < wsim <= 2                n=    35  corr=    33  acc= 94.3%  #################################
+    2 < wsim <= 5                n=    19  corr=    12  acc= 63.2%  ######################
+    wsim > 5                     n=     8  corr=     3  acc= 37.5%  #############
+
+########## restaurant_1037   imputazioni=4533  accuratezza=72.0% ##########
+    RHS_thr = 0                  n=   819  corr=   802  acc= 97.9%  ##################################
+    0 < RHS_thr <= 3             n=   406  corr=    43  acc= 10.6%  ###
+    3 < RHS_thr <= 6             n=  1126  corr=   957  acc= 85.0%  #############################
+    6 < RHS_thr <= 10            n=   453  corr=   315  acc= 69.5%  ########################
+    RHS_thr > 10                 n=  1729  corr=  1148  acc= 66.4%  #######################
+    |LHS| = 1                    n=   342  corr=   194  acc= 56.7%  ###################
+    |LHS| = 2                    n=  1568  corr=  1080  acc= 68.9%  ########################
+    |LHS| = 3                    n=  1803  corr=  1363  acc= 75.6%  ##########################
+    |LHS| = 4                    n=   736  corr=   563  acc= 76.5%  ##########################
+    |LHS| = 5                    n=    84  corr=    65  acc= 77.4%  ###########################
+    EXACT                        n=   321  corr=   307  acc= 95.6%  #################################
+    SIMILARITY                   n=  4212  corr=  2958  acc= 70.2%  ########################
+    wsim = 0                     n=  1119  corr=   557  acc= 49.8%  #################
+    0 < wsim <= 0.5              n=   350  corr=   287  acc= 82.0%  ############################
+    0.5 < wsim <= 1              n=   752  corr=   580  acc= 77.1%  ##########################
+    1 < wsim <= 2                n=   801  corr=   589  acc= 73.5%  #########################
+    2 < wsim <= 5                n=  1063  corr=   846  acc= 79.6%  ###########################
+    wsim > 5                     n=   127  corr=    99  acc= 78.0%  ###########################
+
+########## restaurant_1555   imputazioni=5595  accuratezza=67.3% ##########
+    RHS_thr = 0                  n=   936  corr=   914  acc= 97.6%  ##################################
+    0 < RHS_thr <= 3             n=   495  corr=    12  acc=  2.4%  
+    3 < RHS_thr <= 6             n=   899  corr=   724  acc= 80.5%  ############################
+    6 < RHS_thr <= 10            n=   432  corr=   239  acc= 55.3%  ###################
+    RHS_thr > 10                 n=  2833  corr=  1877  acc= 66.3%  #######################
+    |LHS| = 1                    n=   806  corr=   482  acc= 59.8%  ####################
+    |LHS| = 2                    n=  2317  corr=  1471  acc= 63.5%  ######################
+    |LHS| = 3                    n=  1857  corr=  1373  acc= 73.9%  #########################
+    |LHS| = 4                    n=   563  corr=   407  acc= 72.3%  #########################
+    |LHS| = 5                    n=    52  corr=    33  acc= 63.5%  ######################
+    EXACT                        n=   219  corr=   215  acc= 98.2%  ##################################
+    SIMILARITY                   n=  5376  corr=  3551  acc= 66.1%  #######################
+    wsim = 0                     n=  1642  corr=   818  acc= 49.8%  #################
+    0 < wsim <= 0.5              n=   590  corr=   450  acc= 76.3%  ##########################
+    0.5 < wsim <= 1              n=  1185  corr=   841  acc= 71.0%  ########################
+    1 < wsim <= 2                n=  1027  corr=   764  acc= 74.4%  ##########################
+    2 < wsim <= 5                n=   828  corr=   605  acc= 73.1%  #########################
+    wsim > 5                     n=   104  corr=    73  acc= 70.2%  ########################
+
+########## restaurant_2074   imputazioni=7185  accuratezza=51.3% ##########
+    RHS_thr = 0                  n=   775  corr=   768  acc= 99.1%  ##################################
+    0 < RHS_thr <= 3             n=   554  corr=    25  acc=  4.5%  #
+    3 < RHS_thr <= 6             n=   588  corr=   378  acc= 64.3%  ######################
+    6 < RHS_thr <= 10            n=  1194  corr=   183  acc= 15.3%  #####
+    RHS_thr > 10                 n=  4074  corr=  2335  acc= 57.3%  ####################
+    |LHS| = 1                    n=  1561  corr=   757  acc= 48.5%  ################
+    |LHS| = 2                    n=  3353  corr=  1713  acc= 51.1%  #################
+    |LHS| = 3                    n=  1931  corr=  1018  acc= 52.7%  ##################
+    |LHS| = 4                    n=   330  corr=   197  acc= 59.7%  ####################
+    |LHS| = 5                    n=    10  corr=     4  acc= 40.0%  ##############
+    EXACT                        n=    42  corr=    40  acc= 95.2%  #################################
+    SIMILARITY                   n=  7143  corr=  3649  acc= 51.1%  #################
+    wsim = 0                     n=  2145  corr=   996  acc= 46.4%  ################
+    0 < wsim <= 0.5              n=  1217  corr=   601  acc= 49.4%  #################
+    0.5 < wsim <= 1              n=  1714  corr=   933  acc= 54.4%  ###################
+    1 < wsim <= 2                n=  1316  corr=   775  acc= 58.9%  ####################
+    2 < wsim <= 5                n=   682  corr=   315  acc= 46.2%  ################
+    wsim > 5                     n=    69  corr=    29  acc= 42.0%  ##############
+
+########## restaurant_518   imputazioni=2456  accuratezza=78.2% ##########
+    RHS_thr = 0                  n=   491  corr=   491  acc=100.0%  ###################################
+    0 < RHS_thr <= 3             n=   181  corr=    39  acc= 21.5%  #######
+    3 < RHS_thr <= 6             n=   892  corr=   811  acc= 90.9%  ###############################
+    6 < RHS_thr <= 10            n=   204  corr=   161  acc= 78.9%  ###########################
+    RHS_thr > 10                 n=   688  corr=   419  acc= 60.9%  #####################
+    |LHS| = 1                    n=    86  corr=    54  acc= 62.8%  #####################
+    |LHS| = 2                    n=   556  corr=   415  acc= 74.6%  ##########################
+    |LHS| = 3                    n=  1175  corr=   944  acc= 80.3%  ############################
+    |LHS| = 4                    n=   551  corr=   434  acc= 78.8%  ###########################
+    |LHS| = 5                    n=    88  corr=    74  acc= 84.1%  #############################
+    EXACT                        n=   320  corr=   320  acc=100.0%  ###################################
+    SIMILARITY                   n=  2136  corr=  1601  acc= 75.0%  ##########################
+    wsim = 0                     n=   453  corr=   236  acc= 52.1%  ##################
+    0 < wsim <= 0.5              n=   119  corr=   100  acc= 84.0%  #############################
+    0.5 < wsim <= 1              n=   252  corr=   199  acc= 79.0%  ###########################
+    1 < wsim <= 2                n=   406  corr=   315  acc= 77.6%  ###########################
+    2 < wsim <= 5                n=   800  corr=   671  acc= 83.9%  #############################
+    wsim > 5                     n=   106  corr=    80  acc= 75.5%  ##########################
+
+
+========================================================================================================
+CONCENTRAZIONE: quante RFD servono per ottenere X% delle imputazioni CORRETTE?
+========================================================================================================
+
+--- Physician_Compare_National_13: 3 RFD usate, 3 imputazioni corrette ---
+      50% delle corrette raggiunto con    2 RFD ( 66.7% del set usato)
+      80% delle corrette raggiunto con    3 RFD (100.0% del set usato)
+      90% delle corrette raggiunto con    3 RFD (100.0% del set usato)
+      95% delle corrette raggiunto con    3 RFD (100.0% del set usato)
+     100% delle corrette raggiunto con    3 RFD (100.0% del set usato)
+    RFD con 0 imputazioni corrette: 0 (0.0%), responsabili di 0 imputazioni sbagliate
+
+--- Physician_Compare_National_27: 6 RFD usate, 4 imputazioni corrette ---
+      50% delle corrette raggiunto con    2 RFD ( 33.3% del set usato)
+      80% delle corrette raggiunto con    4 RFD ( 66.7% del set usato)
+      90% delle corrette raggiunto con    4 RFD ( 66.7% del set usato)
+      95% delle corrette raggiunto con    4 RFD ( 66.7% del set usato)
+     100% delle corrette raggiunto con    4 RFD ( 66.7% del set usato)
+    RFD con 0 imputazioni corrette: 2 (33.3%), responsabili di 2 imputazioni sbagliate
+
+--- bridges_14: 135 RFD usate, 165 imputazioni corrette ---
+      50% delle corrette raggiunto con   46 RFD ( 34.1% del set usato)
+      80% delle corrette raggiunto con   95 RFD ( 70.4% del set usato)
+      90% delle corrette raggiunto con  112 RFD ( 83.0% del set usato)
+      95% delle corrette raggiunto con  120 RFD ( 88.9% del set usato)
+     100% delle corrette raggiunto con  128 RFD ( 94.8% del set usato)
+    RFD con 0 imputazioni corrette: 7 (5.2%), responsabili di 7 imputazioni sbagliate
+
+--- bridges_28: 226 RFD usate, 383 imputazioni corrette ---
+      50% delle corrette raggiunto con   56 RFD ( 24.8% del set usato)
+      80% delle corrette raggiunto con  149 RFD ( 65.9% del set usato)
+      90% delle corrette raggiunto con  187 RFD ( 82.7% del set usato)
+      95% delle corrette raggiunto con  206 RFD ( 91.2% del set usato)
+     100% delle corrette raggiunto con  225 RFD ( 99.6% del set usato)
+    RFD con 0 imputazioni corrette: 1 (0.4%), responsabili di 1 imputazioni sbagliate
+
+--- bridges_42: 313 RFD usate, 523 imputazioni corrette ---
+      50% delle corrette raggiunto con   78 RFD ( 24.9% del set usato)
+      80% delle corrette raggiunto con  203 RFD ( 64.9% del set usato)
+      90% delle corrette raggiunto con  255 RFD ( 81.5% del set usato)
+      95% delle corrette raggiunto con  281 RFD ( 89.8% del set usato)
+     100% delle corrette raggiunto con  307 RFD ( 98.1% del set usato)
+    RFD con 0 imputazioni corrette: 6 (1.9%), responsabili di 9 imputazioni sbagliate
+
+--- bridges_56: 413 RFD usate, 760 imputazioni corrette ---
+      50% delle corrette raggiunto con   85 RFD ( 20.6% del set usato)
+      80% delle corrette raggiunto con  258 RFD ( 62.5% del set usato)
+      90% delle corrette raggiunto con  334 RFD ( 80.9% del set usato)
+      95% delle corrette raggiunto con  372 RFD ( 90.1% del set usato)
+     100% delle corrette raggiunto con  410 RFD ( 99.3% del set usato)
+    RFD con 0 imputazioni corrette: 3 (0.7%), responsabili di 4 imputazioni sbagliate
+
+--- bridges_70: 405 RFD usate, 770 imputazioni corrette ---
+      50% delle corrette raggiunto con   78 RFD ( 19.3% del set usato)
+      80% delle corrette raggiunto con  237 RFD ( 58.5% del set usato)
+      90% delle corrette raggiunto con  314 RFD ( 77.5% del set usato)
+      95% delle corrette raggiunto con  353 RFD ( 87.2% del set usato)
+     100% delle corrette raggiunto con  391 RFD ( 96.5% del set usato)
+    RFD con 0 imputazioni corrette: 14 (3.5%), responsabili di 14 imputazioni sbagliate
+
+--- restaurant_1037: 546 RFD usate, 3265 imputazioni corrette ---
+      50% delle corrette raggiunto con   35 RFD (  6.4% del set usato)
+      80% delle corrette raggiunto con  132 RFD ( 24.2% del set usato)
+      90% delle corrette raggiunto con  221 RFD ( 40.5% del set usato)
+      95% delle corrette raggiunto con  301 RFD ( 55.1% del set usato)
+     100% delle corrette raggiunto con  448 RFD ( 82.1% del set usato)
+    RFD con 0 imputazioni corrette: 98 (17.9%), responsabili di 535 imputazioni sbagliate
+
+--- restaurant_1555: 521 RFD usate, 3766 imputazioni corrette ---
+      50% delle corrette raggiunto con   24 RFD (  4.6% del set usato)
+      80% delle corrette raggiunto con  106 RFD ( 20.3% del set usato)
+      90% delle corrette raggiunto con  190 RFD ( 36.5% del set usato)
+      95% delle corrette raggiunto con  271 RFD ( 52.0% del set usato)
+     100% delle corrette raggiunto con  432 RFD ( 82.9% del set usato)
+    RFD con 0 imputazioni corrette: 89 (17.1%), responsabili di 629 imputazioni sbagliate
+
+--- restaurant_2074: 585 RFD usate, 3689 imputazioni corrette ---
+      50% delle corrette raggiunto con   13 RFD (  2.2% del set usato)
+      80% delle corrette raggiunto con   64 RFD ( 10.9% del set usato)
+      90% delle corrette raggiunto con  126 RFD ( 21.5% del set usato)
+      95% delle corrette raggiunto con  191 RFD ( 32.6% del set usato)
+     100% delle corrette raggiunto con  328 RFD ( 56.1% del set usato)
+    RFD con 0 imputazioni corrette: 257 (43.9%), responsabili di 1688 imputazioni sbagliate
+
+--- restaurant_518: 449 RFD usate, 1921 imputazioni corrette ---
+      50% delle corrette raggiunto con   34 RFD (  7.6% del set usato)
+      80% delle corrette raggiunto con  126 RFD ( 28.1% del set usato)
+      90% delle corrette raggiunto con  205 RFD ( 45.7% del set usato)
+      95% delle corrette raggiunto con  255 RFD ( 56.8% del set usato)
+     100% delle corrette raggiunto con  351 RFD ( 78.2% del set usato)
+    RFD con 0 imputazioni corrette: 98 (21.8%), responsabili di 260 imputazioni sbagliate

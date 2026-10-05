@@ -1,0 +1,15 @@
+1;class:0 ;[name:arnie morton's of chicago , addr:435 s. la cienega blvd. , city:? , phone:310-246-1501 , type:steakhouses , class:0 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+13;class:6 ;[name:citrus , addr:6703 melrose ave. , city:los angeles , phone:213-857-0034 , type:californian , class:6 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+37;class:18 ;[name:pinot bistro , addr:12969 ventura blvd. , city:studio city , phone:818-990-0500 , type:french bistro , class:18 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+57;class:28 ;SimilarityTuple [fields= [name:carmine's , addr:2450 broadway , city:new york city , phone:212-362-2200 , type:? , class:28 ]weightedSimilarity=0.5, fieldIndex=5];[(name)_3.0, (phone)_2.0] -> (class)_0.0;0.5
+116;class:57 ;[name:san domenico , addr:240 central park s , city:new york , phone:212/265-5959 , type:italian , class:57 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+161;class:80 ;[name:delectables , addr:1 margaret mitchell sq. , city:atlanta , phone:404-681-2909 , type:cafeterias , class:80 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+172;class:85 ;[name:la grotta , addr:2637 peachtree rd.  peachtree house condominium , city:atlanta , phone:404/231-1368 , type:italian , class:85 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+178;class:88 ;[name:pano's and paul's , addr:1232 w. paces ferry rd. , city:atlanta , phone:404/261-3662 , type:international , class:88 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+184;city:atlanta ;[name:ritz-carlton cafe (atlanta) , addr:181 peachtree st. , city:atlanta , phone:404-659-0400 , type:american (new) , class:711 ];[(phone)_0.0] -> (city)_0.0; exact
+191;phone:415-956-9662 ;SimilarityTuple [fields= [name:aqua , addr:252 california st. , city:san francisco , phone:415-956-9662 , type:american (new) , class:95 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+197;phone:415-955-5555 ;SimilarityTuple [fields= [name:campton place , addr:340 stockton st. , city:san francisco , phone:415-955-5555 , type:american (new) , class:98 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+201;class:100 ;[name:fleur de lys , addr:777 sutter st. , city:san francisco , phone:415-673-7779 , type:french (new) , class:100 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+204;class:101 ;[name:fringale , addr:570 4th st. , city:? , phone:415/543-0573 , type:french , class:101 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+224;class:111 ;[name:rose pistola , addr:532 columbus ave. , city:san francisco , phone:415/399-0499 , type:italian , class:111 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+553;city:las vegas ;[name:lillie langtry's , addr:129 e. fremont st. , city:las vegas , phone:702/385-7111 , type:asian , class:442 ];[(phone)_0.0] -> (city)_0.0; exact

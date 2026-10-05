@@ -1,0 +1,4 @@
+74;class:36 ;[name:gramercy tavern , addr:42 e. 20th st.  between park ave. s and broadway , city:new york , phone:212/477-0777 , type:american , class:36 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+152;class:75 ;[name:bacchanalia , addr:3125 piedmont rd.  near peachtree rd. , city:atlanta , phone:404/365-0410 , type:international , class:75 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+167;class:83 ;[name:heera of india , addr:595 piedmont ave. , city:atlanta , phone:404-876-4408 , type:indian , class:83 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+198;phone:415/955-5555 ;SimilarityTuple [fields= [name:campton place , addr:340 stockton st. , city:san francisco , phone:415/955-5555 , type:? , class:98 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0

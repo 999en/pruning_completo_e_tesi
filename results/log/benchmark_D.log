@@ -1,0 +1,55 @@
+[     50s] thr=9 bridges_14_1.csv  A: acc=0.429 cov=0.500 rfd=8961  S1D: acc=0.500 cov=0.571 rfd=1358 (85%)
+[    104s] thr=9 bridges_14_2.csv  A: acc=0.429 cov=0.571 rfd=8961  S1D: acc=0.429 cov=0.571 rfd=1358 (85%)
+[    155s] thr=9 bridges_14_3.csv  A: acc=0.286 cov=0.429 rfd=8961  S1D: acc=0.357 cov=0.429 rfd=1358 (85%)
+[    222s] thr=9 bridges_14_4.csv  A: acc=0.357 cov=0.643 rfd=8961  S1D: acc=0.429 cov=0.643 rfd=1358 (85%)
+[    280s] thr=9 bridges_14_5.csv  A: acc=0.214 cov=0.286 rfd=8961  S1D: acc=0.214 cov=0.286 rfd=1358 (85%)
+[    371s] thr=9 bridges_28_1.csv  A: acc=0.250 cov=0.536 rfd=8961  S1D: acc=0.393 cov=0.607 rfd=1358 (85%)
+[    446s] thr=9 bridges_28_2.csv  A: acc=0.321 cov=0.536 rfd=8961  S1D: acc=0.393 cov=0.607 rfd=1358 (85%)
+[    508s] thr=9 bridges_28_3.csv  A: acc=0.429 cov=0.607 rfd=8961  S1D: acc=0.429 cov=0.571 rfd=1358 (85%)
+[    569s] thr=9 bridges_28_4.csv  A: acc=0.393 cov=0.607 rfd=8961  S1D: acc=0.429 cov=0.607 rfd=1358 (85%)
+[    633s] thr=9 bridges_28_5.csv  A: acc=0.286 cov=0.536 rfd=8961  S1D: acc=0.393 cov=0.571 rfd=1358 (85%)
+[    716s] thr=9 bridges_42_1.csv  A: acc=0.286 cov=0.548 rfd=8961  S1D: acc=0.357 cov=0.619 rfd=1358 (85%)
+[    800s] thr=9 bridges_42_2.csv  A: acc=0.190 cov=0.381 rfd=8961  S1D: acc=0.238 cov=0.476 rfd=1358 (85%)
+[    883s] thr=9 bridges_42_3.csv  A: acc=0.357 cov=0.548 rfd=8961  S1D: acc=0.381 cov=0.548 rfd=1358 (85%)
+[    954s] thr=9 bridges_42_4.csv  A: acc=0.476 cov=0.690 rfd=8961  S1D: acc=0.476 cov=0.690 rfd=1358 (85%)
+[   1034s] thr=9 bridges_42_5.csv  A: acc=0.381 cov=0.548 rfd=8961  S1D: acc=0.381 cov=0.500 rfd=1358 (85%)
+[   1144s] thr=9 bridges_56_1.csv  A: acc=0.268 cov=0.518 rfd=8961  S1D: acc=0.375 cov=0.625 rfd=1358 (85%)
+[   1269s] thr=9 bridges_56_2.csv  A: acc=0.321 cov=0.554 rfd=8961  S1D: acc=0.304 cov=0.554 rfd=1358 (85%)
+[   1385s] thr=9 bridges_56_3.csv  A: acc=0.411 cov=0.536 rfd=8961  S1D: acc=0.393 cov=0.536 rfd=1358 (85%)
+[   1488s] thr=9 bridges_56_4.csv  A: acc=0.304 cov=0.500 rfd=8961  S1D: acc=0.304 cov=0.464 rfd=1358 (85%)
+[   1617s] thr=9 bridges_56_5.csv  A: acc=0.375 cov=0.518 rfd=8961  S1D: acc=0.375 cov=0.536 rfd=1358 (85%)
+[   1739s] thr=9 bridges_70_1.csv  A: acc=0.286 cov=0.357 rfd=8961  S1D: acc=0.286 cov=0.386 rfd=1358 (85%)
+[   1883s] thr=9 bridges_70_2.csv  A: acc=0.243 cov=0.357 rfd=8961  S1D: acc=0.286 cov=0.386 rfd=1358 (85%)
+[   2015s] thr=9 bridges_70_3.csv  A: acc=0.300 cov=0.457 rfd=8961  S1D: acc=0.314 cov=0.514 rfd=1358 (85%)
+[   2156s] thr=9 bridges_70_4.csv  A: acc=0.329 cov=0.514 rfd=8961  S1D: acc=0.386 cov=0.571 rfd=1358 (85%)
+[   2287s] thr=9 bridges_70_5.csv  A: acc=0.257 cov=0.443 rfd=8961  S1D: acc=0.314 cov=0.500 rfd=1358 (85%)
+
+[benchmark] 50 record salvati in results_benchmark_D.json
+
+======================================================================================================================
+TABELLA COMPARATIVA AGGREGATA (media sui run, per soglia)
+======================================================================================================================
+ soglia  variante      RFD  rid.%   cover  precis    acc     F1  RFD usate    pre_ms   exec_ms     RMSE      MAE
+----------------------------------------------------------------------------------------------------------------------
+      9         A     8961    0.0   0.509   0.646  0.327  0.560       22.5     36857     41605  155.969   82.808
+      9       S1D     1358   84.8   0.535   0.687  0.365  0.593       19.4      5663      6530  118.569   65.674
+----------------------------------------------------------------------------------------------------------------------
+
+======================================================================================================================
+TEST DI WILCOXON SIGNED-RANK (appaiato per dataset+soglia+run, A vs B)
+======================================================================================================================
+  variante     metrica    n   mediana Δ       W+       W-     p-value  metodo
+----------------------------------------------------------------------------------------------------------------------
+       S1D    accuracy   17     +0.0571    148.0      5.0      0.0007  approssimazione normale con correzione per i ranghi medi
+       S1D    coverage   16     +0.0571    119.0     17.0      0.0088  approssimazione normale con correzione per i ranghi medi
+       S1D   precision   21     +0.0471    200.0     31.0      1.0000  esatta
+       S1D          f1   22     +0.0416    232.0     21.0      1.0000  esatta
+       S1D     correct   17     +2.0000    144.0      9.0      0.0013  approssimazione normale con correzione per i ranghi medi
+       S1D       wrong   16     -1.0000     56.0     80.0      0.5414  approssimazione normale con correzione per i ranghi medi
+       S1D  n_rfd_used   24     -3.0000      6.5    293.5    3.82e-05  approssimazione normale con correzione per i ranghi medi
+       S1D    total_ms   25 -58675.0000      0.0    325.0    5.96e-08  esatta
+       S1D      pre_ms   25 -28578.0000      0.0    325.0    5.96e-08  esatta
+       S1D     exec_ms   25 -31861.0000      0.0    325.0    5.96e-08  esatta
+       S1D        rmse    8     +0.0526     17.0     19.0      0.9453  esatta
+       S1D         mae    8     -0.1167     17.0     19.0      0.9453  esatta
+----------------------------------------------------------------------------------------------------------------------

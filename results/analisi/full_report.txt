@@ -1,0 +1,233 @@
+LOGS=430 POPULATED=280 RESULTS=380
+
+==============================================================================================================
+ACCURATEZZA PER FAMIGLIA x SOGLIA  (celle iniettate = ground truth)
+==============================================================================================================
+famiglia                                       thr  run iniettate  imputate  corrette   err  cover%  prec%   acc%
+Physician_Compare_National_13                    3    1        13         3         3     0    23.1  100.0   23.1
+Physician_Compare_National_13467                 3    1         0         0         0     0     0.0    0.0    0.0
+Physician_Compare_National_135                   3    1         0         0         0     0     0.0    0.0    0.0
+Physician_Compare_National_269                   3    1         0         0         0     0     0.0    0.0    0.0
+Physician_Compare_National_27                    3    1        27         9         4     5    33.3   44.4   14.8
+bridges_14                                       3    5        70        29        29     0    41.4  100.0   41.4
+bridges_14                                       6    5        56        26        25     1    46.4   96.2   44.6
+bridges_14                                       9    5        70        40        37     3    57.1   92.5   52.9
+bridges_14                                      12    5        70        41        38     3    58.6   92.7   54.3
+bridges_14                                      15    5        70        39        36     3    55.7   92.3   51.4
+bridges_28                                       3    5       140        58        58     0    41.4  100.0   41.4
+bridges_28                                       6    5       112        64        61     3    57.1   95.3   54.5
+bridges_28                                       9    5       140        95        88     7    67.9   92.6   62.9
+bridges_28                                      12    5       140        96        89     7    68.6   92.7   63.6
+bridges_28                                      15    5       140        96        87     9    68.6   90.6   62.1
+bridges_42                                       3    5       210        96        96     0    45.7  100.0   45.7
+bridges_42                                       6    5       168        98        86    12    58.3   87.8   51.2
+bridges_42                                       9    5       210       132       109    23    62.9   82.6   51.9
+bridges_42                                      12    5       210       132       113    19    62.9   85.6   53.8
+bridges_42                                      15    5       210       136       119    17    64.8   87.5   56.7
+bridges_56                                       3    5       280       134       129     5    47.9   96.3   46.1
+bridges_56                                       6    5       280       163       150    13    58.2   92.0   53.6
+bridges_56                                       9    5       280       182       158    24    65.0   86.8   56.4
+bridges_56                                      12    5       280       182       161    21    65.0   88.5   57.5
+bridges_56                                      15    5       280       182       162    20    65.0   89.0   57.9
+bridges_70                                       3    5       280       119       118     1    42.5   99.2   42.1
+bridges_70                                       6    5       350       186       166    20    53.1   89.2   47.4
+bridges_70                                       9    5       350       203       168    35    58.0   82.8   48.0
+bridges_70                                      12    5       350       203       175    28    58.0   86.2   50.0
+bridges_70                                      15    5       280       167       143    24    59.6   85.6   51.1
+glass_107                                       15   10       535         0         0     0     0.0    0.0    0.0
+glass_22                                        15   10       110         0         0     0     0.0    0.0    0.0
+glass_43                                        15   10       215         0         0     0     0.0    0.0    0.0
+glass_64                                        15   10       320         0         0     0     0.0    0.0    0.0
+glass_86                                        15   10       430         0         0     0     0.0    0.0    0.0
+restaurant_1037                                  3    5      5185       231       151    80     4.5   65.4    2.9
+restaurant_1037                                  6    5      5185       438       306   132     8.4   69.9    5.9
+restaurant_1037                                  9    5      5185       616       455   161    11.9   73.9    8.8
+restaurant_1037                                 12    5      5185      1444      1087   357    27.8   75.3   21.0
+restaurant_1037                                 15    5      5185      1804      1266   538    34.8   70.2   24.4
+restaurant_1555                                  3    5      7775       274       168   106     3.5   61.3    2.2
+restaurant_1555                                  6    5      7775       452       302   150     5.8   66.8    3.9
+restaurant_1555                                  9    5      7775       594       393   201     7.6   66.2    5.1
+restaurant_1555                                 12    5      7775      1849      1298   551    23.8   70.2   16.7
+restaurant_1555                                 15    5      7775      2426      1605   821    31.2   66.2   20.6
+restaurant_2074                                  3    5     10370       243       146    97     2.3   60.1    1.4
+restaurant_2074                                  6    5     10370       356       220   136     3.4   61.8    2.1
+restaurant_2074                                  9    5     10370       637       269   368     6.1   42.2    2.6
+restaurant_2074                                 12    5     10370      2497      1295  1202    24.1   51.9   12.5
+restaurant_2074                                 15    5     10370      3452      1759  1693    33.3   51.0   17.0
+restaurant_518                                   3    5      2590       125        96    29     4.8   76.8    3.7
+restaurant_518                                   6    5      2590       305       240    65    11.8   78.7    9.3
+restaurant_518                                   9    5      2590       391       328    63    15.1   83.9   12.7
+restaurant_518                                  12    5      2590       713       587   126    27.5   82.3   22.7
+restaurant_518                                  15    5      2590       922       670   252    35.6   72.7   25.9
+
+==============================================================================================================
+TEMPI E CARICO PER FAMIGLIA x SOGLIA (solo log non vuoti)
+==============================================================================================================
+famiglia                                       thr   n  rfd_dopo    null  non_imp   pre_ms  exec_ms  mem_MB
+Physician_Compare_National_13                    3   1       478      93       89    14969      473    1485
+Physician_Compare_National_27                    3   1       778     180      168   112625     3163    1790
+bridges_14                                       3   5      1652      91       85     7773     1559    1150
+bridges_14                                       6   4      5131      91       84    15162     4678    1790
+bridges_14                                       9   5      8582      91       83    24785     8322    2222
+bridges_14                                      12   5     14221      91       83    36441    20152    1240
+bridges_14                                      15   5     18463      91       83    46539    35035    1248
+bridges_28                                       3   5      1642     105       93     6706     1650    1407
+bridges_28                                       6   4      5114     105       89    14712     8450    1790
+bridges_28                                       9   5      8549     105       86    24262    19477    2154
+bridges_28                                      12   5     14177     105       86    35402    36390    1235
+bridges_28                                      15   5     18411     105       86    44065    58800    1254
+bridges_42                                       3   5      1606     119      100     6862     2195    1427
+bridges_42                                       6   4      5053     119       94    16014    12972    1789
+bridges_42                                       9   5      8473     119       93    25800    27763    2088
+bridges_42                                      12   5     14082     119       93    38570    55247    1231
+bridges_42                                      15   5     18243     119       92    48601    94378    1243
+bridges_56                                       3   5      1585     133      106     7192     2868    1434
+bridges_56                                       6   5      5015     133      100    16896    16851    1789
+bridges_56                                       9   5      8412     133       97    27732    40226    2142
+bridges_56                                      12   5     13999     133       97    39956    76820    1230
+bridges_56                                      15   5     18138     133       97    50527   122985    1242
+bridges_70                                       3   4      1554     147      117     7577     3118    1484
+bridges_70                                       6   5      4889     147      110    18625    21375    1790
+bridges_70                                       9   5      8199     147      106    30790    46274    2225
+bridges_70                                      12   5     13697     147      106    44850    93850    1235
+bridges_70                                      15   4     17796     147      105    54343   155364    1238
+glass_107                                       15   2     27322     107      102     7779    34767    6331
+glass_22                                        15   5     27436      22       19     7517     2297    1521
+glass_43                                        15   5     27436      43       38     7259     4559    1952
+glass_64                                        15   3     27413      64       58     7434    29042    5149
+glass_86                                        15   4     27382      86       79     7680    37487    6773
+restaurant_1037                                  3   5        22    1037      991     6323     4016    1303
+restaurant_1037                                  6   5       118    1037      949    31419    13981    1312
+restaurant_1037                                  9   5       435    1037      914    48743    76554    1458
+restaurant_1037                                 12   5      1249    1037      748    83255  1134160    1364
+restaurant_1037                                 15   5      1947    1037      676   114405  2036646    1363
+restaurant_104                                   3   5        22     104       97     8550      867    1244
+restaurant_104                                   6   5       120     104       90    44005     2630    1242
+restaurant_104                                   9   5       440     104       86    73948    16038    1262
+restaurant_104                                  12   5      1257     104       74   117864   221307    1271
+restaurant_104                                  15   5      1956     104       62   163538   420379    1265
+restaurant_155                                   3   5        22     155      145     8465     1216    1244
+restaurant_155                                   6   5       120     155      131    43230     4348    1251
+restaurant_155                                   9   5       440     155      124    72263    25671    1267
+restaurant_155                                  12   5      1257     155      108   112693   308696    1284
+restaurant_155                                  15   5      1956     155       92   162405   576334    1282
+restaurant_1555                                  3   5        21    1555     1500     5207     4003    1262
+restaurant_1555                                  6   5       111    1555     1465    26633    13099    1325
+restaurant_1555                                  9   5       426    1555     1436    43673    69711    1345
+restaurant_1555                                 12   5      1236    1555     1185    71308  1102471    1370
+restaurant_1555                                 15   5      1928    1555     1070   101510  2103296    1370
+restaurant_206                                   3   5        22     206      188     8264     1548    1247
+restaurant_206                                   6   5       120     206      173    42731     5054    1256
+restaurant_206                                   9   5       440     206      166    72253    27798    1280
+restaurant_206                                  12   5      1257     206      142   114093   388621    1291
+restaurant_206                                  15   5      1956     206      124   160385   717781    1286
+restaurant_2074                                  3   5        19    2074     2025     4594     3409    1304
+restaurant_2074                                  6   5       101    2074     2003    23357     9841    1293
+restaurant_2074                                  9   5       408    2074     1947    38095    54236    1338
+restaurant_2074                                 12   5      1209    2074     1575    62226   993377    1370
+restaurant_2074                                 15   5      1893    2074     1384    88476  2265916    1372
+restaurant_259                                   3   5        22     259      243     8061     1889    1252
+restaurant_259                                   6   5       120     259      220    41864     6878    1260
+restaurant_259                                   9   5       440     259      210    70000    38481    1289
+restaurant_259                                  12   5      1257     259      181   111221   479292    1302
+restaurant_259                                  15   5      1956     259      160   154497   893540    1302
+restaurant_518                                   3   5        22     518      493     7042     2761    1276
+restaurant_518                                   6   5       120     518      457    36358    10272    1285
+restaurant_518                                   9   5       440     518      440    56845    56367    1321
+restaurant_518                                  12   5      1257     518      375    94003   797569    1339
+restaurant_518                                  15   5      1956     518      334   131340  1448391    1332
+restaurant_52                                    3   5        22      52       49     8674      511    1237
+restaurant_52                                    6   5       120      52       44    45342     1893    1240
+restaurant_52                                    9   5       440      52       42    75106     9798    1256
+restaurant_52                                   12   5      1257      52       36   120375   129773    1254
+restaurant_52                                   15   5      1956      52       32   166576   226964    1255
+
+Log vuoti (nessuna statistica): 50  es: ['log_glass_107_1.csv.txt', 'log_glass_107_2.csv.txt', 'log_glass_107_3.csv.txt']
+
+==============================================================================================================
+FILE RFD
+==============================================================================================================
+Vocab.csv                                          RFD=     1  attributi=  5  LHS_size_medio= 2.0  RHS_distinti=  1
+breast-cancer-wisconsin.csv                        RFD= 14352  attributi= 11  LHS_size_medio= 6.4  RHS_distinti=  9
+bridges.csv                                        RFD=  2632  attributi= 13  LHS_size_medio= 5.5  RHS_distinti= 13
+car_data.csv                                       RFD=     8  attributi=  7  LHS_size_medio= 3.2  RHS_distinti=  2
+expIDEAS.csv                                       RFD=    12  attributi=  3  LHS_size_medio= 2.5  RHS_distinti=  3
+foodstamp.csv                                      RFD=     9  attributi=  5  LHS_size_medio= 3.4  RHS_distinti=  4
+output_false_12_bridges.csv                        RFD= 14711  attributi= 13  LHS_size_medio= 6.2  RHS_distinti= 13
+output_false_12_glass.csv                          RFD= 18747  attributi= 11  LHS_size_medio= 5.6  RHS_distinti= 11
+output_false_12_nursery.csv                        RFD=    65  attributi=  9  LHS_size_medio= 2.1  RHS_distinti=  8
+output_false_12_restaurant.csv                     RFD=  1262  attributi=  6  LHS_size_medio= 4.6  RHS_distinti=  6
+output_false_15_bridges.csv                        RFD= 18844  attributi= 13  LHS_size_medio= 6.3  RHS_distinti= 13
+output_false_15_glass.csv                          RFD= 27445  attributi= 11  LHS_size_medio= 5.7  RHS_distinti= 11
+output_false_15_nursery.csv                        RFD=    65  attributi=  9  LHS_size_medio= 2.1  RHS_distinti=  8
+output_false_15_restaurant.csv                     RFD=  1961  attributi=  6  LHS_size_medio= 4.6  RHS_distinti=  6
+output_false_3_Physician_Compare_National.csv      RFD=  3734  attributi= 13  LHS_size_medio= 6.2  RHS_distinti=  7
+output_false_3_Physician_Compare_National_remodulated_0.005.csv RFD=  1429  attributi= 13  LHS_size_medio= 4.4  RHS_distinti= 13
+output_false_3_Physician_Compare_National_remodulated_0.01.csv RFD=  2552  attributi= 13  LHS_size_medio= 4.6  RHS_distinti= 13
+output_false_3_Physician_Compare_National_remodulated_0.05.csv RFD=  3894  attributi= 13  LHS_size_medio= 5.1  RHS_distinti= 13
+output_false_3_Physician_Compare_National_remodulated_0.1.csv RFD=  5707  attributi= 13  LHS_size_medio= 5.4  RHS_distinti= 13
+output_false_3_bridges.csv                         RFD=  1830  attributi= 13  LHS_size_medio= 5.4  RHS_distinti= 13
+output_false_3_glass.csv                           RFD=  1511  attributi= 11  LHS_size_medio= 4.9  RHS_distinti= 11
+output_false_3_nursery.csv                         RFD=     1  attributi=  9  LHS_size_medio= 9.0  RHS_distinti=  1
+output_false_3_restaurant.csv                      RFD=    25  attributi=  6  LHS_size_medio= 3.6  RHS_distinti=  6
+output_false_6_bridges.csv                         RFD=  5381  attributi= 13  LHS_size_medio= 5.9  RHS_distinti= 13
+output_false_6_glass.csv                           RFD=  5763  attributi= 11  LHS_size_medio= 5.3  RHS_distinti= 11
+output_false_6_nursery.csv                         RFD=     9  attributi=  9  LHS_size_medio= 2.8  RHS_distinti=  2
+output_false_6_restaurant.csv                      RFD=   124  attributi=  6  LHS_size_medio= 4.1  RHS_distinti=  6
+output_false_9_bridges.csv                         RFD=  8961  attributi= 13  LHS_size_medio= 6.0  RHS_distinti= 13
+output_false_9_glass.csv                           RFD= 11648  attributi= 11  LHS_size_medio= 5.5  RHS_distinti= 11
+output_false_9_nursery.csv                         RFD=    33  attributi=  9  LHS_size_medio= 2.2  RHS_distinti=  4
+output_false_9_restaurant.csv                      RFD=   445  attributi=  6  LHS_size_medio= 4.4  RHS_distinti=  6
+restaurant.csv                                     RFD=  1961  attributi=  6  LHS_size_medio= 4.6  RHS_distinti=  6
+
+--- Dettaglio RFD per attributo RHS (bridges: soglie 3 vs 15) ---
+
+output_false_3_bridges.csv  (tot 1830)
+    RHS=REL-L        n=   307  ( 16.8%)
+    RHS=TYPE         n=   179  (  9.8%)
+    RHS=MATERIAL     n=   168  (  9.2%)
+    RHS=T-OR-D       n=   160  (  8.7%)
+    RHS=CLEAR-G      n=   152  (  8.3%)
+    RHS=PURPOSE      n=   144  (  7.9%)
+    RHS=RIVER        n=   124  (  6.8%)
+    RHS=ID           n=   123  (  6.7%)
+    RHS=LENGTH       n=   121  (  6.6%)
+    RHS=LANES        n=   120  (  6.6%)
+    RHS=LOCATION     n=   119  (  6.5%)
+    RHS=SPAN         n=   112  (  6.1%)
+    RHS=ERECTED      n=     1  (  0.1%)
+
+output_false_15_bridges.csv  (tot 18844)
+    RHS=LOCATION     n=  2973  ( 15.8%)
+    RHS=TYPE         n=  2633  ( 14.0%)
+    RHS=RIVER        n=  2616  ( 13.9%)
+    RHS=LANES        n=  2225  ( 11.8%)
+    RHS=REL-L        n=  2006  ( 10.6%)
+    RHS=MATERIAL     n=  1467  (  7.8%)
+    RHS=PURPOSE      n=  1175  (  6.2%)
+    RHS=T-OR-D       n=   789  (  4.2%)
+    RHS=ID           n=   787  (  4.2%)
+    RHS=CLEAR-G      n=   770  (  4.1%)
+    RHS=SPAN         n=   718  (  3.8%)
+    RHS=LENGTH       n=   380  (  2.0%)
+    RHS=ERECTED      n=   305  (  1.6%)
+
+output_false_3_restaurant.csv  (tot 25)
+    RHS=phone        n=    12  ( 48.0%)
+    RHS=class        n=     8  ( 32.0%)
+    RHS=type         n=     2  (  8.0%)
+    RHS=name         n=     1  (  4.0%)
+    RHS=addr         n=     1  (  4.0%)
+    RHS=city         n=     1  (  4.0%)
+
+output_false_15_restaurant.csv  (tot 1961)
+    RHS=phone        n=   966  ( 49.3%)
+    RHS=city         n=   815  ( 41.6%)
+    RHS=class        n=   110  (  5.6%)
+    RHS=type         n=    65  (  3.3%)
+    RHS=name         n=     4  (  0.2%)
+    RHS=addr         n=     1  (  0.1%)
+
+--- distribuzione soglia RHS (bridges) ---
+output_false_3_bridges.csv: {'0.0': 1353, '1.0': 132, '2.0': 184, '3.0': 101, '20.0': 58, '30.0': 2}
+output_false_15_bridges.csv: {'0.0': 9301, '1.0': 1300, '2.0': 1272, '3.0': 861, '4.0': 413, '5.0': 482, '6.0': 1534, '7.0': 1158, '8.0': 158, '9.0': 26, '10.0': 65, '11.0': 147, '12.0': 1224, '13.0': 127, '14.0': 132, '15.0': 446, '20.0': 89, '30.0': 2, '50.0': 16, '80.0': 45, '90.0': 8, '100.0': 4, '130.0': 34}

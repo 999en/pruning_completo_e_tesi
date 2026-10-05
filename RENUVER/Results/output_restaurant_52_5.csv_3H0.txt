@@ -1,0 +1,4 @@
+7;phone:818-788-3536 ;SimilarityTuple [fields= [name:cafe bizou , addr:14016 ventura blvd. , city:sherman oaks , phone:818-788-3536 , type:french bistro , class:3 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+101;class:50 ;[name:oceana , addr:55 e. 54th st. , city:new york city , phone:212-759-5941 , type:seafood , class:50 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+190;class:94 ;[name:alain rondelli , addr:126 clement st. , city:san francisco , phone:415/387-0408 , type:french , class:94 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+191;class:95 ;[name:aqua , addr:252 california st. , city:san francisco , phone:415-956-9662 , type:american (new) , class:95 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact

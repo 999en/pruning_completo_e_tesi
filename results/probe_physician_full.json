@@ -1,0 +1,175 @@
+{
+ "dataset": "Physician_Compare_National_13467_1.csv",
+ "rfd": "output_false_3_Physician_Compare_National.csv",
+ "maxthr": 3,
+ "celle_da_imputare": 13467,
+ "timeout_s": 1200,
+ "elapsed_s": 1200.0,
+ "rc": -9,
+ "righe_results": 0,
+ "log_bytes": 0,
+ "velocita_righe_s": 0.0,
+ "proiezione_ore": null,
+ "campioni": [
+  {
+   "t": 30.0,
+   "righe_results": 0
+  },
+  {
+   "t": 60.0,
+   "righe_results": 0
+  },
+  {
+   "t": 90.0,
+   "righe_results": 0
+  },
+  {
+   "t": 120.0,
+   "righe_results": 0
+  },
+  {
+   "t": 150.0,
+   "righe_results": 0
+  },
+  {
+   "t": 180.0,
+   "righe_results": 0
+  },
+  {
+   "t": 210.0,
+   "righe_results": 0
+  },
+  {
+   "t": 240.0,
+   "righe_results": 0
+  },
+  {
+   "t": 270.0,
+   "righe_results": 0
+  },
+  {
+   "t": 300.0,
+   "righe_results": 0
+  },
+  {
+   "t": 330.0,
+   "righe_results": 0
+  },
+  {
+   "t": 360.0,
+   "righe_results": 0
+  },
+  {
+   "t": 390.0,
+   "righe_results": 0
+  },
+  {
+   "t": 420.0,
+   "righe_results": 0
+  },
+  {
+   "t": 450.0,
+   "righe_results": 0
+  },
+  {
+   "t": 480.0,
+   "righe_results": 0
+  },
+  {
+   "t": 510.0,
+   "righe_results": 0
+  },
+  {
+   "t": 540.0,
+   "righe_results": 0
+  },
+  {
+   "t": 570.0,
+   "righe_results": 0
+  },
+  {
+   "t": 600.0,
+   "righe_results": 0
+  },
+  {
+   "t": 630.0,
+   "righe_results": 0
+  },
+  {
+   "t": 660.0,
+   "righe_results": 0
+  },
+  {
+   "t": 690.0,
+   "righe_results": 0
+  },
+  {
+   "t": 720.0,
+   "righe_results": 0
+  },
+  {
+   "t": 750.0,
+   "righe_results": 0
+  },
+  {
+   "t": 780.0,
+   "righe_results": 0
+  },
+  {
+   "t": 810.0,
+   "righe_results": 0
+  },
+  {
+   "t": 840.0,
+   "righe_results": 0
+  },
+  {
+   "t": 870.0,
+   "righe_results": 0
+  },
+  {
+   "t": 900.0,
+   "righe_results": 0
+  },
+  {
+   "t": 930.0,
+   "righe_results": 0
+  },
+  {
+   "t": 960.0,
+   "righe_results": 0
+  },
+  {
+   "t": 990.0,
+   "righe_results": 0
+  },
+  {
+   "t": 1020.0,
+   "righe_results": 0
+  },
+  {
+   "t": 1050.0,
+   "righe_results": 0
+  },
+  {
+   "t": 1080.0,
+   "righe_results": 0
+  },
+  {
+   "t": 1110.0,
+   "righe_results": 0
+  },
+  {
+   "t": 1140.0,
+   "righe_results": 0
+  },
+  {
+   "t": 1170.0,
+   "righe_results": 0
+  },
+  {
+   "t": 1200.0,
+   "righe_results": 0
+  }
+ ]
+}

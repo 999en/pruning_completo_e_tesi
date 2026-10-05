@@ -1,0 +1,68 @@
+    [mask p2cov: 10230/18844 tenute, 0.0s]
+    [mask p3sub: 1831/18844 tenute, 0.4s]
+    [mask p3super: 12690/18844 tenute, 0.8s]
+    [mask combo: 2203/18844 tenute, 0.1s]
+
+#### bridges/bridges_14_1.csv/output_false_15_bridges.csv/thr15  RFD=18844  celle_nulle=91
+  orig      rfd= 18844 pre=  69999ms exec=   22900ms wall=  93.2s null=91 notf=82 filled=9 corr=8 err=1 rc=0
+  p2cov     rfd= 10230 pre=  50230ms exec=   12535ms wall=  63.1s null=91 notf=82 filled=9 corr=8 err=1 rc=0
+  p3sub     rfd=  1831 pre=   6242ms exec=    2701ms wall=   9.2s null=91 notf=81 filled=10 corr=9 err=1 rc=0
+  p3super   rfd= 12690 pre=  51952ms exec=   17033ms wall=  69.3s null=91 notf=81 filled=10 corr=9 err=1 rc=0
+  combo     rfd=  2203 pre=   5678ms exec=    1778ms wall=   7.7s null=91 notf=82 filled=9 corr=8 err=1 rc=0
+[244s] salvati 5 record
+    [mask p2cov: 11904/18844 tenute, 0.0s]
+    [mask p3sub: 1831/18844 tenute, 0.4s]
+    [mask combo: 2470/18844 tenute, 0.1s]
+
+#### bridges/bridges_14_2.csv/output_false_15_bridges.csv/thr15  RFD=18844  celle_nulle=91
+  orig      rfd= 18844 pre=  63857ms exec=   77619ms wall= 141.9s null=91 notf=81 filled=8 corr=7 err=1 rc=0
+  p2cov     rfd= 11904 pre=  49474ms exec=   27149ms wall=  77.0s null=91 notf=80 filled=8 corr=7 err=1 rc=0
+  p3sub     rfd=  1831 pre=   5802ms exec=    4728ms wall=  10.7s null=91 notf=79 filled=9 corr=7 err=2 rc=0
+  combo     rfd=  2470 pre=   5709ms exec=    1776ms wall=   7.7s null=91 notf=84 filled=7 corr=6 err=1 rc=0
+[482s] salvati 9 record
+    [mask p2cov: 11779/18844 tenute, 0.0s]
+    [mask p3sub: 1831/18844 tenute, 0.4s]
+    [mask combo: 2269/18844 tenute, 0.1s]
+
+#### bridges/bridges_14_3.csv/output_false_15_bridges.csv/thr15  RFD=18844  celle_nulle=91
+  orig      rfd= 18844 pre=  57497ms exec=   22621ms wall=  80.5s null=91 notf=86 filled=5 corr=5 err=0 rc=0
+  p2cov     rfd= 11779 pre=  48533ms exec=   14013ms wall=  62.9s null=91 notf=86 filled=5 corr=5 err=0 rc=0
+  p3sub     rfd=  1831 pre=   5673ms exec=    2530ms wall=   8.4s null=91 notf=86 filled=5 corr=5 err=0 rc=0
+  combo     rfd=  2269 pre=   5611ms exec=    1747ms wall=   7.6s null=91 notf=86 filled=5 corr=5 err=0 rc=0
+[642s] salvati 13 record
+    [mask p2cov: 14687/18844 tenute, 0.0s]
+    [mask p3sub: 1831/18844 tenute, 0.4s]
+    [mask combo: 2972/18844 tenute, 0.1s]
+
+#### bridges/bridges_70_1.csv/output_false_15_bridges.csv/thr15  RFD=18844  celle_nulle=147
+  orig      rfd= 18844 pre=  79170ms exec=  147256ms wall= 226.8s null=147 notf=110 filled=37 corr=33 err=4 rc=0
+  p2cov     rfd= 14687 pre=  66812ms exec=  109813ms wall= 177.0s null=147 notf=110 filled=37 corr=33 err=4 rc=0
+  p3sub     rfd=  1831 pre=   7011ms exec=   12277ms wall=  19.5s null=147 notf=113 filled=34 corr=29 err=5 rc=0
+  combo     rfd=  2972 pre=   8728ms exec=    7297ms wall=  16.3s null=147 notf=111 filled=36 corr=29 err=7 rc=0
+[1082s] salvati 17 record
+    [mask p2cov: 0/27445 tenute, 0.0s]
+    [mask p3sub: 1856/27445 tenute, 0.8s]
+    [mask combo: 0/27445 tenute, 0.9s]
+
+#### glass/glass_22_1.csv/output_false_15_glass.csv/thr15  RFD=27445  celle_nulle=22
+  orig      rfd= 27445 pre=  11810ms exec=     125ms wall=  12.4s null=22 notf=19 filled=0 corr=0 err=0 rc=0
+  p2cov     rfd=     0 pre=      2ms exec=       2ms wall=   0.1s null=22 notf=22 filled=0 corr=0 err=0 rc=0
+  p3sub     rfd=  1856 pre=   1983ms exec=      22ms wall=   2.2s null=22 notf=19 filled=0 corr=0 err=0 rc=0
+  combo     rfd=     0 pre=      2ms exec=       1ms wall=   0.2s null=22 notf=22 filled=0 corr=0 err=0 rc=0
+[1099s] salvati 21 record
+    [mask p2cov: 443/445 tenute, 0.0s]
+    [mask p3sub: 102/445 tenute, 0.0s]
+    [mask combo: 218/445 tenute, 0.0s]
+
+#### restaurant/restaurant_259_1.csv/output_false_9_restaurant.csv/thr9  RFD=445  celle_nulle=260
+  orig      rfd=   445 pre=  85177ms exec=   59749ms wall= 145.1s null=259 notf=211 filled=48 corr=38 err=10 rc=0
+  p2cov     rfd=   443 pre=  86998ms exec=  131942ms wall= 219.2s null=259 notf=189 filled=70 corr=37 err=33 rc=0
+  p3sub     rfd=   102 pre=  17171ms exec=   11427ms wall=  28.8s null=259 notf=211 filled=48 corr=37 err=11 rc=0
+  combo     rfd=   218 pre=  83506ms exec=   56338ms wall= 140.1s null=259 notf=198 filled=61 corr=38 err=23 rc=0
+[1632s] salvati 25 record
+    [mask p2cov: 1956/1961 tenute, 0.0s]
+    [mask p3sub: 182/1961 tenute, 0.0s]
+    [mask combo: 610/1961 tenute, 0.1s]
+
+#### restaurant/restaurant_52_1.csv/output_false_15_restaurant.csv/thr15  RFD=1961  celle_nulle=53
+  orig      rfd=  1961 pre= 253917ms exec=  276056ms wall= 530.2s null=52 notf=29 filled=23 corr=10 err=13 rc=0

@@ -1,0 +1,7 @@
+14;class:6 ;[name:citrus , addr:6703 melrose ave. , city:los angeles , phone:213/857-0034 , type:californian , class:6 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact
+24;class:11 ;[name:l'orangerie , addr:903 n. la cienega blvd. , city:los angeles , phone:310/652-9770 , type:french , class:11 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+30;class:14 ;[name:matsuhisa , addr:129 n. la cienega blvd. , city:beverly hills , phone:310/659-9639 , type:asian , class:14 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+44;class:21 ;SimilarityTuple [fields= [name:valentino , addr:3115 pico blvd. , city:santa monica , phone:310/829-4313 , type:italian , class:21 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+48;class:23 ;[name:21 club , addr:21 w. 52nd st. , city:new york , phone:212/582-7200 , type:american , class:23 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+99;class:49 ;[name:montrachet , addr:239 w. broadway , city:new york city , phone:212-219-2777 , type:french bistro , class:49 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+171;class:85 ;[name:la grotta , addr:2637 peachtree rd. ne , city:atlanta , phone:404-231-1368 , type:italian , class:85 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact

@@ -1,0 +1,9 @@
+5;phone:310-472-1211 ;SimilarityTuple [fields= [name:bel-air hotel , addr:701 stone canyon rd. , city:bel air , phone:310-472-1211 , type:californian , class:2 ]weightedSimilarity=0.0, fieldIndex=3];[(addr)_1.0, (city)_3.0, (type)_3.0, (class)_3.0] -> (phone)_1.0;0.0
+8;phone:818/788-3536 ;SimilarityTuple [fields= [name:cafe bizou , addr:14016 ventura blvd. , city:sherman oaks , phone:818/788-3536 , type:french , class:3 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+48;class:23 ;[name:21 club , addr:21 w. 52nd st. , city:new york , phone:212/582-7200 , type:american , class:23 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+141;city:las vegas ;[name:cafe roma , addr:3570 las vegas blvd. s , city:las vegas , phone:702/731-7547 , type:coffee shops/diners , class:433 ];[(phone)_0.0] -> (city)_0.0; exact
+161;class:80 ;[name:delectables , addr:1 margaret mitchell sq. , city:atlanta , phone:404-681-2909 , type:cafeterias , class:80 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+189;phone:415-387-0408 ;SimilarityTuple [fields= [name:alain rondelli , addr:126 clement st. , city:san francisco , phone:415-387-0408 , type:french (new) , class:94 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+193;class:96 ;[name:boulevard , addr:1 mission st. , city:san francisco , phone:415-543-6084 , type:american (new) , class:96 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+202;phone:415/673-7779 ;SimilarityTuple [fields= [name:fleur de lys , addr:777 sutter st. , city:san francisco , phone:415/673-7779 , type:french , class:100 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0, (city)_3.0] -> (phone)_1.0;0.0
+207;class:103 ;[name:khan toke thai house , addr:5937 geary blvd. , city:san francisco , phone:415-668-6654 , type:thai , class:103 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact

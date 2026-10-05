@@ -1,0 +1,8 @@
+6;phone:310/472-1211 ;SimilarityTuple [fields= [name:hotel bel-air , addr:701 stone canyon rd. , city:bel air , phone:310/472-1211 , type:californian , class:2 ]weightedSimilarity=0.0, fieldIndex=3];[(addr)_1.0, (city)_3.0, (type)_3.0, (class)_3.0] -> (phone)_1.0;0.0
+10;class:4 ;[name:campanile , addr:624 s. la brea ave. , city:los angeles , phone:213/938-1447 , type:american , class:4 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+40;class:19 ;[name:rex il ristorante , addr:617 s. olive st. , city:los angeles , phone:213/627-2300 , type:italian , class:19 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+64;class:31 ;SimilarityTuple [fields= [name:daniel , addr:20 e. 76th st. , city:new york , phone:212/288-0033 , type:french , class:31 ]weightedSimilarity=0.0, fieldIndex=5];[(name)_3.0, (addr)_3.0] -> (class)_0.0;0.0
+111;phone:212-632-5000 ;SimilarityTuple [fields= [name:rainbow room , addr:30 rockefeller plaza , city:? , phone:212-632-5000 , type:american (new) , class:55 ]weightedSimilarity=0.0, fieldIndex=3];[(name)_0.0, (addr)_0.0] -> (phone)_2.0;0.0
+127;class:63 ;[name:tavern on the green , addr:central park west , city:new york city , phone:212-873-3200 , type:american (new) , class:63 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+178;class:88 ;[name:pano's and paul's , addr:1232 w. paces ferry rd. , city:atlanta , phone:404/261-3662 , type:international , class:88 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact
+199;class:99 ;[name:chez michel , addr:804 north point st. , city:san francisco , phone:415-775-7036 , type:californian , class:99 ];[(name)_3.0, (phone)_2.0] -> (class)_0.0; exact

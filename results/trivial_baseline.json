@@ -1,0 +1,82 @@
+[
+ {
+  "famiglia": "bridges",
+  "dataset": "bridges_14_1.csv",
+  "soglia": 9,
+  "celle": 14,
+  "moda_corrette": 7,
+  "accuratezza_moda": 0.5,
+  "accuratezza_sistema": 0.6428571428571429,
+  "copertura_sistema": 0.7142857142857143
+ },
+ {
+  "famiglia": "bridges",
+  "dataset": "bridges_28_1.csv",
+  "soglia": 9,
+  "celle": 28,
+  "moda_corrette": 17,
+  "accuratezza_moda": 0.6071,
+  "accuratezza_sistema": 0.6428571428571429,
+  "copertura_sistema": 0.7142857142857143
+ },
+ {
+  "famiglia": "bridges",
+  "dataset": "bridges_42_1.csv",
+  "soglia": 9,
+  "celle": 42,
+  "moda_corrette": 25,
+  "accuratezza_moda": 0.5952,
+  "accuratezza_sistema": 0.5238095238095238,
+  "copertura_sistema": 0.5952380952380952
+ },
+ {
+  "famiglia": "bridges",
+  "dataset": "bridges_56_1.csv",
+  "soglia": 9,
+  "celle": 56,
+  "moda_corrette": 30,
+  "accuratezza_moda": 0.5357,
+  "accuratezza_sistema": 0.5892857142857143,
+  "copertura_sistema": 0.6785714285714286
+ },
+ {
+  "famiglia": "bridges",
+  "dataset": "bridges_70_1.csv",
+  "soglia": 9,
+  "celle": 70,
+  "moda_corrette": 34,
+  "accuratezza_moda": 0.4857,
+  "accuratezza_sistema": 0.45714285714285713,
+  "copertura_sistema": 0.5285714285714286
+ },
+ {
+  "famiglia": "bridges",
+  "dataset": "bridges_14_1.csv",
+  "soglia": 3,
+  "celle": 14,
+  "moda_corrette": 7,
+  "accuratezza_moda": 0.5,
+  "accuratezza_sistema": 0.5714285714285714,
+  "copertura_sistema": 0.5714285714285714
+ },
+ {
+  "famiglia": "physician",
+  "dataset": "Physician_Compare_National_remodulated_0.005_13_1.csv",
+  "soglia": 3,
+  "celle": 13,
+  "moda_corrette": 3,
+  "accuratezza_moda": 0.2308,
+  "accuratezza_sistema": 0.15384615384615385,
+  "copertura_sistema": 0.23076923076923078
+ },
+ {
+  "famiglia": "physician",
+  "dataset": "Physician_Compare_National_remodulated_0.01_27_1.csv",
+  "soglia": 3,
+  "celle": 27,
+  "moda_corrette": 8,
+  "accuratezza_moda": 0.2963,
+  "accuratezza_sistema": 0.14814814814814814,
+  "copertura_sistema": 0.4074074074074074
+ }
+]

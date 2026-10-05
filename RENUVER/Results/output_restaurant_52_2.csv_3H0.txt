@@ -1,0 +1,1 @@
+18;class:8 ;[name:granita , addr:23725 w. malibu rd. , city:malibu , phone:310/456-0488 , type:californian , class:8 ];[(name)_3.0, (phone)_3.0, (type)_3.0] -> (class)_0.0; exact

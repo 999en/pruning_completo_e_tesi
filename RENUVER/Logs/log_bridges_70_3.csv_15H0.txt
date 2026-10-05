@@ -1,0 +1,9 @@
+Removing key RFD...
+#RFD after remove: 17182
+Time required for pre processing: 61869ms
+Total execution time 119784ms
+#Null cells: 147
+#Cells not filled: 102
+Memory Consumption: 1232MB
+
+

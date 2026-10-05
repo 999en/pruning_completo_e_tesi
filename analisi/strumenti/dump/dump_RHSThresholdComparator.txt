@@ -1,0 +1,39 @@
+### CLASS RHSThresholdComparator (file jarx/RHSThresholdComparator.class)
+
+=== METHOD <init>()V (access 0x1) ===
+      0: aload_0          
+      1: invokespecial    #10 // java/lang/Object.<init>.()V
+      4: return           
+  --- attribute LineNumberTable ---
+    line 3 @ pc 0
+  --- attribute LocalVariableTable ---
+    slot   0 [0,5) this : LRHSThresholdComparator;
+
+=== METHOD compare(LRFD;LRFD;)I (access 0x1) ===
+      0: aload_1          
+      1: invokevirtual    #18 // RFD.getRHS.()LColumn;
+      4: invokevirtual    #24 // Column.getThreshold.()D
+      7: aload_2          
+      8: invokevirtual    #18 // RFD.getRHS.()LColumn;
+     11: invokevirtual    #24 // Column.getThreshold.()D
+     14: dsub             
+     15: d2i              
+     16: ireturn          
+  --- attribute LineNumberTable ---
+    line 8 @ pc 0
+  --- attribute LocalVariableTable ---
+    slot   0 [0,17) this : LRHSThresholdComparator;
+    slot   1 [0,17) arg0 : LRFD;
+    slot   2 [0,17) arg1 : LRFD;
+
+=== METHOD compare(Ljava/lang/Object;Ljava/lang/Object;)I (access 0x1041) ===
+      0: aload_0          
+      1: aload_1          
+      2: checkcast        #19 // RFD
+      5: aload_2          
+      6: checkcast        #19 // RFD
+      9: invokevirtual    #34 // RHSThresholdComparator.compare.(LRFD;LRFD;)I
+     12: ireturn          
+  --- attribute LineNumberTable ---
+    line 1 @ pc 0
+  --- attribute LocalVariableTable ---

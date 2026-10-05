@@ -1,0 +1,121 @@
+### CLASS Column (file jarx/Column.class)
+=== METHOD <init>(Ljava/lang/String;DILjava/lang/String;)V (access 0x1) ===
+    0: aload_0          
+    1: invokespecial    #15 // java/lang/Object.<init>.()V
+    4: aload_0          
+    5: aload_1          
+    6: putfield         #18 // Column.name.Ljava/lang/String;
+    9: aload_0          
+   10: dload_2          
+   11: putfield         #20 // Column.threshold.D
+   14: aload_0          
+   15: iload            slot 4
+   17: putfield         #22 // Column.index.I
+   20: aload_0          
+   21: aload            slot 5
+   23: putfield         #24 // Column.type.Ljava/lang/String;
+   26: return           
+=== METHOD getType()Ljava/lang/String; (access 0x1) ===
+    0: aload_0          
+    1: getfield         #24 // Column.type.Ljava/lang/String;
+    4: areturn          
+=== METHOD setType(Ljava/lang/String;)V (access 0x1) ===
+    0: aload_0          
+    1: aload_1          
+    2: putfield         #24 // Column.type.Ljava/lang/String;
+    5: return           
+=== METHOD getName()Ljava/lang/String; (access 0x1) ===
+    0: aload_0          
+    1: getfield         #18 // Column.name.Ljava/lang/String;
+    4: areturn          
+=== METHOD setName(Ljava/lang/String;)V (access 0x1) ===
+    0: aload_0          
+    1: aload_1          
+    2: putfield         #18 // Column.name.Ljava/lang/String;
+    5: return           
+=== METHOD getThreshold()D (access 0x1) ===
+    0: aload_0          
+    1: getfield         #20 // Column.threshold.D
+    4: dreturn          
+=== METHOD setThreshold(D)V (access 0x1) ===
+    0: aload_0          
+    1: dload_1          
+    2: putfield         #20 // Column.threshold.D
+    5: return           
+=== METHOD getIndex()I (access 0x1) ===
+    0: aload_0          
+    1: getfield         #22 // Column.index.I
+    4: ireturn          
+=== METHOD toString()Ljava/lang/String; (access 0x1) ===
+    0: new              #43 // java/lang/StringBuilder
+    3: dup              
+    4: ldc              #45 // (
+    6: invokespecial    #47 // java/lang/StringBuilder.<init>.(Ljava/lang/String;)V
+    9: aload_0          
+   10: getfield         #18 // Column.name.Ljava/lang/String;
+   13: invokevirtual    #49 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   16: ldc              #53 // )_
+   18: invokevirtual    #49 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   21: aload_0          
+   22: getfield         #20 // Column.threshold.D
+   25: invokevirtual    #55 // java/lang/StringBuilder.append.(D)Ljava/lang/StringBuilder;
+   28: invokevirtual    #58 // java/lang/StringBuilder.toString.()Ljava/lang/String;
+   31: areturn          
+=== METHOD hashCode()I (access 0x1) ===
+    0: bipush           31
+    2: istore_1         
+    3: iconst_1         
+    4: istore_2         
+    5: bipush           31
+    7: iload_2          
+    8: imul             
+    9: aload_0          
+   10: getfield         #18 // Column.name.Ljava/lang/String;
+   13: ifnonnull        -> 7 (abs 20)
+   16: iconst_0         
+   17: goto             -> 10 (abs 27)
+   20: aload_0          
+   21: getfield         #18 // Column.name.Ljava/lang/String;
+   24: invokevirtual    #61 // java/lang/String.hashCode.()I
+   27: iadd             
+   28: istore_2         
+   29: iload_2          
+   30: ireturn          
+=== METHOD equals(Ljava/lang/Object;)Z (access 0x1) ===
+    0: aload_0          
+    1: aload_1          
+    2: if_acmpne        -> 5 (abs 7)
+    5: iconst_1         
+    6: ireturn          
+    7: aload_1          
+    8: ifnonnull        -> 5 (abs 13)
+   11: iconst_0         
+   12: ireturn          
+   13: aload_0          
+   14: invokevirtual    #70 // java/lang/Object.getClass.()Ljava/lang/Class;
+   17: aload_1          
+   18: invokevirtual    #70 // java/lang/Object.getClass.()Ljava/lang/Class;
+   21: if_acmpeq        -> 5 (abs 26)
+   24: iconst_0         
+   25: ireturn          
+   26: aload_1          
+   27: checkcast        #1 // Column
+   30: astore_2         
+   31: aload_0          
+   32: getfield         #18 // Column.name.Ljava/lang/String;
+   35: ifnonnull        -> 12 (abs 47)
+   38: aload_2          
+   39: getfield         #18 // Column.name.Ljava/lang/String;
+   42: ifnull           -> 21 (abs 63)
+   45: iconst_0         
+   46: ireturn          
+   47: aload_0          
+   48: getfield         #18 // Column.name.Ljava/lang/String;
+   51: aload_2          
+   52: getfield         #18 // Column.name.Ljava/lang/String;
+   55: invokevirtual    #74 // java/lang/String.equals.(Ljava/lang/Object;)Z
+   58: ifne             -> 5 (abs 63)
+   61: iconst_0         
+   62: ireturn          
+   63: iconst_1         
+   64: ireturn          

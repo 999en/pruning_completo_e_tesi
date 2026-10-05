@@ -1,0 +1,62 @@
+### CLASS LevensteinDistance (file jarx/LevensteinDistance.class)
+
+=== METHOD <init>()V (access 0x1) ===
+      0: aload_0          
+      1: invokespecial    #8 // java/lang/Object.<init>.()V
+      4: return           
+  --- attribute LineNumberTable ---
+    line 3 @ pc 0
+  --- attribute LocalVariableTable ---
+    slot   0 [0,5) this : LLevensteinDistance;
+
+=== METHOD levenshtein3(Ljava/lang/Object;Ljava/lang/Object;D)I (access 0x9) ===
+      0: aload_0          
+      1: checkcast        #16 // java/lang/CharSequence
+      4: astore           slot 4
+      6: aload_1          
+      7: checkcast        #16 // java/lang/CharSequence
+     10: astore           slot 5
+     12: dload_2          
+     13: d2i              
+     14: istore           slot 6
+     16: aload_0          
+     17: ifnull           -> 7
+     20: aload_1          
+     21: ifnonnull        -> 6
+     24: ldc              #18 // 2147483647 (int 2147483647) / nan (float)
+     26: ireturn          
+     27: aload            slot 4
+     29: invokeinterface  #19 // java/lang/CharSequence.length.()I
+     34: aload            slot 5
+     36: invokeinterface  #19 // java/lang/CharSequence.length.()I
+     41: isub             
+     42: invokestatic     #23 // java/lang/Math.abs.(I)I
+     45: iload            slot 6
+     47: if_icmple        -> 19
+     50: aload            slot 4
+     52: invokeinterface  #19 // java/lang/CharSequence.length.()I
+     57: aload            slot 5
+     59: invokeinterface  #19 // java/lang/CharSequence.length.()I
+     64: iadd             
+     65: ireturn          
+     66: aload            slot 4
+     68: aload            slot 5
+     70: invokestatic     #29 // org/apache/commons/lang3/StringUtils.getLevenshteinDistance.(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I
+     73: ireturn          
+  --- attribute LineNumberTable ---
+    line 7 @ pc 0
+    line 8 @ pc 6
+    line 9 @ pc 12
+    line 11 @ pc 16
+    line 12 @ pc 24
+    line 14 @ pc 27
+    line 15 @ pc 50
+    line 17 @ pc 66
+  --- attribute LocalVariableTable ---
+    slot   0 [0,74) firstElement : Ljava/lang/Object;
+    slot   1 [0,74) secondElement : Ljava/lang/Object;
+    slot   2 [0,74) threshold : D
+    slot   4 [6,74) lhs : Ljava/lang/CharSequence;
+    slot   5 [12,74) rhs : Ljava/lang/CharSequence;
+    slot   6 [16,74) thr : I
+  --- attribute StackMapTable ---

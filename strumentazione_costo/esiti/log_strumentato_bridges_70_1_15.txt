@@ -1,0 +1,17 @@
+Removing key RFD...
+#RFD after remove: 17663
+Time required for pre processing: 80626ms
+Total execution time 160499ms
+#Null cells: 147
+#Cells not filled: 110
+===== STRUMENTAZIONE (patch E) =====
+treatNullTuple chiamate: 71
+getCandidatesForField : n=531  tempo=1357ms  (0,8% del totale strumentato)
+isFaultless           : n=151  tempo=158433ms  (99,2% del totale strumentato)
+  di cui areThereTuplesViolatingRFD: n=354809  tempo=158271ms  (99,0% del totale strumentato)
+    di cui il controllo del NOME della colonna: 161ms
+populateFieldSingleAttribute: n=0  riusciti=0
+totale strumentato: 159791ms
+Memory Consumption: 235MB
+
+

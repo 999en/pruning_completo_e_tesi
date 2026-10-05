@@ -1,0 +1,66 @@
+### CLASS Field (file jarx/Field.class)
+=== METHOD <init>(Ljava/lang/String;Ljava/lang/String;)V (access 0x1) ===
+    0: aload_0          
+    1: invokespecial    #15 // java/lang/Object.<init>.()V
+    4: aload_0          
+    5: aload_1          
+    6: putfield         #18 // Field.key.Ljava/lang/String;
+    9: aload_0          
+   10: aload_2          
+   11: putfield         #20 // Field.value.Ljava/lang/String;
+   14: aload_0          
+   15: iconst_0         
+   16: putfield         #22 // Field.timesInvolved.I
+   19: return           
+=== METHOD getKey()Ljava/lang/String; (access 0x1) ===
+    0: aload_0          
+    1: getfield         #18 // Field.key.Ljava/lang/String;
+    4: areturn          
+=== METHOD getValue()Ljava/lang/String; (access 0x1) ===
+    0: aload_0          
+    1: getfield         #20 // Field.value.Ljava/lang/String;
+    4: areturn          
+=== METHOD toString()Ljava/lang/String; (access 0x1) ===
+    0: new              #32 // java/lang/StringBuilder
+    3: dup              
+    4: aload_0          
+    5: getfield         #18 // Field.key.Ljava/lang/String;
+    8: invokestatic     #34 // java/lang/String.valueOf.(Ljava/lang/Object;)Ljava/lang/String;
+   11: invokespecial    #40 // java/lang/StringBuilder.<init>.(Ljava/lang/String;)V
+   14: ldc              #43 // :
+   16: invokevirtual    #45 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   19: aload_0          
+   20: getfield         #20 // Field.value.Ljava/lang/String;
+   23: invokevirtual    #45 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   26: ldc              #49 //  
+   28: invokevirtual    #45 // java/lang/StringBuilder.append.(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   31: invokevirtual    #51 // java/lang/StringBuilder.toString.()Ljava/lang/String;
+   34: areturn          
+=== METHOD setValue(Ljava/lang/String;)V (access 0x1) ===
+    0: aload_0          
+    1: aload_1          
+    2: putfield         #20 // Field.value.Ljava/lang/String;
+    5: return           
+=== METHOD getTimesInvolved()I (access 0x1) ===
+    0: aload_0          
+    1: getfield         #22 // Field.timesInvolved.I
+    4: ireturn          
+=== METHOD setTimesInvolved(I)V (access 0x1) ===
+    0: aload_0          
+    1: iload_1          
+    2: putfield         #22 // Field.timesInvolved.I
+    5: return           
+=== METHOD equals(Ljava/lang/Object;)Z (access 0x1) ===
+    0: aload_1          
+    1: checkcast        #1 // Field
+    4: astore_2         
+    5: aload_2          
+    6: invokevirtual    #60 // Field.getKey.()Ljava/lang/String;
+    9: aload_0          
+   10: getfield         #18 // Field.key.Ljava/lang/String;
+   13: invokevirtual    #62 // java/lang/String.equals.(Ljava/lang/Object;)Z
+   16: ireturn          
+=== METHOD clone()Ljava/lang/Object; (access 0x1) ===
+    0: aload_0          
+    1: invokespecial    #72 // java/lang/Object.clone.()Ljava/lang/Object;
+    4: areturn          
